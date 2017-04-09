@@ -1,0 +1,28 @@
+.subject {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.image {
+  width: 30%;
+  img {
+    width: 100%;
+  }
+}
+
+.text {
+  width: 50%;
+  text-align: justify;
+  box-sizing: content-box;
+  p {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .text {
+    height: 100vh;
+    margin-left: 25%;
+  }
+
+}

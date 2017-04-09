@@ -1,0 +1,32 @@
+<%
+  items = {
+    :RUBY => ['Introducción', 'Aspectos clave', 'Comparativa'],
+    :RAILS => ['¿Qué es?', 'MVC: Estructura', 'Scaffolding'],
+    :DESARROLLO => ['Autenticación', 'Gráficos'],
+    :DESPLIEGUE => ['Heroku']
+  }
+  stylesheet_link_tag 'navbar'
+%>
+
+<nav class="navbar navbar-toggleable-sm navbar-inverse">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav flex-column list">
+      <% items.each do |k, v| %>
+        <li class="nav-item">
+          <span><%= k %></span>
+          <ul class="sublist">
+            <% v.each do |item| %>
+              <li class="<%= 'active' if params == item %>">
+                <%= puts item.gsub(/\s+/, "").mb_chars.normalize(:kd).gsub(/[^\x00-\x7F]/n,'').gsub(/[?]/, '').downcase %>
+                <%= link_to item, root_path(:anchor => item.gsub(/\s+/, "").mb_chars.normalize(:kd).gsub(/[^\x00-\x7F]/n,'').gsub(/[?]/, '').downcase) %>
+              </li>
+            <%end%>
+          </ul>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</nav>

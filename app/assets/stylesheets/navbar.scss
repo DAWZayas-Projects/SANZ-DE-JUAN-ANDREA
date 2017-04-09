@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Passion+One');
+
+.navbar {
+  background-color: rgba(9, 135, 78, 0.62);
+  width: 100%;
+}
+
+.list {
+  color: rgb(255, 255, 255);
+  span {
+    font-size: 2em;
+    font-family: 'Passion One', cursive;
+  }
+  a {
+    color: rgb(255, 255, 255);
+  }
+}
+
+.sublist {
+  list-style: none;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    height: 100vh;
+  }
+}

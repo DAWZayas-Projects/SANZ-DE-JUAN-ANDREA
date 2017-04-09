@@ -1,0 +1,22 @@
+/*
+ *= require_tree .
+ *= require_self
+ */
+@import "bootstrap";
+@import "font-awesome";
+
+@media (min-width: 768px) {
+  .navbar_div {
+    height: 100vh;
+    width: 25%;
+    position: fixed;
+  }
+  .body_home {
+    width: 75%;
+    height: 100vh;
+    float: right;
+  }
+  .web_content {
+    width: 100%;
+  }
+}
