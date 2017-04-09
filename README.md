@@ -1,15 +1,11 @@
-# Ruby on Rails
+# Ruby y Ruby on rails:
 
-## Description:
-
-* Explicación de ruby y ruby on rails.
-* Ventajas, inconvenientes, ...
-* Cómo funciona.
-* Arquitectura MVC.
+## Descripción:
+Proyecto sobre Ruby y Ruby on Rails, descripción, uso, comparativas, ...
 
 ## **Aplicación práctica**
 * Aplicación creada con Ruby y Ruby on Rails.
-* Temática: Por determinar.
+* La aplicación será una web que sirva como presentación del proyecto.
 
 ## Autora:
 Andrea Sanz.
