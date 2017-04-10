@@ -3,11 +3,23 @@
 .title {
   font-family: 'Passion One', cursive;
   font-size: 6em;
+  text-align: center;
 }
 
 .subject {
   display: inline-flex;
   flex-wrap: wrap;
+  height: 100vh;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.text {
+  width: 60%;
+}
+
+.writing {
+  text-align: justify;
 }
 
 .image {
@@ -17,19 +29,6 @@
   }
 }
 
-.text {
-  width: 50%;
-  text-align: justify;
-  box-sizing: content-box;
-  p {
-    width: 100%;
-  }
-}
-
-@media (min-width: 768px) {
-  .text {
-    height: 100vh;
-    margin-left: 25%;
-  }
-
+.uList {
+  border-top: none;
 }
