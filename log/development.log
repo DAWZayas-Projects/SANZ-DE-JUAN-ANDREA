@@ -11329,3 +11329,884 @@ Completed 200 OK in 21144ms (Views: 21141.5ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/assets/content.self-6429893e70f310d17ce72806406791ded2c3c3bbb870103b0013e1156086f3fe.css?body=1" for 127.0.0.1 at 2017-04-10 11:22:12 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 10:08:48 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (137.9ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (25500.0ms)
+  Rendered navbar/_navbar.html.erb (787.9ms)
+  Rendered layouts/_to_top_button.html.erb (50.4ms)
+  Rendered content/_introduction.html.erb (26.9ms)
+  Rendered content/_key_aspects.html.erb (4.9ms)
+  Rendered content/_sintaxis.html.erb (5.1ms)
+Completed 200 OK in 27821ms (Views: 27732.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 10:09:41 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (16.0ms)
+  Rendered navbar/_navbar.html.erb (32.2ms)
+  Rendered layouts/_to_top_button.html.erb (6.6ms)
+  Rendered content/_introduction.html.erb (11.7ms)
+  Rendered content/_key_aspects.html.erb (9.8ms)
+  Rendered content/_sintaxis.html.erb (4.6ms)
+Completed 200 OK in 581ms (Views: 573.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 10:16:14 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (26.9ms)
+  Rendered navbar/_navbar.html.erb (41.2ms)
+  Rendered layouts/_to_top_button.html.erb (5.5ms)
+  Rendered content/_introduction.html.erb (89.5ms)
+  Rendered content/_key_aspects.html.erb (4.6ms)
+  Rendered content/_sintaxis.html.erb (8.6ms)
+Completed 200 OK in 796ms (Views: 793.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 10:16:40 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (18.5ms)
+  Rendered navbar/_navbar.html.erb (20.7ms)
+  Rendered layouts/_to_top_button.html.erb (6.1ms)
+  Rendered content/_introduction.html.erb (9.4ms)
+  Rendered content/_key_aspects.html.erb (5.8ms)
+  Rendered content/_sintaxis.html.erb (4.1ms)
+Completed 200 OK in 441ms (Views: 439.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 10:17:17 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (19.8ms)
+  Rendered navbar/_navbar.html.erb (18.1ms)
+  Rendered layouts/_to_top_button.html.erb (5.7ms)
+  Rendered content/_introduction.html.erb (103.8ms)
+  Rendered content/_key_aspects.html.erb (6.3ms)
+  Rendered content/_sintaxis.html.erb (5.1ms)
+Completed 200 OK in 28593ms (Views: 28584.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/content.self-9d00e6642863eb92480b9a0fd8b9b39692e2c0639299951fe2148ba9346391da.css?body=1" for 127.0.0.1 at 2017-04-11 10:17:46 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 10:20:30 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (12.3ms)
+  Rendered navbar/_navbar.html.erb (25.6ms)
+  Rendered layouts/_to_top_button.html.erb (7.5ms)
+  Rendered content/_introduction.html.erb (26.9ms)
+  Rendered content/_key_aspects.html.erb (4.0ms)
+  Rendered content/_sintaxis.html.erb (4.5ms)
+Completed 200 OK in 24400ms (Views: 24398.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/content.self-c3ba7f49ff3b0e1fcdb74186f28df2ad9766f040befcdca38d30c7dd49b5f480.css?body=1" for 127.0.0.1 at 2017-04-11 10:20:54 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 10:21:19 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (12.9ms)
+  Rendered navbar/_navbar.html.erb (61.9ms)
+  Rendered layouts/_to_top_button.html.erb (18.0ms)
+  Rendered content/_introduction.html.erb (34.4ms)
+  Rendered content/_key_aspects.html.erb (4.4ms)
+  Rendered content/_sintaxis.html.erb (7.3ms)
+Completed 200 OK in 22148ms (Views: 22139.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/content.self-67ed4f4c6275a35da164b1d563f97990d870b0949d2fad45ff6fa9f59fa58c60.css?body=1" for 127.0.0.1 at 2017-04-11 10:21:41 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 10:22:36 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (11.8ms)
+  Rendered navbar/_navbar.html.erb (38.3ms)
+  Rendered layouts/_to_top_button.html.erb (5.8ms)
+  Rendered content/_introduction.html.erb (17.0ms)
+  Rendered content/_key_aspects.html.erb (4.6ms)
+  Rendered content/_sintaxis.html.erb (3.8ms)
+Completed 200 OK in 22355ms (Views: 22350.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/content.self-6a247a2c0740453d5b79ed48237f972300fb25d035ea05509f241ad288d84193.css?body=1" for 127.0.0.1 at 2017-04-11 10:22:58 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 10:24:17 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (30.4ms)
+  Rendered navbar/_navbar.html.erb (18.8ms)
+  Rendered layouts/_to_top_button.html.erb (5.9ms)
+  Rendered content/_introduction.html.erb (21.1ms)
+  Rendered content/_key_aspects.html.erb (4.2ms)
+  Rendered content/_sintaxis.html.erb (4.2ms)
+Completed 200 OK in 21982ms (Views: 21980.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/content.self-e80ad4b701eb844931fe7f6f8fa5f8fd8f182940d433454845c7b0b2794fc021.css?body=1" for 127.0.0.1 at 2017-04-11 10:24:39 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 10:25:06 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (27.2ms)
+  Rendered navbar/_navbar.html.erb (22.5ms)
+  Rendered layouts/_to_top_button.html.erb (7.1ms)
+  Rendered content/_introduction.html.erb (19.9ms)
+  Rendered content/_key_aspects.html.erb (4.0ms)
+  Rendered content/_sintaxis.html.erb (4.1ms)
+Completed 200 OK in 26267ms (Views: 26264.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 10:25:32 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (10.4ms)
+  Rendered navbar/_navbar.html.erb (20.8ms)
+  Rendered layouts/_to_top_button.html.erb (6.3ms)
+  Rendered content/_introduction.html.erb (21.6ms)
+  Rendered content/_key_aspects.html.erb (3.9ms)
+  Rendered content/_sintaxis.html.erb (3.7ms)
+Completed 200 OK in 21595ms (Views: 21593.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/content.self-d92b0797e6823907d990c918a5fdf2d5f69a1084c5bace0bedfeeff6227790cb.css?body=1" for 127.0.0.1 at 2017-04-11 10:25:54 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 10:26:56 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (23.2ms)
+  Rendered navbar/_navbar.html.erb (22.7ms)
+  Rendered layouts/_to_top_button.html.erb (7.4ms)
+  Rendered content/_introduction.html.erb (27.4ms)
+  Rendered content/_key_aspects.html.erb (3.3ms)
+  Rendered content/_sintaxis.html.erb (4.7ms)
+Completed 200 OK in 21761ms (Views: 21758.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/content.self-dbf33b0bd4f96fd6109dbd56f0f822a48467ef63219a6c9e6c51bb2be47acda7.css?body=1" for 127.0.0.1 at 2017-04-11 10:27:18 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 10:27:37 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (17.2ms)
+  Rendered navbar/_navbar.html.erb (20.7ms)
+  Rendered layouts/_to_top_button.html.erb (6.3ms)
+  Rendered content/_introduction.html.erb (18.1ms)
+  Rendered content/_key_aspects.html.erb (4.5ms)
+  Rendered content/_sintaxis.html.erb (4.8ms)
+Completed 200 OK in 495ms (Views: 488.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 10:34:48 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (25.0ms)
+  Rendered navbar/_navbar.html.erb (42.8ms)
+  Rendered layouts/_to_top_button.html.erb (7.5ms)
+  Rendered content/_introduction.html.erb (13.7ms)
+  Rendered content/_key_aspects.html.erb (4.8ms)
+  Rendered content/_sintaxis.html.erb (6.8ms)
+Completed 200 OK in 486ms (Views: 484.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 10:43:01 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (14.3ms)
+  Rendered navbar/_navbar.html.erb (54.9ms)
+  Rendered layouts/_to_top_button.html.erb (7.2ms)
+  Rendered content/_introduction.html.erb (17.2ms)
+  Rendered content/_key_aspects.html.erb (4.5ms)
+  Rendered content/_sintaxis.html.erb (5.4ms)
+Completed 200 OK in 558ms (Views: 551.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 10:43:06 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (17.1ms)
+  Rendered navbar/_navbar.html.erb (16.7ms)
+  Rendered layouts/_to_top_button.html.erb (5.1ms)
+  Rendered content/_introduction.html.erb (8.8ms)
+  Rendered content/_key_aspects.html.erb (3.6ms)
+  Rendered content/_sintaxis.html.erb (3.2ms)
+Completed 200 OK in 363ms (Views: 361.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 10:43:57 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (25.5ms)
+  Rendered navbar/_navbar.html.erb (22.0ms)
+  Rendered layouts/_to_top_button.html.erb (5.5ms)
+  Rendered content/_introduction.html.erb (8.1ms)
+  Rendered content/_key_aspects.html.erb (3.3ms)
+  Rendered content/_sintaxis.html.erb (3.4ms)
+  Rendered content/_blocks_and_methods.html.erb (4.9ms)
+Completed 200 OK in 386ms (Views: 384.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 10:44:04 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (11.0ms)
+  Rendered navbar/_navbar.html.erb (18.0ms)
+  Rendered layouts/_to_top_button.html.erb (9.1ms)
+  Rendered content/_introduction.html.erb (12.7ms)
+  Rendered content/_key_aspects.html.erb (3.2ms)
+  Rendered content/_sintaxis.html.erb (3.1ms)
+  Rendered content/_blocks_and_methods.html.erb (3.0ms)
+Completed 200 OK in 410ms (Views: 408.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 10:44:51 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (15.6ms)
+  Rendered navbar/_navbar.html.erb (33.1ms)
+  Rendered layouts/_to_top_button.html.erb (7.1ms)
+  Rendered content/_introduction.html.erb (11.1ms)
+  Rendered content/_key_aspects.html.erb (5.0ms)
+  Rendered content/_sintaxis.html.erb (4.4ms)
+  Rendered content/_blocks_and_methods.html.erb (4.3ms)
+Completed 200 OK in 416ms (Views: 414.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 10:45:09 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (12.2ms)
+  Rendered navbar/_navbar.html.erb (19.9ms)
+  Rendered layouts/_to_top_button.html.erb (5.9ms)
+  Rendered content/_introduction.html.erb (10.5ms)
+  Rendered content/_key_aspects.html.erb (3.3ms)
+  Rendered content/_sintaxis.html.erb (3.8ms)
+  Rendered content/_blocks_and_methods.html.erb (3.3ms)
+Completed 200 OK in 390ms (Views: 388.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 10:45:33 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (11.5ms)
+  Rendered navbar/_navbar.html.erb (26.0ms)
+  Rendered layouts/_to_top_button.html.erb (6.8ms)
+  Rendered content/_introduction.html.erb (10.6ms)
+  Rendered content/_key_aspects.html.erb (4.6ms)
+  Rendered content/_sintaxis.html.erb (5.1ms)
+  Rendered content/_blocks_and_methods.html.erb (4.7ms)
+Completed 200 OK in 391ms (Views: 389.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 10:45:43 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (12.8ms)
+  Rendered navbar/_navbar.html.erb (23.9ms)
+  Rendered layouts/_to_top_button.html.erb (7.7ms)
+  Rendered content/_introduction.html.erb (13.5ms)
+  Rendered content/_key_aspects.html.erb (6.0ms)
+  Rendered content/_sintaxis.html.erb (3.9ms)
+  Rendered content/_blocks_and_methods.html.erb (5.5ms)
+Completed 200 OK in 445ms (Views: 442.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 10:45:44 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (17.6ms)
+  Rendered navbar/_navbar.html.erb (30.7ms)
+  Rendered layouts/_to_top_button.html.erb (8.4ms)
+  Rendered content/_introduction.html.erb (9.8ms)
+  Rendered content/_key_aspects.html.erb (3.9ms)
+  Rendered content/_sintaxis.html.erb (4.2ms)
+  Rendered content/_blocks_and_methods.html.erb (5.1ms)
+Completed 200 OK in 514ms (Views: 512.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 10:45:46 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (16.7ms)
+  Rendered navbar/_navbar.html.erb (28.3ms)
+  Rendered layouts/_to_top_button.html.erb (6.9ms)
+  Rendered content/_introduction.html.erb (14.1ms)
+  Rendered content/_key_aspects.html.erb (5.1ms)
+  Rendered content/_sintaxis.html.erb (9.9ms)
+  Rendered content/_blocks_and_methods.html.erb (7.9ms)
+Completed 200 OK in 518ms (Views: 510.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 10:45:49 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (31.5ms)
+  Rendered navbar/_navbar.html.erb (35.8ms)
+  Rendered layouts/_to_top_button.html.erb (9.2ms)
+  Rendered content/_introduction.html.erb (9.8ms)
+  Rendered content/_key_aspects.html.erb (6.6ms)
+  Rendered content/_sintaxis.html.erb (5.2ms)
+  Rendered content/_blocks_and_methods.html.erb (4.8ms)
+Completed 200 OK in 471ms (Views: 469.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 10:45:50 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (10.7ms)
+  Rendered navbar/_navbar.html.erb (28.3ms)
+  Rendered layouts/_to_top_button.html.erb (6.6ms)
+  Rendered content/_introduction.html.erb (9.1ms)
+  Rendered content/_key_aspects.html.erb (3.5ms)
+  Rendered content/_sintaxis.html.erb (3.3ms)
+  Rendered content/_blocks_and_methods.html.erb (3.5ms)
+Completed 200 OK in 479ms (Views: 477.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 10:45:52 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (15.0ms)
+  Rendered navbar/_navbar.html.erb (36.0ms)
+  Rendered layouts/_to_top_button.html.erb (9.6ms)
+  Rendered content/_introduction.html.erb (15.9ms)
+  Rendered content/_key_aspects.html.erb (7.5ms)
+  Rendered content/_sintaxis.html.erb (3.4ms)
+  Rendered content/_blocks_and_methods.html.erb (4.8ms)
+Completed 200 OK in 514ms (Views: 505.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 10:45:52 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (20.6ms)
+  Rendered navbar/_navbar.html.erb (16.5ms)
+  Rendered layouts/_to_top_button.html.erb (5.4ms)
+  Rendered content/_introduction.html.erb (8.2ms)
+  Rendered content/_key_aspects.html.erb (3.4ms)
+  Rendered content/_sintaxis.html.erb (3.2ms)
+  Rendered content/_blocks_and_methods.html.erb (2.8ms)
+Completed 200 OK in 416ms (Views: 414.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 10:45:54 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (20.1ms)
+  Rendered navbar/_navbar.html.erb (16.1ms)
+  Rendered layouts/_to_top_button.html.erb (5.4ms)
+  Rendered content/_introduction.html.erb (8.3ms)
+  Rendered content/_key_aspects.html.erb (3.4ms)
+  Rendered content/_sintaxis.html.erb (3.1ms)
+  Rendered content/_blocks_and_methods.html.erb (2.9ms)
+Completed 200 OK in 430ms (Views: 425.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 10:45:57 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (20.5ms)
+  Rendered navbar/_navbar.html.erb (16.4ms)
+  Rendered layouts/_to_top_button.html.erb (5.4ms)
+  Rendered content/_introduction.html.erb (8.2ms)
+  Rendered content/_key_aspects.html.erb (3.5ms)
+  Rendered content/_sintaxis.html.erb (3.0ms)
+  Rendered content/_blocks_and_methods.html.erb (2.8ms)
+Completed 200 OK in 336ms (Views: 334.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 10:47:13 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (16.7ms)
+  Rendered navbar/_navbar.html.erb (27.5ms)
+  Rendered layouts/_to_top_button.html.erb (10.9ms)
+  Rendered content/_introduction.html.erb (7.8ms)
+  Rendered content/_key_aspects.html.erb (3.2ms)
+  Rendered content/_sintaxis.html.erb (3.5ms)
+  Rendered content/_blocks_and_methods.html.erb (7.4ms)
+  Rendered content/_example.html.erb (1.1ms)
+  Rendered content/_comparative.html.erb (1.0ms)
+Completed 200 OK in 362ms (Views: 360.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 10:48:18 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (11.6ms)
+  Rendered navbar/_navbar.html.erb (17.2ms)
+  Rendered layouts/_to_top_button.html.erb (5.0ms)
+  Rendered content/_introduction.html.erb (8.6ms)
+  Rendered content/_key_aspects.html.erb (3.4ms)
+  Rendered content/_sintaxis.html.erb (3.5ms)
+  Rendered content/_blocks_and_methods.html.erb (3.5ms)
+  Rendered content/_example.html.erb (4.7ms)
+  Rendered content/_comparative.html.erb (4.9ms)
+Completed 200 OK in 336ms (Views: 331.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 10:48:46 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (14.7ms)
+  Rendered navbar/_navbar.html.erb (19.8ms)
+  Rendered layouts/_to_top_button.html.erb (6.5ms)
+  Rendered content/_introduction.html.erb (9.8ms)
+  Rendered content/_key_aspects.html.erb (3.6ms)
+  Rendered content/_sintaxis.html.erb (3.1ms)
+  Rendered content/_blocks_and_methods.html.erb (3.6ms)
+  Rendered content/_example.html.erb (3.3ms)
+  Rendered content/_comparative.html.erb (3.2ms)
+Completed 200 OK in 442ms (Views: 440.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 10:48:50 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (16.7ms)
+  Rendered navbar/_navbar.html.erb (18.4ms)
+  Rendered layouts/_to_top_button.html.erb (4.9ms)
+  Rendered content/_introduction.html.erb (7.7ms)
+  Rendered content/_key_aspects.html.erb (3.4ms)
+  Rendered content/_sintaxis.html.erb (3.5ms)
+  Rendered content/_blocks_and_methods.html.erb (3.0ms)
+  Rendered content/_example.html.erb (2.9ms)
+  Rendered content/_comparative.html.erb (2.9ms)
+Completed 200 OK in 419ms (Views: 417.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 11:01:40 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (1.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1877.8ms)
+  Rendered navbar/_navbar.html.erb (568.7ms)
+  Rendered layouts/_to_top_button.html.erb (11.9ms)
+  Rendered content/_introduction.html.erb (62.0ms)
+  Rendered content/_key_aspects.html.erb (4.8ms)
+  Rendered content/_sintaxis.html.erb (12.4ms)
+  Rendered content/_blocks_and_methods.html.erb (15.2ms)
+  Rendered content/_example.html.erb (6.1ms)
+  Rendered content/_comparative.html.erb (9.4ms)
+Completed 200 OK in 3451ms (Views: 3397.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 11:07:27 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (14.2ms)
+  Rendered navbar/_navbar.html.erb (42.5ms)
+  Rendered layouts/_to_top_button.html.erb (6.1ms)
+  Rendered content/_introduction.html.erb (9.9ms)
+  Rendered content/_key_aspects.html.erb (9.0ms)
+  Rendered content/_sintaxis.html.erb (3.8ms)
+  Rendered content/_blocks_and_methods.html.erb (4.6ms)
+  Rendered content/_example.html.erb (5.3ms)
+  Rendered content/_comparative.html.erb (4.2ms)
+Completed 200 OK in 456ms (Views: 454.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 11:07:32 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (12.0ms)
+  Rendered navbar/_navbar.html.erb (23.0ms)
+  Rendered layouts/_to_top_button.html.erb (6.4ms)
+  Rendered content/_introduction.html.erb (9.6ms)
+  Rendered content/_key_aspects.html.erb (4.9ms)
+  Rendered content/_sintaxis.html.erb (4.6ms)
+  Rendered content/_blocks_and_methods.html.erb (3.8ms)
+  Rendered content/_example.html.erb (5.2ms)
+  Rendered content/_comparative.html.erb (5.7ms)
+Completed 200 OK in 462ms (Views: 459.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 11:20:32 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (13.1ms)
+  Rendered navbar/_navbar.html.erb (43.1ms)
+  Rendered layouts/_to_top_button.html.erb (8.8ms)
+  Rendered content/_introduction.html.erb (9.9ms)
+  Rendered content/_key_aspects.html.erb (5.9ms)
+  Rendered content/_sintaxis.html.erb (10.3ms)
+  Rendered content/_blocks_and_methods.html.erb (17.1ms)
+  Rendered content/_example.html.erb (17.8ms)
+  Rendered content/_comparative.html.erb (10.1ms)
+Completed 200 OK in 487ms (Views: 485.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 11:24:30 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (35.6ms)
+  Rendered navbar/_navbar.html.erb (27.9ms)
+  Rendered layouts/_to_top_button.html.erb (8.8ms)
+  Rendered content/_introduction.html.erb (16.2ms)
+  Rendered content/_key_aspects.html.erb (6.2ms)
+  Rendered content/_sintaxis.html.erb (7.6ms)
+  Rendered content/_blocks_and_methods.html.erb (5.6ms)
+  Rendered content/_example.html.erb (3.5ms)
+  Rendered content/_comparative.html.erb (6.8ms)
+Completed 200 OK in 635ms (Views: 631.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 11:30:01 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (15.3ms)
+  Rendered navbar/_navbar.html.erb (23.3ms)
+  Rendered layouts/_to_top_button.html.erb (7.3ms)
+  Rendered content/_introduction.html.erb (10.0ms)
+  Rendered content/_key_aspects.html.erb (4.2ms)
+  Rendered content/_sintaxis.html.erb (4.5ms)
+  Rendered content/_blocks_and_methods.html.erb (4.0ms)
+  Rendered content/_example.html.erb (4.6ms)
+  Rendered content/_comparative.html.erb (4.2ms)
+Completed 200 OK in 419ms (Views: 416.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 11:36:54 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (18.2ms)
+  Rendered navbar/_navbar.html.erb (61.7ms)
+  Rendered layouts/_to_top_button.html.erb (10.5ms)
+  Rendered content/_introduction.html.erb (13.7ms)
+  Rendered content/_key_aspects.html.erb (4.3ms)
+  Rendered content/_sintaxis.html.erb (13.3ms)
+  Rendered content/_blocks_and_methods.html.erb (4.2ms)
+  Rendered content/_example.html.erb (5.4ms)
+  Rendered content/_comparative.html.erb (20.0ms)
+Completed 200 OK in 554ms (Views: 551.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/..." for 127.0.0.1 at 2017-04-11 11:36:55 +0200
+
+ActionController::RoutingError (No route matches [GET] "/..."):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:38:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `block in call'
+  /usr/lib/ruby/vendor_ruby/active_support/tagged_logging.rb:68:in `block in tagged'
+  /usr/lib/ruby/vendor_ruby/active_support/tagged_logging.rb:26:in `tagged'
+  /usr/lib/ruby/vendor_ruby/active_support/tagged_logging.rb:68:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:518:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.html.erb (12.4ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_route.html.erb (6.1ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_table.html.erb (73.1ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.5ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (244.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (2.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (186.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (19.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (302.4ms)
+
+
+Started GET "/..." for 127.0.0.1 at 2017-04-11 11:36:57 +0200
+
+ActionController::RoutingError (No route matches [GET] "/..."):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:38:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `block in call'
+  /usr/lib/ruby/vendor_ruby/active_support/tagged_logging.rb:68:in `block in tagged'
+  /usr/lib/ruby/vendor_ruby/active_support/tagged_logging.rb:26:in `tagged'
+  /usr/lib/ruby/vendor_ruby/active_support/tagged_logging.rb:68:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:518:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.6ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_route.html.erb (3.1ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_table.html.erb (6.0ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.2ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (91.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (3.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (89.1ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.8ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (183.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 11:38:34 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (22.3ms)
+  Rendered navbar/_navbar.html.erb (73.0ms)
+  Rendered layouts/_to_top_button.html.erb (9.1ms)
+  Rendered content/_introduction.html.erb (24.3ms)
+  Rendered content/_key_aspects.html.erb (4.6ms)
+  Rendered content/_sintaxis.html.erb (4.3ms)
+  Rendered content/_blocks_and_methods.html.erb (4.6ms)
+  Rendered content/_example.html.erb (6.8ms)
+  Rendered content/_comparative.html.erb (3.8ms)
+Completed 200 OK in 732ms (Views: 730.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 11:40:59 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (25.3ms)
+  Rendered navbar/_navbar.html.erb (23.4ms)
+  Rendered layouts/_to_top_button.html.erb (5.4ms)
+  Rendered content/_introduction.html.erb (51.4ms)
+  Rendered content/_key_aspects.html.erb (16.0ms)
+  Rendered content/_sintaxis.html.erb (8.5ms)
+  Rendered content/_blocks_and_methods.html.erb (9.1ms)
+  Rendered content/_example.html.erb (10.3ms)
+  Rendered content/_comparative.html.erb (10.4ms)
+Completed 200 OK in 520ms (Views: 518.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 11:41:40 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (12.4ms)
+  Rendered navbar/_navbar.html.erb (21.0ms)
+  Rendered layouts/_to_top_button.html.erb (6.0ms)
+  Rendered content/_introduction.html.erb (9.2ms)
+  Rendered content/_key_aspects.html.erb (4.1ms)
+  Rendered content/_sintaxis.html.erb (3.9ms)
+  Rendered content/_blocks_and_methods.html.erb (3.9ms)
+  Rendered content/_example.html.erb (5.4ms)
+  Rendered content/_comparative.html.erb (3.7ms)
+Completed 200 OK in 390ms (Views: 387.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 11:43:39 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (11.5ms)
+  Rendered navbar/_navbar.html.erb (40.5ms)
+  Rendered layouts/_to_top_button.html.erb (6.2ms)
+  Rendered content/_introduction.html.erb (10.4ms)
+  Rendered content/_key_aspects.html.erb (8.7ms)
+  Rendered content/_sintaxis.html.erb (4.4ms)
+  Rendered content/_blocks_and_methods.html.erb (3.9ms)
+  Rendered content/_example.html.erb (5.6ms)
+  Rendered content/_comparative.html.erb (3.7ms)
+Completed 200 OK in 422ms (Views: 420.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 11:45:50 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (12.7ms)
+  Rendered navbar/_navbar.html.erb (55.1ms)
+  Rendered layouts/_to_top_button.html.erb (11.4ms)
+  Rendered content/_introduction.html.erb (19.6ms)
+  Rendered content/_key_aspects.html.erb (8.7ms)
+  Rendered content/_sintaxis.html.erb (15.0ms)
+  Rendered content/_blocks_and_methods.html.erb (12.0ms)
+  Rendered content/_example.html.erb (17.2ms)
+  Rendered content/_comparative.html.erb (4.3ms)
+Completed 200 OK in 672ms (Views: 669.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 11:46:55 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (27.2ms)
+  Rendered navbar/_navbar.html.erb (19.9ms)
+  Rendered layouts/_to_top_button.html.erb (5.2ms)
+  Rendered content/_introduction.html.erb (22.6ms)
+  Rendered content/_key_aspects.html.erb (3.5ms)
+  Rendered content/_sintaxis.html.erb (3.7ms)
+  Rendered content/_blocks_and_methods.html.erb (3.5ms)
+  Rendered content/_example.html.erb (5.4ms)
+  Rendered content/_comparative.html.erb (3.5ms)
+Completed 200 OK in 27174ms (Views: 27171.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/content.self-beaa77f67831355c15c280b5782a10722f38f2e49fcfe2df957c374fe5949ee1.css?body=1" for 127.0.0.1 at 2017-04-11 11:47:22 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 11:48:05 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (9.6ms)
+  Rendered navbar/_navbar.html.erb (17.0ms)
+  Rendered layouts/_to_top_button.html.erb (5.4ms)
+  Rendered content/_introduction.html.erb (8.5ms)
+  Rendered content/_key_aspects.html.erb (3.6ms)
+  Rendered content/_sintaxis.html.erb (3.6ms)
+  Rendered content/_blocks_and_methods.html.erb (3.8ms)
+  Rendered content/_example.html.erb (4.8ms)
+  Rendered content/_comparative.html.erb (3.4ms)
+Completed 200 OK in 340ms (Views: 338.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 11:49:09 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (14.3ms)
+  Rendered navbar/_navbar.html.erb (19.0ms)
+  Rendered layouts/_to_top_button.html.erb (5.5ms)
+  Rendered content/_introduction.html.erb (19.9ms)
+  Rendered content/_key_aspects.html.erb (3.4ms)
+  Rendered content/_sintaxis.html.erb (3.5ms)
+  Rendered content/_blocks_and_methods.html.erb (3.6ms)
+  Rendered content/_example.html.erb (4.8ms)
+  Rendered content/_comparative.html.erb (3.5ms)
+Completed 200 OK in 20973ms (Views: 20971.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/content.self-05e2ed4df82912a6cbc29ae1e847d69a5142b685d03170f87e2de45e913c2562.css?body=1" for 127.0.0.1 at 2017-04-11 11:49:30 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 11:52:23 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (23.5ms)
+  Rendered navbar/_navbar.html.erb (41.8ms)
+  Rendered layouts/_to_top_button.html.erb (5.5ms)
+  Rendered content/_introduction.html.erb (9.3ms)
+  Rendered content/_key_aspects.html.erb (3.4ms)
+  Rendered content/_sintaxis.html.erb (3.5ms)
+  Rendered content/_blocks_and_methods.html.erb (3.5ms)
+  Rendered content/_example.html.erb (3.4ms)
+  Rendered content/_comparative.html.erb (4.3ms)
+Completed 200 OK in 417ms (Views: 415.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 11:54:31 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (21.3ms)
+  Rendered navbar/_navbar.html.erb (83.9ms)
+  Rendered layouts/_to_top_button.html.erb (6.4ms)
+  Rendered content/_introduction.html.erb (9.2ms)
+  Rendered content/_key_aspects.html.erb (8.2ms)
+  Rendered content/_sintaxis.html.erb (4.5ms)
+  Rendered content/_blocks_and_methods.html.erb (3.9ms)
+  Rendered content/_example.html.erb (5.6ms)
+  Rendered content/_comparative.html.erb (4.1ms)
+Completed 200 OK in 578ms (Views: 576.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 11:54:50 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (27.2ms)
+  Rendered navbar/_navbar.html.erb (22.9ms)
+  Rendered layouts/_to_top_button.html.erb (7.0ms)
+  Rendered content/_introduction.html.erb (9.9ms)
+  Rendered content/_key_aspects.html.erb (3.9ms)
+  Rendered content/_sintaxis.html.erb (4.4ms)
+  Rendered content/_blocks_and_methods.html.erb (4.5ms)
+  Rendered content/_example.html.erb (6.6ms)
+  Rendered content/_comparative.html.erb (4.7ms)
+Completed 200 OK in 449ms (Views: 446.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 11:56:52 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (12.4ms)
+  Rendered navbar/_navbar.html.erb (24.6ms)
+  Rendered layouts/_to_top_button.html.erb (7.5ms)
+  Rendered content/_introduction.html.erb (9.9ms)
+  Rendered content/_key_aspects.html.erb (5.3ms)
+  Rendered content/_sintaxis.html.erb (5.0ms)
+  Rendered content/_blocks_and_methods.html.erb (4.2ms)
+  Rendered content/_example.html.erb (6.5ms)
+  Rendered content/_comparative.html.erb (6.1ms)
+Completed 200 OK in 446ms (Views: 444.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 11:59:12 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (21.5ms)
+  Rendered navbar/_navbar.html.erb (45.3ms)
+  Rendered layouts/_to_top_button.html.erb (9.0ms)
+  Rendered content/_introduction.html.erb (13.5ms)
+  Rendered content/_key_aspects.html.erb (5.0ms)
+  Rendered content/_sintaxis.html.erb (5.4ms)
+  Rendered content/_blocks_and_methods.html.erb (5.3ms)
+  Rendered content/_example.html.erb (9.1ms)
+  Rendered content/_comparative.html.erb (4.5ms)
+Completed 200 OK in 613ms (Views: 608.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 11:59:42 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (16.3ms)
+  Rendered navbar/_navbar.html.erb (39.4ms)
+  Rendered layouts/_to_top_button.html.erb (6.8ms)
+  Rendered content/_introduction.html.erb (9.3ms)
+  Rendered content/_key_aspects.html.erb (3.7ms)
+  Rendered content/_sintaxis.html.erb (4.4ms)
+  Rendered content/_blocks_and_methods.html.erb (3.5ms)
+  Rendered content/_example.html.erb (3.8ms)
+  Rendered content/_comparative.html.erb (3.4ms)
+Completed 200 OK in 486ms (Views: 483.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 12:01:34 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (10.6ms)
+  Rendered navbar/_navbar.html.erb (24.4ms)
+  Rendered layouts/_to_top_button.html.erb (6.7ms)
+  Rendered content/_introduction.html.erb (10.9ms)
+  Rendered content/_key_aspects.html.erb (4.1ms)
+  Rendered content/_sintaxis.html.erb (4.5ms)
+  Rendered content/_blocks_and_methods.html.erb (5.0ms)
+  Rendered content/_example.html.erb (136.0ms)
+Completed 500 Internal Server Error in 565ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `nifoe' for #<#<Class:0x000000041400b0>:0x007fe62e3ed890>):
+    11:       %>
+    12:       <%=
+    13:         raw(items = {
+    14:           :Cocina => [nifoe]
+    15:           })
+    16:       %>
+    17:       <xmp class="codeText">
+  app/views/content/_example.html.erb:14:in `_app_views_content__example_html_erb___2203921663641482227_70313071935680'
+  app/views/layouts/application.html.erb:23:in `_app_views_layouts_application_html_erb___178438646474263639_34034400'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_source.erb (43.1ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.html.erb (16.4ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (120.9ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (66.7ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (138.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 12:01:57 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (18.0ms)
+  Rendered navbar/_navbar.html.erb (23.8ms)
+  Rendered layouts/_to_top_button.html.erb (7.0ms)
+  Rendered content/_introduction.html.erb (9.8ms)
+  Rendered content/_key_aspects.html.erb (4.5ms)
+  Rendered content/_sintaxis.html.erb (3.7ms)
+  Rendered content/_blocks_and_methods.html.erb (3.4ms)
+  Rendered content/_example.html.erb (5.7ms)
+  Rendered content/_comparative.html.erb (3.7ms)
+Completed 200 OK in 392ms (Views: 389.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-11 12:05:50 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (12.0ms)
+  Rendered navbar/_navbar.html.erb (16.8ms)
+  Rendered layouts/_to_top_button.html.erb (5.5ms)
+  Rendered content/_introduction.html.erb (8.2ms)
+  Rendered content/_key_aspects.html.erb (3.9ms)
+  Rendered content/_sintaxis.html.erb (3.5ms)
+  Rendered content/_blocks_and_methods.html.erb (3.1ms)
+  Rendered content/_example.html.erb (3.5ms)
+  Rendered content/_comparative.html.erb (3.1ms)
+Completed 200 OK in 396ms (Views: 393.1ms | ActiveRecord: 0.0ms)

@@ -1,0 +1,35 @@
+<% stylesheet_link_tag 'content' %>
+
+<div class="main container" id="ejemplo">
+  <h1 class="title">EJEMPLO</h1>
+  <div class="subject">
+    <div class="text code">
+      <%%=
+        items = {
+          :Cocina => ['Nevera', 'Microondas', 'Lavavajillas', 'Horno']
+        }
+      %>
+
+      <xmp class="codeText">
+        items = {
+          :Cocina => ['Nevera', 'Microondas', 'Lavavajillas', 'Horno'],
+          :Baño => ['Ducha', 'Nevera', 'Lavabo', 'Inodoro'],
+          :Dormitorio => ['Cama', 'Armario', 'Mesilla']
+        }
+        <ul>
+          items.each do |key, value|
+            <li>
+              key
+              <ul>
+                value.each do |item|
+                  <li>item</li>
+                end
+              </ul>
+            </li>
+          end
+       </ul>
+      </xmp>
+
+    </div>
+  </div>
+</div>

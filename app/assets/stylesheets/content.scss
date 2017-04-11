@@ -30,5 +30,12 @@
 }
 
 .uList {
-  border-top: none;
+  li {
+    border: none;
+    list-style: none;
+  }
+  li:before {
+    content: "\f219";
+    font-family: 'FontAwesome';
+  }
 }
