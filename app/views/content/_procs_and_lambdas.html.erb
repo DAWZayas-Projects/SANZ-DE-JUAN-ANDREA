@@ -1,0 +1,36 @@
+<% stylesheet_link_tag 'content' %>
+
+<div class="main container" id="procedimientosylambdas">
+  <h1 class="title">PROCEDIMIENTOS Y LAMBDAS</h1>
+  <div class="subject">
+    <div class="text">
+      <p>
+        Los procedimientos y los lambdas se comportan como funciones anónimas. Son muy parecidos, salvo por dos diferencias:
+        una es que el lambda comprueba que el número de argumentos pasado sea correcto (decir nil y excepción); y la otra que
+        cuando un lambda devuelve un objeto, este pasa primero por el método, frente al procedimiento, que lo devuelve directamente.
+      </p>
+      <p>
+        Procedimiento:
+      </p>
+      <pre>
+        <code class="code_block" data-lang="ruby">
+          cube = <span>Proc.new</span> { |x| x ** 3 }
+        </code>
+      </pre>
+      <p>
+        Lambda:
+      </p>
+      <pre>
+        <code class="code_block" data-lang="ruby">
+          cube = <span>lambda</span> { |x| x ** 3 }
+        </code>
+      </pre>
+      <p>La llamada a cualquiera de los dos se realiza con .call:</p>
+      <pre>
+        <code>
+          cube.call
+        </code>
+      </pre>
+    </div>
+  </div>
+</div>
