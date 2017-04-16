@@ -41,8 +41,9 @@ end
 gem 'normalize-rails'
 # Font awesome
 gem "font-awesome-rails"
-# Charts with Google charts
-gem 'googlecharts'
+# Charts with  Chart kick
+gem "chartkick"
+
 
 # Use Unicorn as the app server
 # gem 'unicorn'
