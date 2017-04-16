@@ -42,8 +42,7 @@ gem 'normalize-rails'
 # Font awesome
 gem "font-awesome-rails"
 # Charts with  Chart kick
-gem "chartkick"
-
+gem 'chartjs-ror'
 
 # Use Unicorn as the app server
 # gem 'unicorn'

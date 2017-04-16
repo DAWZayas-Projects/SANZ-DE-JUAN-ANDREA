@@ -48,6 +48,8 @@ GEM
       sass (>= 3.4.19)
     builder (3.2.3)
     byebug (9.0.6)
+    chartjs-ror (3.3.1)
+      rails (>= 3.1)
     coffee-rails (4.1.1)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.1.x)
@@ -63,7 +65,6 @@ GEM
       railties (>= 3.2, < 5.1)
     globalid (0.3.7)
       activesupport (>= 4.1.0)
-    googlecharts (1.6.12)
     i18n (0.8.1)
     jbuilder (2.6.3)
       activesupport (>= 3.0.0, < 5.2)
@@ -161,9 +162,9 @@ DEPENDENCIES
   bcrypt (~> 3.1.7)
   bootstrap (~> 4.0.0.alpha6)
   byebug
+  chartjs-ror
   coffee-rails (~> 4.1.0)
   font-awesome-rails
-  googlecharts
   jbuilder (~> 2.0)
   jquery-rails
   jwt
