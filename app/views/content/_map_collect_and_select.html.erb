@@ -1,35 +1,35 @@
 <% stylesheet_link_tag 'content' %>
+<% list = (1..10).to_a %>
 
-<div class="main container" id="ejemplo">
-  <h1 class="title">EJEMPLO</h1>
+<div class="main container" id="map,collectyselect">
+  <h1 class="title">MAP, COLLECT Y SELECT</h1>
   <div class="subject">
-    <div class="text code">
-      <%%=
-        items = {
-          :Cocina => ['Nevera', 'Microondas', 'Lavavajillas', 'Horno']
-        }
-      %>
-
-      <xmp class="codeText">
-        items = {
-          :Cocina => ['Nevera', 'Microondas', 'Lavavajillas', 'Horno'],
-          :Baño => ['Ducha', 'Nevera', 'Lavabo', 'Inodoro'],
-          :Dormitorio => ['Cama', 'Armario', 'Mesilla']
-        }
-        <ul>
-          items.each do |key, value|
-            <li>
-              key
-              <ul>
-                value.each do |item|
-                  <li>item</li>
-                end
-              </ul>
-            </li>
-          end
-       </ul>
-      </xmp>
-
+    <div class="text">
+      <p>Estos tres métodos se aplican a arrays.</p>
+      <pre>
+        <code class="code_block" data-lang="ruby">
+          list = (1..10).to_a
+        </code>
+      </pre>
+      <p>Map y collect: recorren el array y devuelven otro array de booleanos en función de si los elementos cumplen
+      o no la condición impuesta. Ejemplo: </p>
+      <pre>
+        <code class="code_block" data-lang="ruby">
+          list.map {|i| i>3 && i<=8}
+          list.collect {|i| i>3 && i<=8}
+        </code>
+        Resultado: <%= list.map {|i| i>3 && i<=8} %>
+        Resultado: <%= list.collect {|i| i>3 && i<=8} %>
+      </pre>
+      <p>Collect funciona de forma parecida, en este caso se devuelve un array con aquellos valores que cumplen la
+        condición. Ejemplo:
+      </p>
+      <pre>
+        <code class="code_block" data-lang="ruby">
+          list.select {|i| i>3 && i<=8}
+        </code>
+        Resultado: <%= list.select {|i| i>3 && i<=8} %>
+      </pre>
     </div>
   </div>
 </div>

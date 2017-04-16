@@ -1,0 +1,32 @@
+<% stylesheet_link_tag 'content' %>
+
+<div class="main container" id="herencia">
+  <h1 class="littleTitle">HERENCIA</h1>
+  <div class="subject">
+    <div class="text">
+      <p>La herencia en Ruby se realiza con <span><</span>. Una clase sólo puede heredar de una clase.</p>
+      <pre>
+        <code class="code_block" data-lang="ruby">
+          <span>class </span>Bird
+            <span>def</span> initialize(type)
+              @type = type
+            <span>end</span>
+            <span>def</span> fly
+              <span>puts</span>'Puedo volar.'
+            <span>end</span>
+          <span>end</span>
+
+          <span>class</span> Pengüin <span><</span> Animal
+            <span>def</span> initialize
+              super
+            <span>def</span>
+            <span>def</span> fly
+              <span>puts</span>'Yo no puedo volar.'
+            <span>end</span>
+          <span>end</span>
+
+        </code>
+      </pre>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,28 @@
+<% stylesheet_link_tag 'content' %>
+
+<div class="main container" id="clases">
+  <h1 class="littleTitle">CLASES</h1>
+  <div class="subject">
+    <div class="text">
+      <p>En Ruby casi todo son objetos.</p>
+
+      <pre>
+        <code class="code_block" data-lang="ruby">
+          <span>class </span>Person
+            <span>@@id</span>=0
+            <span>def </span>initialize(name, age)
+              <span>@name</span>=name
+              <span>@age</span>=age
+              <span>@@id</span>+=1
+            <span>end</span>
+            <span>def </span>get_name
+              <span>@name</span>
+            <span>end</span>
+          <span>end</span>
+
+          pedro = Person<span>.new</span>('Pedro', 15)
+        </code>
+      </pre>
+    </div>
+  </div>
+</div>
