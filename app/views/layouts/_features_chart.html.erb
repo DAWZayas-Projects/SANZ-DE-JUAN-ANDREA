@@ -1,37 +1,39 @@
 <%
 data = {
-  labels: ['Aprendizaje', 'Uso', 'Rendimiento', 'Escalabilidad'],
+  labels: ['Aprendizaje', 'Comunidad', 'Rendimiento', 'Escalabilidad', 'Coste'],
   datasets: [
     {
       label: "Ruby",
-      backgroundColor: "#a01508",
-      data: [25]
+      borderColor: "#a01508",
+      data: [8, 0, 0, 0, 9]
     },
     {
       label: "Php",
-      backgroundColor: "#6a7eb7",
-      data: [296]
+      borderColor: "#6a7eb7",
+      data: [7, 0, 0, 0, 8]
     },
     {
       label: "Java",
-      backgroundColor: "#e01e21",
-      data: [751]
+      borderColor: "#e01e21",
+      data: [6, 0, 0, 0, 8]
     },
     {
       label: "Python",
-      backgroundColor: "#fee872",
-      data: [15]
+      borderColor: "#fee872",
+      data: [8, 0, 0, 0, 9]
     },
     {
       label: ".Net",
-      backgroundColor: "#0b76ac",
-      data: [397]
+      borderColor: "#0b76ac",
+      data: [6, 0, 0, 0, 1]
     },
   ]
 }
 options = {
   :width => 1000,
-  :height => 1000
+  :height => 1000,
+  :scaleStepWidth => 50,
+  :scaleStartValue => 0
 }
 %>
 

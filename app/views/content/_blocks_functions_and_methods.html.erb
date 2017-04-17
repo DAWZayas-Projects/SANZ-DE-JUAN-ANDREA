@@ -1,41 +1,46 @@
-<% stylesheet_link_tag 'content' %>
+<%
+stylesheet_link_tag 'content'
+stylesheet_link_tag 'codeBlocks'
+%>
 
 <div class="main container" id="metodos,funcionesybloques">
   <h1 class="littleTitle">MÉTODOS, FUNCIONES Y BLOQUES</h1>
   <div class="subject">
-    <div class="text">
+    <div class="big-text">
       <p>
         Los métodos son similares a las funciones, se usan para agrupar instrucciones. Deben
         comenzar con letra minúscula, para no ser confundidos con constantes.
-        Sintaxis:
+        <i> Sintaxis:</i>
       </p>
-      <pre>
-        <code class="code_block" data-lang="ruby">
-          <span>def </span>greeting(name)
-          <span>puts</span> "Hola #{name}"
-          <span>end</span>
+      <pre class="codeBlock">
+        <code data-lang="ruby">
+          <span class="base">def </span>greeting(name)
+            <span class="show">puts</span> "Hola #{name}"
+          <span class="base">end</span>
         </code>
       </pre>
       <p>
-        Las funciones son iguales a los métodos, pero estas devuelven un objeto. Sintaxis:
+        Las funciones son iguales a los métodos, pero estas devuelven un objeto.<i> Sintaxis:</i>
       </p>
-      <pre>
-        <code class="code_block" data-lang="ruby">
-          <span>def </span>sum(num1, num2)
-          <span>return</span> num1 + num2
-          <span>end</span>
+      <pre class="codeBlock">
+        <code data-lang="ruby">
+          <span class="base">def </span>sum(num1, num2)
+            num1 + num2
+          <span class="base">end</span>
         </code>
       </pre>
-      <p>Y los blqoues es código que se declara entre corchetes y que se asocian a un método. Para ello,
-      se usará la palabra reservaba <span>yield</span>.Sintaxis:</p>
-      <pre>
-        <code class="code_block" data-lang="ruby">
-          <span>def </span>presentation(name)
-          <span>puts</span> "Bienvenido/a #{name}"
-          yield
-          <span>end</span>
+      <p>
+        Y los bloques es código que se declara entre corchetes y que se asocian a un método. Para ello,
+        se usará la palabra reservaba <b>yield</b>.<i> Sintaxis:</i>
+      </p>
+      <pre class="codeBlock">
+        <code data-lang="ruby">
+          <span class="base">def </span>presentation(name)
+            <span class="show">puts</span> "Bienvenido/a #{name}"
+            <span class="special">yield</span>
+          <span class="base">end</span>
 
-          presentation("Julia") {"Hoy vamos a cocinar setas."}
+          presentation("Julia") <span class="special">{</span>"Hoy vamos de excursión."<span class="special">}</span>
         </code>
       </pre>
     </div>

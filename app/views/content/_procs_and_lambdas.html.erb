@@ -3,7 +3,7 @@
 <div class="main container" id="procedimientosylambdas">
   <h1 class="title">PROCEDIMIENTOS Y LAMBDAS</h1>
   <div class="subject">
-    <div class="text">
+    <div class="big-text">
       <p>
         Los procedimientos y los lambdas se comportan como funciones anónimas. Son muy parecidos, salvo por dos diferencias:
         una es que el lambda comprueba que el número de argumentos pasado sea correcto (decir nil y excepción); y la otra que
@@ -12,23 +12,23 @@
       <p>
         Procedimiento:
       </p>
-      <pre>
-        <code class="code_block" data-lang="ruby">
-          cube = <span>Proc.new</span> { |x| x ** 3 }
+      <pre class="codeBlock">
+        <code data-lang="ruby">
+          cube = <span class="new">Proc.new</span> <span class="special">{</span> |x| x ** 3 <span class="special">}</span>
         </code>
       </pre>
       <p>
         Lambda:
       </p>
-      <pre>
-        <code class="code_block" data-lang="ruby">
-          cube = <span>lambda</span> { |x| x ** 3 }
+      <pre class="codeBlock">
+        <code data-lang="ruby">
+          cube = <span class="new">lambda</span> <span class="special">{</span> |x| x ** 3 <span class="special">}</span>
         </code>
       </pre>
       <p>La llamada a cualquiera de los dos se realiza con .call:</p>
-      <pre>
-        <code>
-          cube.call
+      <pre class="codeBlock">
+        <code data-lang="ruby">
+          cube<span class="base">.call</span>
         </code>
       </pre>
     </div>

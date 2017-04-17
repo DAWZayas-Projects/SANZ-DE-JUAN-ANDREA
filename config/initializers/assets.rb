@@ -8,6 +8,7 @@ Rails.application.config.assets.precompile += %w( home.css )
 Rails.application.config.assets.precompile += %w( navbar.css )
 Rails.application.config.assets.precompile += %w( content.css )
 Rails.application.config.assets.precompile += %w( buttons.css )
+Rails.application.config.assets.precompile += %w( codeBlocks.css )
 
 # Add additional assets to the asset load path
 # Rails.application.config.assets.paths << Emoji.images_path

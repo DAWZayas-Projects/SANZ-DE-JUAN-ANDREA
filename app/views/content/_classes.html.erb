@@ -1,26 +1,32 @@
-<% stylesheet_link_tag 'content' %>
+<%
+stylesheet_link_tag 'content'
+stylesheet_link_tag 'codeBlocks'
+%>
 
 <div class="main container" id="clases">
   <h1 class="littleTitle">CLASES</h1>
   <div class="subject">
-    <div class="text">
+    <div class="big-text">
       <p>En Ruby casi todo son objetos.</p>
 
-      <pre>
-        <code class="code_block" data-lang="ruby">
-          <span>class </span>Person
-            <span>@@id</span>=0
-            <span>def </span>initialize(name, age)
-              <span>@name</span>=name
-              <span>@age</span>=age
-              <span>@@id</span>+=1
-            <span>end</span>
-            <span>def </span>get_name
-              <span>@name</span>
-            <span>end</span>
-          <span>end</span>
+      <pre class="codeBlock">
+        <code data-lang="ruby">
+          <span class="class">class </span>Person
+            <span class="doubleVariable">@@id</span> = 0
 
-          pedro = Person<span>.new</span>('Pedro', 15)
+            <span class="base">def </span>initialize(name, age)
+              <span class="variable">@name</span> = name
+              <span class="variable">@age</span> = age
+              <span class="doubleVariable">@@id</span> += 1
+            <span class="base">end</span>
+
+            <span class="base">def </span>get_name
+              <span class="variable">@name</span>
+            <span class="base">end</span>
+
+          <span class="base">end</span>
+
+          pedro = Person<span class="new">.new</span>('Pedro', 15)
         </code>
       </pre>
     </div>

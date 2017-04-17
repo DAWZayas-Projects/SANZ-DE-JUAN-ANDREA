@@ -13,6 +13,7 @@
 }
 
 .subject {
+  width: 100%;
   display: inline-flex;
   flex-wrap: wrap;
   height: 100vh;
@@ -41,11 +42,35 @@
     list-style: none;
   }
   li:before {
+    color: #a01508;
     content: "\f219";
     font-family: 'FontAwesome';
   }
 }
 
+.graphics {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-around;
+}
+
 .graphic {
   width: 40%;
+}
+
+.bigGraphic {
+  width: 44%;
+}
+
+.graphicTitle {
+  text-align: center;
+}
+
+.big-text {
+  text-align: justify;
+  width: 80%;
+}
+
+.codeBlock {
+  border-left: rgb(15, 159, 112) 3px solid;
 }

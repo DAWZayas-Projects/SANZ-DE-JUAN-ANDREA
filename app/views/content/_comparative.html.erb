@@ -2,21 +2,24 @@
 
 <div class="main container" id="comparativa">
   <h1 class="title">COMPARATIVA</h1>
-  <div>
-    <div class="graphic">
-      <h3>Empleos en España</h3>
-      <%= render 'layouts/job_chart' %>
-      <small class="text-muted">Fuente: <%= link_to "Tecnoempleo", "www.tecnoempleo.com/"%></small>
-    </div>
-    <div>
+  <div class="subject">
+    <div class="big-text">
       <p>
         Para comparar los lenguajes me he fijado en varios aspectos: facilidad de aprendizaje, tamaño de
-        la comunidad, el rendimiento, la escalabilidad y la facilidad para encontrar trabajo.
+        la comunidad, el rendimiento, la escalabilidad, el coste y la facilidad para encontrar trabajo.
+        La puntuación va de 0 a 10 siendo 10 lo mejor.
       </p>
-    </div>
-    <div class="graphic">
-      <h3>Comparación de características</h3>
-      <%= render 'layouts/features_chart' %>
+      <div class="graphics">
+        <div class="bigGraphic">
+          <h3 class="graphicTitle">Características</h3>
+          <%= render 'layouts/features_chart' %>
+        </div>
+        <div class="graphic">
+          <h3 class="graphicTitle">Empleos en España</h3>
+          <%= render 'layouts/job_chart' %>
+          <small class="text-muted">Fuente: <%= link_to "Tecnoempleo", "www.tecnoempleo.com/"%></small>
+        </div>
+      </div>
     </div>
   </div>
 </div>

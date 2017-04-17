@@ -16497,3 +16497,2422 @@ Processing by HomeController#index as HTML
   Rendered layouts/_features_chart.html.erb (7.2ms)
   Rendered content/_comparative.html.erb (34.4ms)
 Completed 200 OK in 612ms (Views: 610.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 10:27:21 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (18.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4641.7ms)
+  Rendered navbar/_navbar.html.erb (749.9ms)
+  Rendered layouts/_to_top_button.html.erb (44.6ms)
+  Rendered content/_introduction.html.erb (34.4ms)
+  Rendered content/_features.html.erb (13.9ms)
+  Rendered content/_key_aspects.html.erb (15.4ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (13.3ms)
+  Rendered content/_procs_and_lambdas.html.erb (9.7ms)
+  Rendered content/_map_collect_and_select.html.erb (10.8ms)
+  Rendered content/_classes.html.erb (7.6ms)
+  Rendered content/_inheritance.html.erb (11.4ms)
+  Rendered layouts/_job_chart.html.erb (8.2ms)
+  Rendered layouts/_features_chart.html.erb (7.8ms)
+  Rendered content/_comparative.html.erb (38.9ms)
+Completed 200 OK in 7103ms (Views: 7044.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 10:27:45 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (13.4ms)
+  Rendered navbar/_navbar.html.erb (22.9ms)
+  Rendered layouts/_to_top_button.html.erb (6.0ms)
+  Rendered content/_introduction.html.erb (8.9ms)
+  Rendered content/_features.html.erb (4.2ms)
+  Rendered content/_key_aspects.html.erb (3.6ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (4.0ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.4ms)
+  Rendered content/_map_collect_and_select.html.erb (3.8ms)
+  Rendered content/_classes.html.erb (10.4ms)
+  Rendered content/_inheritance.html.erb (5.3ms)
+  Rendered layouts/_job_chart.html.erb (5.3ms)
+  Rendered layouts/_features_chart.html.erb (5.4ms)
+  Rendered content/_comparative.html.erb (22.9ms)
+Completed 200 OK in 522ms (Views: 519.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 10:30:52 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (12.9ms)
+  Rendered navbar/_navbar.html.erb (39.6ms)
+  Rendered layouts/_to_top_button.html.erb (7.1ms)
+  Rendered content/_introduction.html.erb (11.8ms)
+  Rendered content/_features.html.erb (4.7ms)
+  Rendered content/_key_aspects.html.erb (5.7ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (4.4ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.6ms)
+  Rendered content/_map_collect_and_select.html.erb (3.9ms)
+  Rendered content/_classes.html.erb (8.5ms)
+  Rendered content/_inheritance.html.erb (4.7ms)
+  Rendered layouts/_job_chart.html.erb (3.6ms)
+  Rendered layouts/_features_chart.html.erb (5.9ms)
+  Rendered content/_comparative.html.erb (18.9ms)
+Completed 200 OK in 495ms (Views: 493.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 10:36:03 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (11.6ms)
+  Rendered navbar/_navbar.html.erb (51.7ms)
+  Rendered layouts/_to_top_button.html.erb (7.4ms)
+  Rendered content/_introduction.html.erb (15.7ms)
+  Rendered content/_features.html.erb (4.2ms)
+  Rendered content/_key_aspects.html.erb (4.6ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (3.7ms)
+  Rendered content/_procs_and_lambdas.html.erb (8.0ms)
+  Rendered content/_map_collect_and_select.html.erb (4.4ms)
+  Rendered content/_classes.html.erb (4.0ms)
+  Rendered content/_inheritance.html.erb (3.7ms)
+  Rendered layouts/_job_chart.html.erb (8.1ms)
+  Rendered layouts/_features_chart.html.erb (7.3ms)
+  Rendered content/_comparative.html.erb (25.6ms)
+Completed 200 OK in 563ms (Views: 560.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 10:37:07 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (17.1ms)
+  Rendered navbar/_navbar.html.erb (29.6ms)
+  Rendered layouts/_to_top_button.html.erb (10.8ms)
+  Rendered content/_introduction.html.erb (10.3ms)
+  Rendered content/_features.html.erb (4.0ms)
+  Rendered content/_key_aspects.html.erb (3.5ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (4.8ms)
+  Rendered content/_procs_and_lambdas.html.erb (4.6ms)
+  Rendered content/_map_collect_and_select.html.erb (4.4ms)
+  Rendered content/_classes.html.erb (3.8ms)
+  Rendered content/_inheritance.html.erb (4.0ms)
+  Rendered layouts/_job_chart.html.erb (4.1ms)
+  Rendered layouts/_features_chart.html.erb (6.8ms)
+  Rendered content/_comparative.html.erb (20.8ms)
+Completed 200 OK in 452ms (Views: 450.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 10:41:31 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (11.6ms)
+  Rendered navbar/_navbar.html.erb (50.4ms)
+  Rendered layouts/_to_top_button.html.erb (5.7ms)
+  Rendered content/_introduction.html.erb (13.6ms)
+  Rendered content/_features.html.erb (4.1ms)
+  Rendered content/_key_aspects.html.erb (4.1ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (4.2ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.6ms)
+  Rendered content/_map_collect_and_select.html.erb (5.8ms)
+  Rendered content/_classes.html.erb (3.9ms)
+  Rendered content/_inheritance.html.erb (3.9ms)
+  Rendered layouts/_job_chart.html.erb (9.6ms)
+  Rendered layouts/_features_chart.html.erb (6.2ms)
+  Rendered content/_comparative.html.erb (26.0ms)
+Completed 200 OK in 499ms (Views: 494.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 10:45:32 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (24.3ms)
+  Rendered navbar/_navbar.html.erb (73.8ms)
+  Rendered layouts/_to_top_button.html.erb (7.2ms)
+  Rendered content/_introduction.html.erb (10.3ms)
+  Rendered content/_features.html.erb (3.9ms)
+  Rendered content/_key_aspects.html.erb (4.0ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (3.9ms)
+  Rendered content/_procs_and_lambdas.html.erb (4.8ms)
+  Rendered content/_map_collect_and_select.html.erb (4.4ms)
+  Rendered content/_classes.html.erb (3.9ms)
+  Rendered content/_inheritance.html.erb (5.1ms)
+  Rendered layouts/_job_chart.html.erb (3.8ms)
+  Rendered layouts/_features_chart.html.erb (7.1ms)
+  Rendered content/_comparative.html.erb (22.1ms)
+Completed 200 OK in 681ms (Views: 679.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 10:46:11 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (16.3ms)
+  Rendered navbar/_navbar.html.erb (25.1ms)
+  Rendered layouts/_to_top_button.html.erb (7.1ms)
+  Rendered content/_introduction.html.erb (9.9ms)
+  Rendered content/_features.html.erb (4.3ms)
+  Rendered content/_key_aspects.html.erb (4.3ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (3.7ms)
+  Rendered content/_procs_and_lambdas.html.erb (4.0ms)
+  Rendered content/_map_collect_and_select.html.erb (4.3ms)
+  Rendered content/_classes.html.erb (4.4ms)
+  Rendered content/_inheritance.html.erb (4.1ms)
+  Rendered layouts/_job_chart.html.erb (4.0ms)
+  Rendered layouts/_features_chart.html.erb (7.6ms)
+  Rendered content/_comparative.html.erb (21.5ms)
+Completed 200 OK in 448ms (Views: 446.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 10:47:49 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (11.2ms)
+  Rendered navbar/_navbar.html.erb (26.4ms)
+  Rendered layouts/_to_top_button.html.erb (6.2ms)
+  Rendered content/_introduction.html.erb (10.1ms)
+  Rendered content/_features.html.erb (4.0ms)
+  Rendered content/_key_aspects.html.erb (4.0ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (4.2ms)
+  Rendered content/_procs_and_lambdas.html.erb (4.8ms)
+  Rendered content/_map_collect_and_select.html.erb (4.3ms)
+  Rendered content/_classes.html.erb (4.5ms)
+  Rendered content/_inheritance.html.erb (4.4ms)
+  Rendered layouts/_job_chart.html.erb (4.1ms)
+  Rendered layouts/_features_chart.html.erb (7.0ms)
+  Rendered content/_comparative.html.erb (27.1ms)
+Completed 200 OK in 505ms (Views: 496.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 10:49:11 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (20.8ms)
+  Rendered navbar/_navbar.html.erb (54.9ms)
+  Rendered layouts/_to_top_button.html.erb (7.7ms)
+  Rendered content/_introduction.html.erb (10.3ms)
+  Rendered content/_features.html.erb (4.5ms)
+  Rendered content/_key_aspects.html.erb (5.2ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (5.3ms)
+  Rendered content/_procs_and_lambdas.html.erb (4.3ms)
+  Rendered content/_map_collect_and_select.html.erb (5.4ms)
+  Rendered content/_classes.html.erb (4.9ms)
+  Rendered content/_inheritance.html.erb (4.0ms)
+  Rendered layouts/_job_chart.html.erb (4.5ms)
+  Rendered layouts/_features_chart.html.erb (7.3ms)
+  Rendered content/_comparative.html.erb (21.5ms)
+Completed 200 OK in 571ms (Views: 567.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 10:51:46 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (16.0ms)
+  Rendered navbar/_navbar.html.erb (53.2ms)
+  Rendered layouts/_to_top_button.html.erb (8.0ms)
+  Rendered content/_introduction.html.erb (10.8ms)
+  Rendered content/_features.html.erb (4.5ms)
+  Rendered content/_key_aspects.html.erb (4.7ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (4.4ms)
+  Rendered content/_procs_and_lambdas.html.erb (4.8ms)
+  Rendered content/_map_collect_and_select.html.erb (4.5ms)
+  Rendered content/_classes.html.erb (5.2ms)
+  Rendered content/_inheritance.html.erb (4.5ms)
+  Rendered layouts/_job_chart.html.erb (4.6ms)
+  Rendered layouts/_features_chart.html.erb (6.7ms)
+  Rendered content/_comparative.html.erb (21.7ms)
+Completed 200 OK in 602ms (Views: 600.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 10:53:42 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (11.3ms)
+  Rendered navbar/_navbar.html.erb (28.6ms)
+  Rendered layouts/_to_top_button.html.erb (12.0ms)
+  Rendered content/_introduction.html.erb (20.1ms)
+  Rendered content/_features.html.erb (7.4ms)
+  Rendered content/_key_aspects.html.erb (6.3ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (6.8ms)
+  Rendered content/_procs_and_lambdas.html.erb (6.0ms)
+  Rendered content/_map_collect_and_select.html.erb (5.4ms)
+  Rendered content/_classes.html.erb (5.4ms)
+  Rendered content/_inheritance.html.erb (4.5ms)
+  Rendered layouts/_job_chart.html.erb (4.3ms)
+  Rendered layouts/_features_chart.html.erb (5.9ms)
+  Rendered content/_comparative.html.erb (19.9ms)
+Completed 200 OK in 524ms (Views: 522.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 10:54:26 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (12.4ms)
+  Rendered navbar/_navbar.html.erb (73.8ms)
+  Rendered layouts/_to_top_button.html.erb (7.9ms)
+  Rendered content/_introduction.html.erb (14.9ms)
+  Rendered content/_features.html.erb (10.3ms)
+  Rendered content/_key_aspects.html.erb (5.4ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (5.7ms)
+  Rendered content/_procs_and_lambdas.html.erb (5.9ms)
+  Rendered content/_map_collect_and_select.html.erb (4.9ms)
+  Rendered content/_classes.html.erb (4.2ms)
+  Rendered content/_inheritance.html.erb (4.7ms)
+  Rendered layouts/_job_chart.html.erb (9.9ms)
+  Rendered layouts/_features_chart.html.erb (5.3ms)
+  Rendered content/_comparative.html.erb (27.0ms)
+Completed 200 OK in 751ms (Views: 749.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 10:54:50 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (14.2ms)
+  Rendered navbar/_navbar.html.erb (26.0ms)
+  Rendered layouts/_to_top_button.html.erb (5.7ms)
+  Rendered content/_introduction.html.erb (8.4ms)
+  Rendered content/_features.html.erb (3.9ms)
+  Rendered content/_key_aspects.html.erb (3.6ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (3.5ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.6ms)
+  Rendered content/_map_collect_and_select.html.erb (3.6ms)
+  Rendered content/_classes.html.erb (3.8ms)
+  Rendered content/_inheritance.html.erb (3.5ms)
+  Rendered layouts/_job_chart.html.erb (3.8ms)
+  Rendered layouts/_features_chart.html.erb (6.0ms)
+  Rendered content/_comparative.html.erb (18.0ms)
+Completed 200 OK in 423ms (Views: 420.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 10:56:54 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (10.8ms)
+  Rendered navbar/_navbar.html.erb (43.9ms)
+  Rendered layouts/_to_top_button.html.erb (5.9ms)
+  Rendered content/_introduction.html.erb (9.0ms)
+  Rendered content/_features.html.erb (3.1ms)
+  Rendered content/_key_aspects.html.erb (3.7ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (3.6ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.5ms)
+  Rendered content/_map_collect_and_select.html.erb (3.6ms)
+  Rendered content/_classes.html.erb (3.8ms)
+  Rendered content/_inheritance.html.erb (3.4ms)
+  Rendered layouts/_job_chart.html.erb (3.8ms)
+  Rendered layouts/_features_chart.html.erb (6.3ms)
+  Rendered content/_comparative.html.erb (19.4ms)
+Completed 200 OK in 484ms (Views: 482.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 10:58:33 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (9.6ms)
+  Rendered navbar/_navbar.html.erb (28.3ms)
+  Rendered layouts/_to_top_button.html.erb (6.1ms)
+  Rendered content/_introduction.html.erb (9.4ms)
+  Rendered content/_features.html.erb (4.0ms)
+  Rendered content/_key_aspects.html.erb (4.4ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (3.9ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.5ms)
+  Rendered content/_map_collect_and_select.html.erb (4.2ms)
+  Rendered content/_classes.html.erb (3.6ms)
+  Rendered content/_inheritance.html.erb (4.3ms)
+  Rendered layouts/_job_chart.html.erb (4.8ms)
+  Rendered layouts/_features_chart.html.erb (7.9ms)
+  Rendered content/_comparative.html.erb (21.4ms)
+Completed 200 OK in 450ms (Views: 447.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 11:09:12 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (24.0ms)
+  Rendered navbar/_navbar.html.erb (24.8ms)
+  Rendered layouts/_to_top_button.html.erb (5.5ms)
+  Rendered content/_introduction.html.erb (8.7ms)
+  Rendered content/_features.html.erb (3.8ms)
+  Rendered content/_key_aspects.html.erb (3.7ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (3.8ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.9ms)
+  Rendered content/_map_collect_and_select.html.erb (4.6ms)
+  Rendered content/_classes.html.erb (3.9ms)
+  Rendered content/_inheritance.html.erb (3.9ms)
+  Rendered layouts/_job_chart.html.erb (3.9ms)
+  Rendered layouts/_features_chart.html.erb (12.6ms)
+  Rendered content/_comparative.html.erb (27.8ms)
+Completed 200 OK in 490ms (Views: 487.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 11:09:37 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (17.3ms)
+  Rendered navbar/_navbar.html.erb (23.1ms)
+  Rendered layouts/_to_top_button.html.erb (5.3ms)
+  Rendered content/_introduction.html.erb (8.7ms)
+  Rendered content/_features.html.erb (3.3ms)
+  Rendered content/_key_aspects.html.erb (3.3ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (3.3ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.4ms)
+  Rendered content/_map_collect_and_select.html.erb (3.4ms)
+  Rendered content/_classes.html.erb (3.3ms)
+  Rendered content/_inheritance.html.erb (3.3ms)
+  Rendered layouts/_job_chart.html.erb (3.6ms)
+  Rendered layouts/_features_chart.html.erb (6.3ms)
+  Rendered content/_comparative.html.erb (18.7ms)
+Completed 200 OK in 417ms (Views: 415.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 11:33:45 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (14.1ms)
+  Rendered navbar/_navbar.html.erb (28.3ms)
+  Rendered layouts/_to_top_button.html.erb (5.2ms)
+  Rendered content/_introduction.html.erb (8.6ms)
+  Rendered content/_features.html.erb (3.8ms)
+  Rendered content/_key_aspects.html.erb (3.5ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (3.2ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.9ms)
+  Rendered content/_map_collect_and_select.html.erb (3.9ms)
+  Rendered content/_classes.html.erb (3.6ms)
+  Rendered content/_inheritance.html.erb (3.7ms)
+  Rendered layouts/_job_chart.html.erb (4.0ms)
+  Rendered layouts/_features_chart.html.erb (5.0ms)
+  Rendered content/_comparative.html.erb (17.9ms)
+Completed 200 OK in 431ms (Views: 428.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 11:35:19 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (12.7ms)
+  Rendered navbar/_navbar.html.erb (48.9ms)
+  Rendered layouts/_to_top_button.html.erb (6.7ms)
+  Rendered content/_introduction.html.erb (8.7ms)
+  Rendered content/_features.html.erb (4.3ms)
+  Rendered content/_key_aspects.html.erb (3.8ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (3.6ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.5ms)
+  Rendered content/_map_collect_and_select.html.erb (9.8ms)
+  Rendered content/_classes.html.erb (4.0ms)
+  Rendered content/_inheritance.html.erb (6.3ms)
+  Rendered layouts/_job_chart.html.erb (4.6ms)
+  Rendered layouts/_features_chart.html.erb (4.8ms)
+  Rendered content/_comparative.html.erb (29.0ms)
+Completed 200 OK in 541ms (Views: 539.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 11:35:22 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (20.1ms)
+  Rendered navbar/_navbar.html.erb (52.2ms)
+  Rendered layouts/_to_top_button.html.erb (12.4ms)
+  Rendered content/_introduction.html.erb (16.0ms)
+  Rendered content/_features.html.erb (7.2ms)
+  Rendered content/_key_aspects.html.erb (3.9ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (7.3ms)
+  Rendered content/_procs_and_lambdas.html.erb (12.9ms)
+  Rendered content/_map_collect_and_select.html.erb (10.7ms)
+  Rendered content/_classes.html.erb (11.7ms)
+  Rendered content/_inheritance.html.erb (6.1ms)
+  Rendered layouts/_job_chart.html.erb (4.7ms)
+  Rendered layouts/_features_chart.html.erb (6.5ms)
+  Rendered content/_comparative.html.erb (33.0ms)
+Completed 200 OK in 692ms (Views: 690.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 11:35:28 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (20.9ms)
+  Rendered navbar/_navbar.html.erb (42.1ms)
+  Rendered layouts/_to_top_button.html.erb (5.5ms)
+  Rendered content/_introduction.html.erb (9.5ms)
+  Rendered content/_features.html.erb (3.9ms)
+  Rendered content/_key_aspects.html.erb (3.9ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (4.6ms)
+  Rendered content/_procs_and_lambdas.html.erb (4.3ms)
+  Rendered content/_map_collect_and_select.html.erb (4.2ms)
+  Rendered content/_classes.html.erb (4.1ms)
+  Rendered content/_inheritance.html.erb (4.2ms)
+  Rendered layouts/_job_chart.html.erb (4.3ms)
+  Rendered layouts/_features_chart.html.erb (4.8ms)
+  Rendered content/_comparative.html.erb (19.5ms)
+Completed 200 OK in 615ms (Views: 612.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 11:35:54 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (12.4ms)
+  Rendered navbar/_navbar.html.erb (26.3ms)
+  Rendered layouts/_to_top_button.html.erb (4.8ms)
+  Rendered content/_introduction.html.erb (8.2ms)
+  Rendered content/_features.html.erb (4.6ms)
+  Rendered content/_key_aspects.html.erb (3.6ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (3.5ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.3ms)
+  Rendered content/_map_collect_and_select.html.erb (3.8ms)
+  Rendered content/_classes.html.erb (3.3ms)
+  Rendered content/_inheritance.html.erb (3.5ms)
+  Rendered layouts/_job_chart.html.erb (3.5ms)
+  Rendered layouts/_features_chart.html.erb (4.1ms)
+  Rendered content/_comparative.html.erb (15.4ms)
+Completed 200 OK in 389ms (Views: 387.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 11:37:05 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (11.7ms)
+  Rendered navbar/_navbar.html.erb (105.8ms)
+  Rendered layouts/_to_top_button.html.erb (15.5ms)
+  Rendered content/_introduction.html.erb (40.5ms)
+  Rendered content/_features.html.erb (5.6ms)
+  Rendered content/_key_aspects.html.erb (11.6ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (4.9ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.2ms)
+  Rendered content/_map_collect_and_select.html.erb (16.2ms)
+  Rendered content/_classes.html.erb (4.0ms)
+  Rendered content/_inheritance.html.erb (5.5ms)
+  Rendered layouts/_job_chart.html.erb (12.5ms)
+  Rendered layouts/_features_chart.html.erb (5.4ms)
+  Rendered content/_comparative.html.erb (32.3ms)
+Completed 200 OK in 31060ms (Views: 31058.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/content.self-06bfb2fdfd01fbd9d465127a0d54fc68af23e08b0c13cacfc8bef2210f4e552a.css?body=1" for 127.0.0.1 at 2017-04-17 11:37:36 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 11:37:55 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (9.3ms)
+  Rendered navbar/_navbar.html.erb (20.4ms)
+  Rendered layouts/_to_top_button.html.erb (5.5ms)
+  Rendered content/_introduction.html.erb (8.1ms)
+  Rendered content/_features.html.erb (5.0ms)
+  Rendered content/_key_aspects.html.erb (3.4ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (3.3ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.5ms)
+  Rendered content/_map_collect_and_select.html.erb (3.8ms)
+  Rendered content/_classes.html.erb (8.1ms)
+  Rendered content/_inheritance.html.erb (3.9ms)
+  Rendered layouts/_job_chart.html.erb (3.5ms)
+  Rendered layouts/_features_chart.html.erb (4.4ms)
+  Rendered content/_comparative.html.erb (15.6ms)
+Completed 200 OK in 389ms (Views: 386.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 11:38:22 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (33.4ms)
+  Rendered navbar/_navbar.html.erb (23.2ms)
+  Rendered layouts/_to_top_button.html.erb (5.6ms)
+  Rendered content/_introduction.html.erb (17.4ms)
+  Rendered content/_features.html.erb (4.1ms)
+  Rendered content/_key_aspects.html.erb (4.0ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (4.0ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.6ms)
+  Rendered content/_map_collect_and_select.html.erb (4.8ms)
+  Rendered content/_classes.html.erb (3.6ms)
+  Rendered content/_inheritance.html.erb (3.7ms)
+  Rendered layouts/_job_chart.html.erb (3.7ms)
+  Rendered layouts/_features_chart.html.erb (4.8ms)
+  Rendered content/_comparative.html.erb (17.6ms)
+Completed 200 OK in 20601ms (Views: 20598.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/content.self-b898986bfb3117c4df94067cb0e42a4bc14bb5d8bf7554393574d648a80b0fc3.css?body=1" for 127.0.0.1 at 2017-04-17 11:38:42 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 11:39:15 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (15.5ms)
+  Rendered navbar/_navbar.html.erb (47.0ms)
+  Rendered layouts/_to_top_button.html.erb (8.7ms)
+  Rendered content/_introduction.html.erb (16.4ms)
+  Rendered content/_features.html.erb (5.3ms)
+  Rendered content/_key_aspects.html.erb (5.2ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (4.9ms)
+  Rendered content/_procs_and_lambdas.html.erb (4.4ms)
+  Rendered content/_map_collect_and_select.html.erb (6.3ms)
+  Rendered content/_classes.html.erb (4.2ms)
+  Rendered content/_inheritance.html.erb (5.5ms)
+  Rendered layouts/_job_chart.html.erb (4.9ms)
+  Rendered layouts/_features_chart.html.erb (6.0ms)
+  Rendered content/_comparative.html.erb (25.6ms)
+Completed 200 OK in 610ms (Views: 607.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 11:40:37 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (21.7ms)
+  Rendered navbar/_navbar.html.erb (71.7ms)
+  Rendered layouts/_to_top_button.html.erb (11.9ms)
+  Rendered content/_introduction.html.erb (11.8ms)
+  Rendered content/_features.html.erb (6.4ms)
+  Rendered content/_key_aspects.html.erb (5.0ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (4.2ms)
+  Rendered content/_procs_and_lambdas.html.erb (4.2ms)
+  Rendered content/_map_collect_and_select.html.erb (4.6ms)
+  Rendered content/_classes.html.erb (5.3ms)
+  Rendered content/_inheritance.html.erb (4.9ms)
+  Rendered layouts/_job_chart.html.erb (6.1ms)
+  Rendered layouts/_features_chart.html.erb (6.1ms)
+  Rendered content/_comparative.html.erb (28.0ms)
+Completed 200 OK in 777ms (Views: 763.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 11:42:28 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (16.9ms)
+  Rendered navbar/_navbar.html.erb (35.9ms)
+  Rendered layouts/_to_top_button.html.erb (5.9ms)
+  Rendered content/_introduction.html.erb (12.9ms)
+  Rendered content/_features.html.erb (3.8ms)
+  Rendered content/_key_aspects.html.erb (3.9ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (3.7ms)
+  Rendered content/_procs_and_lambdas.html.erb (5.5ms)
+  Rendered content/_map_collect_and_select.html.erb (4.6ms)
+  Rendered content/_classes.html.erb (3.6ms)
+  Rendered content/_inheritance.html.erb (4.5ms)
+  Rendered layouts/_job_chart.html.erb (4.1ms)
+  Rendered layouts/_features_chart.html.erb (5.6ms)
+  Rendered content/_comparative.html.erb (19.6ms)
+Completed 200 OK in 21942ms (Views: 21929.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/content.self-79df2100400e51bbd5fc1ebb70d8327849ee10dfaa3104662477b408b00bea3b.css?body=1" for 127.0.0.1 at 2017-04-17 11:42:50 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 11:44:12 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (11.1ms)
+  Rendered navbar/_navbar.html.erb (71.9ms)
+  Rendered layouts/_to_top_button.html.erb (11.1ms)
+  Rendered content/_introduction.html.erb (8.8ms)
+  Rendered content/_features.html.erb (4.9ms)
+  Rendered content/_key_aspects.html.erb (3.5ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (7.7ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.3ms)
+  Rendered content/_map_collect_and_select.html.erb (3.7ms)
+  Rendered content/_classes.html.erb (3.1ms)
+  Rendered content/_inheritance.html.erb (3.4ms)
+  Rendered layouts/_job_chart.html.erb (3.8ms)
+  Rendered layouts/_features_chart.html.erb (4.4ms)
+  Rendered content/_comparative.html.erb (21.8ms)
+Completed 200 OK in 625ms (Views: 623.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 11:44:44 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (10.6ms)
+  Rendered navbar/_navbar.html.erb (22.8ms)
+  Rendered layouts/_to_top_button.html.erb (5.2ms)
+  Rendered content/_introduction.html.erb (8.4ms)
+  Rendered content/_features.html.erb (5.2ms)
+  Rendered content/_key_aspects.html.erb (3.4ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (3.4ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.2ms)
+  Rendered content/_map_collect_and_select.html.erb (4.1ms)
+  Rendered content/_classes.html.erb (4.3ms)
+  Rendered content/_inheritance.html.erb (3.3ms)
+  Rendered layouts/_job_chart.html.erb (3.8ms)
+  Rendered layouts/_features_chart.html.erb (4.5ms)
+  Rendered content/_comparative.html.erb (20.6ms)
+Completed 200 OK in 418ms (Views: 416.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 11:45:23 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (10.2ms)
+  Rendered navbar/_navbar.html.erb (32.3ms)
+  Rendered layouts/_to_top_button.html.erb (5.2ms)
+  Rendered content/_introduction.html.erb (8.0ms)
+  Rendered content/_features.html.erb (6.0ms)
+  Rendered content/_key_aspects.html.erb (7.4ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (3.6ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.5ms)
+  Rendered content/_map_collect_and_select.html.erb (3.7ms)
+  Rendered content/_classes.html.erb (3.5ms)
+  Rendered content/_inheritance.html.erb (7.5ms)
+  Rendered layouts/_job_chart.html.erb (3.7ms)
+  Rendered layouts/_features_chart.html.erb (5.4ms)
+  Rendered content/_comparative.html.erb (18.3ms)
+Completed 200 OK in 558ms (Views: 555.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 11:45:45 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (15.6ms)
+  Rendered navbar/_navbar.html.erb (36.0ms)
+  Rendered layouts/_to_top_button.html.erb (5.7ms)
+  Rendered content/_introduction.html.erb (8.5ms)
+  Rendered content/_features.html.erb (3.3ms)
+  Rendered content/_key_aspects.html.erb (3.3ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (4.6ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.1ms)
+  Rendered content/_map_collect_and_select.html.erb (3.5ms)
+  Rendered content/_classes.html.erb (3.4ms)
+  Rendered content/_inheritance.html.erb (3.3ms)
+  Rendered layouts/_job_chart.html.erb (4.7ms)
+  Rendered layouts/_features_chart.html.erb (4.8ms)
+  Rendered content/_comparative.html.erb (17.2ms)
+Completed 200 OK in 489ms (Views: 486.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 11:45:49 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (10.8ms)
+  Rendered navbar/_navbar.html.erb (65.2ms)
+  Rendered layouts/_to_top_button.html.erb (11.7ms)
+  Rendered content/_introduction.html.erb (9.8ms)
+  Rendered content/_features.html.erb (3.4ms)
+  Rendered content/_key_aspects.html.erb (3.9ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (9.1ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.6ms)
+  Rendered content/_map_collect_and_select.html.erb (3.6ms)
+  Rendered content/_classes.html.erb (3.4ms)
+  Rendered content/_inheritance.html.erb (3.4ms)
+  Rendered layouts/_job_chart.html.erb (3.6ms)
+  Rendered layouts/_features_chart.html.erb (4.3ms)
+  Rendered content/_comparative.html.erb (23.3ms)
+Completed 200 OK in 594ms (Views: 591.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 11:45:53 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (24.1ms)
+  Rendered navbar/_navbar.html.erb (26.6ms)
+  Rendered layouts/_to_top_button.html.erb (11.3ms)
+  Rendered content/_introduction.html.erb (8.2ms)
+  Rendered content/_features.html.erb (3.4ms)
+  Rendered content/_key_aspects.html.erb (3.2ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (3.3ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.5ms)
+  Rendered content/_map_collect_and_select.html.erb (3.4ms)
+  Rendered content/_classes.html.erb (3.6ms)
+  Rendered content/_inheritance.html.erb (3.3ms)
+  Rendered layouts/_job_chart.html.erb (8.9ms)
+  Rendered layouts/_features_chart.html.erb (4.7ms)
+  Rendered content/_comparative.html.erb (22.3ms)
+Completed 200 OK in 525ms (Views: 523.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 11:45:57 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (16.8ms)
+  Rendered navbar/_navbar.html.erb (50.5ms)
+  Rendered layouts/_to_top_button.html.erb (7.6ms)
+  Rendered content/_introduction.html.erb (21.2ms)
+  Rendered content/_features.html.erb (3.5ms)
+  Rendered content/_key_aspects.html.erb (3.5ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (3.1ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.3ms)
+  Rendered content/_map_collect_and_select.html.erb (3.5ms)
+  Rendered content/_classes.html.erb (3.5ms)
+  Rendered content/_inheritance.html.erb (3.6ms)
+  Rendered layouts/_job_chart.html.erb (3.7ms)
+  Rendered layouts/_features_chart.html.erb (4.8ms)
+  Rendered content/_comparative.html.erb (18.4ms)
+Completed 200 OK in 498ms (Views: 496.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 11:47:58 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (18.0ms)
+  Rendered navbar/_navbar.html.erb (25.2ms)
+  Rendered layouts/_to_top_button.html.erb (5.0ms)
+  Rendered content/_introduction.html.erb (17.2ms)
+  Rendered content/_features.html.erb (4.4ms)
+  Rendered content/_key_aspects.html.erb (3.1ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (4.8ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.2ms)
+  Rendered content/_map_collect_and_select.html.erb (4.4ms)
+  Rendered content/_classes.html.erb (3.9ms)
+  Rendered content/_inheritance.html.erb (2.9ms)
+  Rendered layouts/_job_chart.html.erb (7.9ms)
+  Rendered layouts/_features_chart.html.erb (5.3ms)
+  Rendered content/_comparative.html.erb (23.9ms)
+Completed 200 OK in 21154ms (Views: 21152.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/content.self-38cda230eb5344fcd3e382973e2d49decbfb88d219733203946df62d588e61d0.css?body=1" for 127.0.0.1 at 2017-04-17 11:48:19 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 11:49:44 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (10.6ms)
+  Rendered navbar/_navbar.html.erb (21.9ms)
+  Rendered layouts/_to_top_button.html.erb (5.6ms)
+  Rendered content/_introduction.html.erb (9.2ms)
+  Rendered content/_features.html.erb (3.5ms)
+  Rendered content/_key_aspects.html.erb (3.6ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (5.0ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.4ms)
+  Rendered content/_map_collect_and_select.html.erb (4.5ms)
+  Rendered content/_classes.html.erb (3.8ms)
+  Rendered content/_inheritance.html.erb (3.2ms)
+  Rendered layouts/_job_chart.html.erb (3.9ms)
+  Rendered layouts/_features_chart.html.erb (4.8ms)
+  Rendered content/_comparative.html.erb (17.9ms)
+Completed 200 OK in 408ms (Views: 405.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 11:50:46 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (23.5ms)
+  Rendered navbar/_navbar.html.erb (39.8ms)
+  Rendered layouts/_to_top_button.html.erb (5.0ms)
+  Rendered content/_introduction.html.erb (7.9ms)
+  Rendered content/_features.html.erb (3.5ms)
+  Rendered content/_key_aspects.html.erb (7.6ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (4.6ms)
+  Rendered content/_procs_and_lambdas.html.erb (31.1ms)
+  Rendered content/_map_collect_and_select.html.erb (3.8ms)
+  Rendered content/_classes.html.erb (3.4ms)
+  Rendered content/_inheritance.html.erb (3.5ms)
+  Rendered layouts/_job_chart.html.erb (6.9ms)
+  Rendered layouts/_features_chart.html.erb (12.5ms)
+  Rendered content/_comparative.html.erb (32.1ms)
+Completed 200 OK in 533ms (Views: 506.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 11:52:20 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (17.7ms)
+  Rendered navbar/_navbar.html.erb (29.0ms)
+  Rendered layouts/_to_top_button.html.erb (8.0ms)
+  Rendered content/_introduction.html.erb (21.1ms)
+  Rendered content/_features.html.erb (3.8ms)
+  Rendered content/_key_aspects.html.erb (4.7ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (5.4ms)
+  Rendered content/_procs_and_lambdas.html.erb (4.9ms)
+  Rendered content/_map_collect_and_select.html.erb (4.6ms)
+  Rendered content/_classes.html.erb (4.4ms)
+  Rendered content/_inheritance.html.erb (5.7ms)
+  Rendered layouts/_job_chart.html.erb (4.6ms)
+  Rendered layouts/_features_chart.html.erb (5.3ms)
+  Rendered content/_comparative.html.erb (21.1ms)
+Completed 200 OK in 20749ms (Views: 20747.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/content.self-89f3d450737d7ebb1ace3575e9b374c5b0b41e4c460b9dd9b89f61d12edef3ae.css?body=1" for 127.0.0.1 at 2017-04-17 11:52:41 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 11:53:05 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (28.4ms)
+  Rendered navbar/_navbar.html.erb (23.3ms)
+  Rendered layouts/_to_top_button.html.erb (5.8ms)
+  Rendered content/_introduction.html.erb (20.1ms)
+  Rendered content/_features.html.erb (4.4ms)
+  Rendered content/_key_aspects.html.erb (4.5ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (4.4ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.9ms)
+  Rendered content/_map_collect_and_select.html.erb (4.7ms)
+  Rendered content/_classes.html.erb (4.4ms)
+  Rendered content/_inheritance.html.erb (5.0ms)
+  Rendered layouts/_job_chart.html.erb (9.3ms)
+  Rendered layouts/_features_chart.html.erb (6.2ms)
+  Rendered content/_comparative.html.erb (27.8ms)
+Completed 200 OK in 20982ms (Views: 20980.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/content.self-d7e63237bc5557561f1bd057cf6b54af9f9edaedf67599d200fc0cd213afdd53.css?body=1" for 127.0.0.1 at 2017-04-17 11:53:26 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 11:53:55 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (12.9ms)
+  Rendered navbar/_navbar.html.erb (25.8ms)
+  Rendered layouts/_to_top_button.html.erb (6.7ms)
+  Rendered content/_introduction.html.erb (23.9ms)
+  Rendered content/_features.html.erb (3.7ms)
+  Rendered content/_key_aspects.html.erb (3.6ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (3.6ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.7ms)
+  Rendered content/_map_collect_and_select.html.erb (5.7ms)
+  Rendered content/_classes.html.erb (4.2ms)
+  Rendered content/_inheritance.html.erb (3.2ms)
+  Rendered layouts/_job_chart.html.erb (3.7ms)
+  Rendered layouts/_features_chart.html.erb (5.0ms)
+  Rendered content/_comparative.html.erb (16.8ms)
+Completed 200 OK in 20824ms (Views: 20821.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/content.self-caa55a352cde1f5bbfa103fc63a4324917da95fa2db81e844f7bbf50e5e1a7f0.css?body=1" for 127.0.0.1 at 2017-04-17 11:54:16 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 11:55:18 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (16.4ms)
+  Rendered navbar/_navbar.html.erb (46.5ms)
+  Rendered layouts/_to_top_button.html.erb (5.6ms)
+  Rendered content/_introduction.html.erb (8.4ms)
+  Rendered content/_features.html.erb (4.5ms)
+  Rendered content/_key_aspects.html.erb (3.2ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (4.9ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.5ms)
+  Rendered content/_map_collect_and_select.html.erb (3.8ms)
+  Rendered content/_classes.html.erb (3.3ms)
+  Rendered content/_inheritance.html.erb (7.1ms)
+  Rendered layouts/_job_chart.html.erb (4.2ms)
+  Rendered layouts/_features_chart.html.erb (4.4ms)
+  Rendered content/_comparative.html.erb (35.8ms)
+Completed 200 OK in 489ms (Views: 482.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 11:55:46 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (12.4ms)
+  Rendered navbar/_navbar.html.erb (21.4ms)
+  Rendered layouts/_to_top_button.html.erb (5.8ms)
+  Rendered content/_introduction.html.erb (7.8ms)
+  Rendered content/_features.html.erb (3.5ms)
+  Rendered content/_key_aspects.html.erb (3.4ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (3.6ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.3ms)
+  Rendered content/_map_collect_and_select.html.erb (3.2ms)
+  Rendered content/_classes.html.erb (3.3ms)
+  Rendered content/_inheritance.html.erb (8.1ms)
+  Rendered layouts/_job_chart.html.erb (3.5ms)
+  Rendered layouts/_features_chart.html.erb (4.1ms)
+  Rendered content/_comparative.html.erb (15.7ms)
+Completed 200 OK in 407ms (Views: 400.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 11:56:47 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (10.0ms)
+  Rendered navbar/_navbar.html.erb (22.6ms)
+  Rendered layouts/_to_top_button.html.erb (5.5ms)
+  Rendered content/_introduction.html.erb (22.0ms)
+  Rendered content/_features.html.erb (3.4ms)
+  Rendered content/_key_aspects.html.erb (3.0ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (5.0ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.3ms)
+  Rendered content/_map_collect_and_select.html.erb (3.9ms)
+  Rendered content/_classes.html.erb (3.4ms)
+  Rendered content/_inheritance.html.erb (3.6ms)
+  Rendered layouts/_job_chart.html.erb (3.5ms)
+  Rendered layouts/_features_chart.html.erb (4.4ms)
+  Rendered content/_comparative.html.erb (15.7ms)
+Completed 200 OK in 20553ms (Views: 20551.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authentication.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-04-17 11:57:08 +0200
+
+
+Started GET "/assets/content.self-70b47d821d4ce659c76181decad8f585b44cc1c7bd41faa81b801a0deccd414b.css?body=1" for 127.0.0.1 at 2017-04-17 11:57:08 +0200
+
+
+Started GET "/assets/navbar.self-2fabdab4d478a39850f13046c25045971faa7479c8cb0fcd0b26917a0d9716e1.css?body=1" for 127.0.0.1 at 2017-04-17 11:57:08 +0200
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-04-17 11:57:08 +0200
+
+
+Started GET "/assets/buttons.self-d90e14c6abcca307322e937b79b00feb772b0a343cb2bebe841f2e588b95e89e.css?body=1" for 127.0.0.1 at 2017-04-17 11:57:08 +0200
+
+
+Started GET "/assets/application.self-86f897943d84752dc1972cefce1971381233953a15b05b1d825c3db3caa38cf6.css?body=1" for 127.0.0.1 at 2017-04-17 11:57:08 +0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-04-17 11:57:08 +0200
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-04-17 11:57:08 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-04-17 11:57:08 +0200
+
+
+Started GET "/assets/authentication.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-04-17 11:57:08 +0200
+
+
+Started GET "/assets/content.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-04-17 11:57:08 +0200
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-04-17 11:57:08 +0200
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-04-17 11:57:08 +0200
+
+
+Started GET "/assets/items_nav.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-04-17 11:57:08 +0200
+
+
+Started GET "/assets/nav.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-04-17 11:57:08 +0200
+
+
+Started GET "/assets/tether/tether.self-0e1103bd72084f20bc17863434595ea99e999bcf530d80110698608f35ff5620.js?body=1" for 127.0.0.1 at 2017-04-17 11:57:08 +0200
+
+
+Started GET "/assets/navbar.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-04-17 11:57:08 +0200
+
+
+Started GET "/assets/tether.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2017-04-17 11:57:09 +0200
+
+
+Started GET "/assets/bootstrap/util.self-5ae5b599fc2afe0f317696c5dfc0b51d6ce2ecb47d0341d1555b2fe971ada496.js?body=1" for 127.0.0.1 at 2017-04-17 11:57:09 +0200
+
+
+Started GET "/assets/bootstrap/alert.self-5a586b490b4c9332249b231956b361b852b128a0d82f7f08549f205bba1bfeb0.js?body=1" for 127.0.0.1 at 2017-04-17 11:57:09 +0200
+
+
+Started GET "/assets/bootstrap/button.self-30412f39aaa761313878531076ce8187fe6c017e42111bf2c283fce4a7c850f8.js?body=1" for 127.0.0.1 at 2017-04-17 11:57:09 +0200
+
+
+Started GET "/assets/bootstrap/carousel.self-f18afa468f85125228747ec83e00e56a26bbc71295e90a3848af25b258445615.js?body=1" for 127.0.0.1 at 2017-04-17 11:57:09 +0200
+
+
+Started GET "/assets/bootstrap/collapse.self-94c7455a70c5bb5ad5b3eae0c70388160c238afdea0b48d5345587fd176fb52d.js?body=1" for 127.0.0.1 at 2017-04-17 11:57:09 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.self-954f8384ac380992dd91b2b176b570b0792365a334efb758774c718d9628a329.js?body=1" for 127.0.0.1 at 2017-04-17 11:57:09 +0200
+
+
+Started GET "/assets/bootstrap/modal.self-a406636221efb5add01fbaa60c24ac0ae6bc0c57008d8e2503d68f49fbe75ad0.js?body=1" for 127.0.0.1 at 2017-04-17 11:57:09 +0200
+
+
+Started GET "/assets/bootstrap/tab.self-e3abc2817f699a2be95f78a4aff190ef7669d5590adbacd0c08867eb34ed16c6.js?body=1" for 127.0.0.1 at 2017-04-17 11:57:09 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.self-636159b35205da4142a43bc02d2849d77d3ac07a0946211585cde15a9c6ff21f.js?body=1" for 127.0.0.1 at 2017-04-17 11:57:09 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.self-66781adda319363e67c65edfc73459411bd3948c0f32efddbc9928b810d5abf4.js?body=1" for 127.0.0.1 at 2017-04-17 11:57:09 +0200
+
+
+Started GET "/assets/bootstrap/popover.self-7d459fac34d4d96fd9d6da8efcd40dee55b66579a24ddcebf0a355c82dcad7e0.js?body=1" for 127.0.0.1 at 2017-04-17 11:57:09 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.self-dd8a9f3fa1f9fc58df30c7ed9a17dfc7303b812d72640899beee03609124b426.js?body=1" for 127.0.0.1 at 2017-04-17 11:57:09 +0200
+
+
+Started GET "/assets/bootstrap.self-9acfc28c4d35348d353eb47afc72c287bc271ea4f7e8c9b05f2f9554ddc3f202.js?body=1" for 127.0.0.1 at 2017-04-17 11:57:09 +0200
+
+
+Started GET "/assets/Chart.min.self-975c5c8d256ebb4204b6a86b63917f8fdae516ddc131c0ab086fd43770a290cb.js?body=1" for 127.0.0.1 at 2017-04-17 11:57:09 +0200
+
+
+Started GET "/assets/application.self-10ad0916cf31256fe71785e8dc9cc297a96b1cdf7b74aeb61711199b9a3d003f.js?body=1" for 127.0.0.1 at 2017-04-17 11:57:09 +0200
+
+
+Started GET "/assets/ruby_logo-450668df83e48c907f38f207b1b00cd065735928e38fbf1f29783fb4c6a4f081.png" for 127.0.0.1 at 2017-04-17 11:57:09 +0200
+
+
+Started GET "/assets/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2" for 127.0.0.1 at 2017-04-17 11:57:10 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 11:57:13 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (18.7ms)
+  Rendered navbar/_navbar.html.erb (21.2ms)
+  Rendered layouts/_to_top_button.html.erb (5.3ms)
+  Rendered content/_introduction.html.erb (9.2ms)
+  Rendered content/_features.html.erb (3.7ms)
+  Rendered content/_key_aspects.html.erb (3.3ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (3.1ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.0ms)
+  Rendered content/_map_collect_and_select.html.erb (3.2ms)
+  Rendered content/_classes.html.erb (4.2ms)
+  Rendered content/_inheritance.html.erb (3.4ms)
+  Rendered layouts/_job_chart.html.erb (3.4ms)
+  Rendered layouts/_features_chart.html.erb (4.3ms)
+  Rendered content/_comparative.html.erb (15.7ms)
+Completed 200 OK in 383ms (Views: 379.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 11:57:34 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (17.8ms)
+  Rendered navbar/_navbar.html.erb (103.9ms)
+  Rendered layouts/_to_top_button.html.erb (13.1ms)
+  Rendered content/_introduction.html.erb (14.8ms)
+  Rendered content/_features.html.erb (5.4ms)
+  Rendered content/_key_aspects.html.erb (3.7ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (8.0ms)
+  Rendered content/_procs_and_lambdas.html.erb (12.7ms)
+  Rendered content/_map_collect_and_select.html.erb (4.2ms)
+  Rendered content/_classes.html.erb (15.8ms)
+  Rendered content/_inheritance.html.erb (7.8ms)
+  Rendered layouts/_job_chart.html.erb (10.5ms)
+  Rendered layouts/_features_chart.html.erb (8.0ms)
+  Rendered content/_comparative.html.erb (39.8ms)
+Completed 200 OK in 737ms (Views: 735.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 11:57:52 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (10.5ms)
+  Rendered navbar/_navbar.html.erb (42.9ms)
+  Rendered layouts/_to_top_button.html.erb (6.9ms)
+  Rendered content/_introduction.html.erb (9.9ms)
+  Rendered content/_features.html.erb (10.8ms)
+  Rendered content/_key_aspects.html.erb (3.3ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (5.6ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.5ms)
+  Rendered content/_map_collect_and_select.html.erb (3.5ms)
+  Rendered content/_classes.html.erb (4.3ms)
+  Rendered content/_inheritance.html.erb (4.4ms)
+  Rendered layouts/_job_chart.html.erb (3.8ms)
+  Rendered layouts/_features_chart.html.erb (6.1ms)
+  Rendered content/_comparative.html.erb (19.5ms)
+Completed 200 OK in 472ms (Views: 470.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 11:58:11 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (12.5ms)
+  Rendered navbar/_navbar.html.erb (25.8ms)
+  Rendered layouts/_to_top_button.html.erb (6.1ms)
+  Rendered content/_introduction.html.erb (16.9ms)
+  Rendered content/_features.html.erb (3.9ms)
+  Rendered content/_key_aspects.html.erb (6.7ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (4.2ms)
+  Rendered content/_procs_and_lambdas.html.erb (8.1ms)
+  Rendered content/_map_collect_and_select.html.erb (4.2ms)
+  Rendered content/_classes.html.erb (6.5ms)
+  Rendered content/_inheritance.html.erb (5.3ms)
+  Rendered layouts/_job_chart.html.erb (4.3ms)
+  Rendered layouts/_features_chart.html.erb (5.3ms)
+  Rendered content/_comparative.html.erb (19.8ms)
+Completed 200 OK in 20803ms (Views: 20801.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/content.self-d59017ffbb1d950f8d76658f670b4f3f4bce84cbf42118e699bd089ef51001db.css?body=1" for 127.0.0.1 at 2017-04-17 11:58:32 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 11:59:21 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (17.7ms)
+  Rendered navbar/_navbar.html.erb (21.6ms)
+  Rendered layouts/_to_top_button.html.erb (5.5ms)
+  Rendered content/_introduction.html.erb (29.4ms)
+  Rendered content/_features.html.erb (3.4ms)
+  Rendered content/_key_aspects.html.erb (4.6ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (7.2ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.2ms)
+  Rendered content/_map_collect_and_select.html.erb (3.7ms)
+  Rendered content/_classes.html.erb (3.0ms)
+  Rendered content/_inheritance.html.erb (3.3ms)
+  Rendered layouts/_job_chart.html.erb (3.7ms)
+  Rendered layouts/_features_chart.html.erb (4.6ms)
+  Rendered content/_comparative.html.erb (17.5ms)
+Completed 200 OK in 21343ms (Views: 21337.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/content.self-0137e59197084308685fa5fd28217e5e71f260d5ff3e7c535227fb9e6274f4a2.css?body=1" for 127.0.0.1 at 2017-04-17 11:59:43 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:00:19 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (16.3ms)
+  Rendered navbar/_navbar.html.erb (28.9ms)
+  Rendered layouts/_to_top_button.html.erb (7.2ms)
+  Rendered content/_introduction.html.erb (27.9ms)
+  Rendered content/_features.html.erb (5.0ms)
+  Rendered content/_key_aspects.html.erb (5.1ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (6.2ms)
+  Rendered content/_procs_and_lambdas.html.erb (5.7ms)
+  Rendered content/_map_collect_and_select.html.erb (5.8ms)
+  Rendered content/_classes.html.erb (4.5ms)
+  Rendered content/_inheritance.html.erb (6.1ms)
+  Rendered layouts/_job_chart.html.erb (5.3ms)
+  Rendered layouts/_features_chart.html.erb (6.6ms)
+  Rendered content/_comparative.html.erb (22.2ms)
+Completed 200 OK in 20801ms (Views: 20788.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/content.self-d5166ac71886bbf252c0fcd1431a08a2a5f15c103a812ca6b83ad2b484d0f389.css?body=1" for 127.0.0.1 at 2017-04-17 12:00:40 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:00:54 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (14.5ms)
+  Rendered navbar/_navbar.html.erb (26.3ms)
+  Rendered layouts/_to_top_button.html.erb (5.9ms)
+  Rendered content/_introduction.html.erb (9.4ms)
+  Rendered content/_features.html.erb (5.1ms)
+  Rendered content/_key_aspects.html.erb (3.6ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (4.8ms)
+  Rendered content/_procs_and_lambdas.html.erb (4.7ms)
+  Rendered content/_map_collect_and_select.html.erb (4.5ms)
+  Rendered content/_classes.html.erb (3.7ms)
+  Rendered content/_inheritance.html.erb (3.2ms)
+  Rendered layouts/_job_chart.html.erb (3.8ms)
+  Rendered layouts/_features_chart.html.erb (4.4ms)
+  Rendered content/_comparative.html.erb (16.8ms)
+Completed 200 OK in 1088ms (Views: 1084.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authentication.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-04-17 12:00:55 +0200
+
+
+Started GET "/assets/buttons.self-d90e14c6abcca307322e937b79b00feb772b0a343cb2bebe841f2e588b95e89e.css?body=1" for 127.0.0.1 at 2017-04-17 12:00:55 +0200
+
+
+Started GET "/assets/navbar.self-2fabdab4d478a39850f13046c25045971faa7479c8cb0fcd0b26917a0d9716e1.css?body=1" for 127.0.0.1 at 2017-04-17 12:00:55 +0200
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-04-17 12:00:55 +0200
+
+
+Started GET "/assets/application.self-86f897943d84752dc1972cefce1971381233953a15b05b1d825c3db3caa38cf6.css?body=1" for 127.0.0.1 at 2017-04-17 12:00:55 +0200
+
+
+Started GET "/assets/content.self-d5166ac71886bbf252c0fcd1431a08a2a5f15c103a812ca6b83ad2b484d0f389.css?body=1" for 127.0.0.1 at 2017-04-17 12:00:55 +0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-04-17 12:00:55 +0200
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-04-17 12:00:55 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-04-17 12:00:55 +0200
+
+
+Started GET "/assets/authentication.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-04-17 12:00:55 +0200
+
+
+Started GET "/assets/content.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-04-17 12:00:55 +0200
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-04-17 12:00:55 +0200
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-04-17 12:00:55 +0200
+
+
+Started GET "/assets/items_nav.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-04-17 12:00:55 +0200
+
+
+Started GET "/assets/nav.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-04-17 12:00:55 +0200
+
+
+Started GET "/assets/navbar.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-04-17 12:00:55 +0200
+
+
+Started GET "/assets/tether/tether.self-0e1103bd72084f20bc17863434595ea99e999bcf530d80110698608f35ff5620.js?body=1" for 127.0.0.1 at 2017-04-17 12:00:55 +0200
+
+
+Started GET "/assets/tether.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2017-04-17 12:00:56 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.self-954f8384ac380992dd91b2b176b570b0792365a334efb758774c718d9628a329.js?body=1" for 127.0.0.1 at 2017-04-17 12:00:56 +0200
+
+
+Started GET "/assets/bootstrap/alert.self-5a586b490b4c9332249b231956b361b852b128a0d82f7f08549f205bba1bfeb0.js?body=1" for 127.0.0.1 at 2017-04-17 12:00:56 +0200
+
+
+Started GET "/assets/bootstrap/button.self-30412f39aaa761313878531076ce8187fe6c017e42111bf2c283fce4a7c850f8.js?body=1" for 127.0.0.1 at 2017-04-17 12:00:56 +0200
+
+
+Started GET "/assets/bootstrap/carousel.self-f18afa468f85125228747ec83e00e56a26bbc71295e90a3848af25b258445615.js?body=1" for 127.0.0.1 at 2017-04-17 12:00:56 +0200
+
+
+Started GET "/assets/bootstrap/collapse.self-94c7455a70c5bb5ad5b3eae0c70388160c238afdea0b48d5345587fd176fb52d.js?body=1" for 127.0.0.1 at 2017-04-17 12:00:56 +0200
+
+
+Started GET "/assets/bootstrap/util.self-5ae5b599fc2afe0f317696c5dfc0b51d6ce2ecb47d0341d1555b2fe971ada496.js?body=1" for 127.0.0.1 at 2017-04-17 12:00:56 +0200
+
+
+Started GET "/assets/bootstrap/modal.self-a406636221efb5add01fbaa60c24ac0ae6bc0c57008d8e2503d68f49fbe75ad0.js?body=1" for 127.0.0.1 at 2017-04-17 12:00:56 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.self-66781adda319363e67c65edfc73459411bd3948c0f32efddbc9928b810d5abf4.js?body=1" for 127.0.0.1 at 2017-04-17 12:00:56 +0200
+
+
+Started GET "/assets/bootstrap/tab.self-e3abc2817f699a2be95f78a4aff190ef7669d5590adbacd0c08867eb34ed16c6.js?body=1" for 127.0.0.1 at 2017-04-17 12:00:56 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.self-dd8a9f3fa1f9fc58df30c7ed9a17dfc7303b812d72640899beee03609124b426.js?body=1" for 127.0.0.1 at 2017-04-17 12:00:56 +0200
+
+
+Started GET "/assets/bootstrap/popover.self-7d459fac34d4d96fd9d6da8efcd40dee55b66579a24ddcebf0a355c82dcad7e0.js?body=1" for 127.0.0.1 at 2017-04-17 12:00:56 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.self-636159b35205da4142a43bc02d2849d77d3ac07a0946211585cde15a9c6ff21f.js?body=1" for 127.0.0.1 at 2017-04-17 12:00:56 +0200
+
+
+Started GET "/assets/bootstrap.self-9acfc28c4d35348d353eb47afc72c287bc271ea4f7e8c9b05f2f9554ddc3f202.js?body=1" for 127.0.0.1 at 2017-04-17 12:00:56 +0200
+
+
+Started GET "/assets/Chart.min.self-975c5c8d256ebb4204b6a86b63917f8fdae516ddc131c0ab086fd43770a290cb.js?body=1" for 127.0.0.1 at 2017-04-17 12:00:56 +0200
+
+
+Started GET "/assets/application.self-10ad0916cf31256fe71785e8dc9cc297a96b1cdf7b74aeb61711199b9a3d003f.js?body=1" for 127.0.0.1 at 2017-04-17 12:00:56 +0200
+
+
+Started GET "/assets/ruby_logo-450668df83e48c907f38f207b1b00cd065735928e38fbf1f29783fb4c6a4f081.png" for 127.0.0.1 at 2017-04-17 12:00:56 +0200
+
+
+Started GET "/assets/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2" for 127.0.0.1 at 2017-04-17 12:00:57 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:01:01 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (14.0ms)
+  Rendered navbar/_navbar.html.erb (20.0ms)
+  Rendered layouts/_to_top_button.html.erb (5.1ms)
+  Rendered content/_introduction.html.erb (8.2ms)
+  Rendered content/_features.html.erb (3.4ms)
+  Rendered content/_key_aspects.html.erb (3.0ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (2.9ms)
+  Rendered content/_procs_and_lambdas.html.erb (2.9ms)
+  Rendered content/_map_collect_and_select.html.erb (3.0ms)
+  Rendered content/_classes.html.erb (2.9ms)
+  Rendered content/_inheritance.html.erb (4.0ms)
+  Rendered layouts/_job_chart.html.erb (3.5ms)
+  Rendered layouts/_features_chart.html.erb (4.1ms)
+  Rendered content/_comparative.html.erb (15.3ms)
+Completed 200 OK in 366ms (Views: 364.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:01:40 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (13.6ms)
+  Rendered navbar/_navbar.html.erb (25.5ms)
+  Rendered layouts/_to_top_button.html.erb (5.1ms)
+  Rendered content/_introduction.html.erb (13.0ms)
+  Rendered content/_features.html.erb (3.4ms)
+  Rendered content/_key_aspects.html.erb (3.3ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (3.5ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.4ms)
+  Rendered content/_map_collect_and_select.html.erb (3.9ms)
+  Rendered content/_classes.html.erb (3.5ms)
+  Rendered content/_inheritance.html.erb (3.4ms)
+  Rendered layouts/_job_chart.html.erb (3.7ms)
+  Rendered layouts/_features_chart.html.erb (4.8ms)
+  Rendered content/_comparative.html.erb (16.4ms)
+Completed 200 OK in 19837ms (Views: 19826.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/content.self-d2344a80b9b30f55c148d63fc88db2414b29cd6f413d0e5779b1c47082686596.css?body=1" for 127.0.0.1 at 2017-04-17 12:02:00 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:03:06 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (12.1ms)
+  Rendered navbar/_navbar.html.erb (39.8ms)
+  Rendered layouts/_to_top_button.html.erb (5.2ms)
+  Rendered content/_introduction.html.erb (7.8ms)
+  Rendered content/_features.html.erb (3.1ms)
+  Rendered content/_key_aspects.html.erb (3.3ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (4.6ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.4ms)
+  Rendered content/_map_collect_and_select.html.erb (3.6ms)
+  Rendered content/_classes.html.erb (3.5ms)
+  Rendered content/_inheritance.html.erb (3.4ms)
+  Rendered layouts/_job_chart.html.erb (3.7ms)
+  Rendered layouts/_features_chart.html.erb (4.4ms)
+  Rendered content/_comparative.html.erb (16.2ms)
+Completed 200 OK in 395ms (Views: 393.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:03:34 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (11.9ms)
+  Rendered navbar/_navbar.html.erb (31.1ms)
+  Rendered layouts/_to_top_button.html.erb (5.2ms)
+  Rendered content/_introduction.html.erb (16.8ms)
+  Rendered content/_features.html.erb (3.3ms)
+  Rendered content/_key_aspects.html.erb (3.7ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (3.3ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.7ms)
+  Rendered content/_map_collect_and_select.html.erb (3.7ms)
+  Rendered content/_classes.html.erb (3.5ms)
+  Rendered content/_inheritance.html.erb (3.7ms)
+  Rendered layouts/_job_chart.html.erb (3.6ms)
+  Rendered layouts/_features_chart.html.erb (4.8ms)
+  Rendered content/_comparative.html.erb (16.3ms)
+Completed 200 OK in 21306ms (Views: 21304.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/content.self-f6b8fba79f935cc22e9ef9dcc9ee33e8f18b71d10a813315e6060811c3de582a.css?body=1" for 127.0.0.1 at 2017-04-17 12:03:55 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:06:57 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (14.5ms)
+  Rendered navbar/_navbar.html.erb (27.7ms)
+  Rendered layouts/_to_top_button.html.erb (6.1ms)
+  Rendered content/_introduction.html.erb (9.9ms)
+  Rendered content/_features.html.erb (4.2ms)
+  Rendered content/_key_aspects.html.erb (5.2ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (1304.5ms)
+Completed 500 Internal Server Error in 25867ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( codeBlocks.css )` to `config/initializers/assets.rb` and restart your server):
+    1: <%
+    2: stylesheet_link_tag 'content'
+    3: stylesheet_link_tag 'codeBlocks' 
+    4: %>
+    5: 
+    6: <div class="main container" id="metodos,funcionesybloques">
+  app/views/content/_blocks_functions_and_methods.html.erb:3:in `_app_views_content__blocks_functions_and_methods_html_erb___3939163187069048945_69974299044920'
+  app/views/layouts/application.html.erb:22:in `_app_views_layouts_application_html_erb___1446917860292720598_18210560'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_source.erb (41.1ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.html.erb (16.2ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.2ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (123.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (162.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (2.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.8ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (245.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:08:58 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (1.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (23369.9ms)
+  Rendered navbar/_navbar.html.erb (614.9ms)
+  Rendered layouts/_to_top_button.html.erb (7.9ms)
+  Rendered content/_introduction.html.erb (16.7ms)
+  Rendered content/_features.html.erb (6.0ms)
+  Rendered content/_key_aspects.html.erb (7.4ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (24.5ms)
+  Rendered content/_procs_and_lambdas.html.erb (5.6ms)
+  Rendered content/_map_collect_and_select.html.erb (6.2ms)
+  Rendered content/_classes.html.erb (5.6ms)
+  Rendered content/_inheritance.html.erb (6.3ms)
+  Rendered layouts/_job_chart.html.erb (6.3ms)
+  Rendered layouts/_features_chart.html.erb (12.5ms)
+  Rendered content/_comparative.html.erb (32.0ms)
+Completed 200 OK in 25036ms (Views: 24981.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/codeBlocks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-04-17 12:09:24 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:09:28 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (12.1ms)
+  Rendered navbar/_navbar.html.erb (22.1ms)
+  Rendered layouts/_to_top_button.html.erb (6.0ms)
+  Rendered content/_introduction.html.erb (9.6ms)
+  Rendered content/_features.html.erb (4.5ms)
+  Rendered content/_key_aspects.html.erb (3.6ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (7.5ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.3ms)
+  Rendered content/_map_collect_and_select.html.erb (4.1ms)
+  Rendered content/_classes.html.erb (4.3ms)
+  Rendered content/_inheritance.html.erb (3.2ms)
+  Rendered layouts/_job_chart.html.erb (3.5ms)
+  Rendered layouts/_features_chart.html.erb (4.4ms)
+  Rendered content/_comparative.html.erb (15.6ms)
+Completed 200 OK in 402ms (Views: 400.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:09:41 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (17.8ms)
+  Rendered navbar/_navbar.html.erb (26.6ms)
+  Rendered layouts/_to_top_button.html.erb (5.5ms)
+  Rendered content/_introduction.html.erb (8.9ms)
+  Rendered content/_features.html.erb (3.9ms)
+  Rendered content/_key_aspects.html.erb (4.0ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (10.2ms)
+  Rendered content/_procs_and_lambdas.html.erb (4.7ms)
+  Rendered content/_map_collect_and_select.html.erb (4.4ms)
+  Rendered content/_classes.html.erb (4.0ms)
+  Rendered content/_inheritance.html.erb (3.8ms)
+  Rendered layouts/_job_chart.html.erb (4.1ms)
+  Rendered layouts/_features_chart.html.erb (4.9ms)
+  Rendered content/_comparative.html.erb (18.8ms)
+Completed 200 OK in 468ms (Views: 466.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authentication.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-04-17 12:09:41 +0200
+
+
+Started GET "/assets/buttons.self-d90e14c6abcca307322e937b79b00feb772b0a343cb2bebe841f2e588b95e89e.css?body=1" for 127.0.0.1 at 2017-04-17 12:09:41 +0200
+
+
+Started GET "/assets/navbar.self-2fabdab4d478a39850f13046c25045971faa7479c8cb0fcd0b26917a0d9716e1.css?body=1" for 127.0.0.1 at 2017-04-17 12:09:42 +0200
+
+
+Started GET "/assets/content.self-f6b8fba79f935cc22e9ef9dcc9ee33e8f18b71d10a813315e6060811c3de582a.css?body=1" for 127.0.0.1 at 2017-04-17 12:09:42 +0200
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-04-17 12:09:42 +0200
+
+
+Started GET "/assets/codeBlocks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-04-17 12:09:42 +0200
+
+
+Started GET "/assets/application.self-86f897943d84752dc1972cefce1971381233953a15b05b1d825c3db3caa38cf6.css?body=1" for 127.0.0.1 at 2017-04-17 12:09:42 +0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-04-17 12:09:42 +0200
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-04-17 12:09:42 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-04-17 12:09:42 +0200
+
+
+Started GET "/assets/content.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-04-17 12:09:42 +0200
+
+
+Started GET "/assets/authentication.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-04-17 12:09:42 +0200
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-04-17 12:09:42 +0200
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-04-17 12:09:42 +0200
+
+
+Started GET "/assets/items_nav.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-04-17 12:09:42 +0200
+
+
+Started GET "/assets/nav.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-04-17 12:09:42 +0200
+
+
+Started GET "/assets/navbar.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-04-17 12:09:42 +0200
+
+
+Started GET "/assets/tether.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2017-04-17 12:09:42 +0200
+
+
+Started GET "/assets/tether/tether.self-0e1103bd72084f20bc17863434595ea99e999bcf530d80110698608f35ff5620.js?body=1" for 127.0.0.1 at 2017-04-17 12:09:42 +0200
+
+
+Started GET "/assets/bootstrap/util.self-5ae5b599fc2afe0f317696c5dfc0b51d6ce2ecb47d0341d1555b2fe971ada496.js?body=1" for 127.0.0.1 at 2017-04-17 12:09:42 +0200
+
+
+Started GET "/assets/bootstrap/alert.self-5a586b490b4c9332249b231956b361b852b128a0d82f7f08549f205bba1bfeb0.js?body=1" for 127.0.0.1 at 2017-04-17 12:09:42 +0200
+
+
+Started GET "/assets/bootstrap/button.self-30412f39aaa761313878531076ce8187fe6c017e42111bf2c283fce4a7c850f8.js?body=1" for 127.0.0.1 at 2017-04-17 12:09:42 +0200
+
+
+Started GET "/assets/bootstrap/carousel.self-f18afa468f85125228747ec83e00e56a26bbc71295e90a3848af25b258445615.js?body=1" for 127.0.0.1 at 2017-04-17 12:09:42 +0200
+
+
+Started GET "/assets/bootstrap/collapse.self-94c7455a70c5bb5ad5b3eae0c70388160c238afdea0b48d5345587fd176fb52d.js?body=1" for 127.0.0.1 at 2017-04-17 12:09:43 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.self-954f8384ac380992dd91b2b176b570b0792365a334efb758774c718d9628a329.js?body=1" for 127.0.0.1 at 2017-04-17 12:09:43 +0200
+
+
+Started GET "/assets/bootstrap/modal.self-a406636221efb5add01fbaa60c24ac0ae6bc0c57008d8e2503d68f49fbe75ad0.js?body=1" for 127.0.0.1 at 2017-04-17 12:09:43 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.self-66781adda319363e67c65edfc73459411bd3948c0f32efddbc9928b810d5abf4.js?body=1" for 127.0.0.1 at 2017-04-17 12:09:43 +0200
+
+
+Started GET "/assets/bootstrap/tab.self-e3abc2817f699a2be95f78a4aff190ef7669d5590adbacd0c08867eb34ed16c6.js?body=1" for 127.0.0.1 at 2017-04-17 12:09:43 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.self-dd8a9f3fa1f9fc58df30c7ed9a17dfc7303b812d72640899beee03609124b426.js?body=1" for 127.0.0.1 at 2017-04-17 12:09:43 +0200
+
+
+Started GET "/assets/bootstrap/popover.self-7d459fac34d4d96fd9d6da8efcd40dee55b66579a24ddcebf0a355c82dcad7e0.js?body=1" for 127.0.0.1 at 2017-04-17 12:09:43 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.self-636159b35205da4142a43bc02d2849d77d3ac07a0946211585cde15a9c6ff21f.js?body=1" for 127.0.0.1 at 2017-04-17 12:09:43 +0200
+
+
+Started GET "/assets/bootstrap.self-9acfc28c4d35348d353eb47afc72c287bc271ea4f7e8c9b05f2f9554ddc3f202.js?body=1" for 127.0.0.1 at 2017-04-17 12:09:43 +0200
+
+
+Started GET "/assets/Chart.min.self-975c5c8d256ebb4204b6a86b63917f8fdae516ddc131c0ab086fd43770a290cb.js?body=1" for 127.0.0.1 at 2017-04-17 12:09:43 +0200
+
+
+Started GET "/assets/application.self-10ad0916cf31256fe71785e8dc9cc297a96b1cdf7b74aeb61711199b9a3d003f.js?body=1" for 127.0.0.1 at 2017-04-17 12:09:43 +0200
+
+
+Started GET "/assets/ruby_logo-450668df83e48c907f38f207b1b00cd065735928e38fbf1f29783fb4c6a4f081.png" for 127.0.0.1 at 2017-04-17 12:09:43 +0200
+
+
+Started GET "/assets/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2" for 127.0.0.1 at 2017-04-17 12:09:44 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:09:46 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (17.1ms)
+  Rendered navbar/_navbar.html.erb (25.0ms)
+  Rendered layouts/_to_top_button.html.erb (8.4ms)
+  Rendered content/_introduction.html.erb (11.0ms)
+  Rendered content/_features.html.erb (4.3ms)
+  Rendered content/_key_aspects.html.erb (4.1ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (9.7ms)
+  Rendered content/_procs_and_lambdas.html.erb (4.2ms)
+  Rendered content/_map_collect_and_select.html.erb (4.5ms)
+  Rendered content/_classes.html.erb (3.8ms)
+  Rendered content/_inheritance.html.erb (3.6ms)
+  Rendered layouts/_job_chart.html.erb (5.4ms)
+  Rendered layouts/_features_chart.html.erb (5.2ms)
+  Rendered content/_comparative.html.erb (19.9ms)
+Completed 200 OK in 445ms (Views: 443.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:10:34 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (17.0ms)
+  Rendered navbar/_navbar.html.erb (52.7ms)
+  Rendered layouts/_to_top_button.html.erb (9.3ms)
+  Rendered content/_introduction.html.erb (21.1ms)
+  Rendered content/_features.html.erb (4.3ms)
+  Rendered content/_key_aspects.html.erb (4.4ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (25.2ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.9ms)
+  Rendered content/_map_collect_and_select.html.erb (4.3ms)
+  Rendered content/_classes.html.erb (3.8ms)
+  Rendered content/_inheritance.html.erb (4.1ms)
+  Rendered layouts/_job_chart.html.erb (4.4ms)
+  Rendered layouts/_features_chart.html.erb (5.0ms)
+  Rendered content/_comparative.html.erb (18.4ms)
+Completed 200 OK in 22287ms (Views: 22285.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/codeBlocks.self-4d7b6d78f96c1375c9fd8e7088228eb52e209c6a8360e7de4b858b687fd6edc6.css?body=1" for 127.0.0.1 at 2017-04-17 12:10:56 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:12:06 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (11.7ms)
+  Rendered navbar/_navbar.html.erb (29.8ms)
+  Rendered layouts/_to_top_button.html.erb (8.4ms)
+  Rendered content/_introduction.html.erb (11.0ms)
+  Rendered content/_features.html.erb (4.8ms)
+  Rendered content/_key_aspects.html.erb (5.5ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (18.2ms)
+  Rendered content/_procs_and_lambdas.html.erb (4.8ms)
+  Rendered content/_map_collect_and_select.html.erb (10.3ms)
+  Rendered content/_classes.html.erb (4.7ms)
+  Rendered content/_inheritance.html.erb (4.3ms)
+  Rendered layouts/_job_chart.html.erb (7.8ms)
+  Rendered layouts/_features_chart.html.erb (6.8ms)
+  Rendered content/_comparative.html.erb (28.4ms)
+Completed 200 OK in 21459ms (Views: 21456.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/codeBlocks.self-ac24b383e2db9a9a31143d1d38669a0f06641499f6d72f604da778ba5b78d315.css?body=1" for 127.0.0.1 at 2017-04-17 12:12:28 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:13:41 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (11.9ms)
+  Rendered navbar/_navbar.html.erb (31.3ms)
+  Rendered layouts/_to_top_button.html.erb (8.4ms)
+  Rendered content/_introduction.html.erb (10.0ms)
+  Rendered content/_features.html.erb (4.0ms)
+  Rendered content/_key_aspects.html.erb (5.1ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (33.1ms)
+  Rendered content/_procs_and_lambdas.html.erb (4.6ms)
+  Rendered content/_map_collect_and_select.html.erb (4.8ms)
+  Rendered content/_classes.html.erb (4.4ms)
+  Rendered content/_inheritance.html.erb (5.6ms)
+  Rendered layouts/_job_chart.html.erb (5.7ms)
+  Rendered layouts/_features_chart.html.erb (5.7ms)
+  Rendered content/_comparative.html.erb (21.2ms)
+Completed 200 OK in 21916ms (Views: 21913.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/codeBlocks.self-90c003ebd1e7b93b0d0a4cb4b865a37fccb4ac0bd37a5be92efa7a67fb16f067.css?body=1" for 127.0.0.1 at 2017-04-17 12:14:03 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:15:40 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (12.6ms)
+  Rendered navbar/_navbar.html.erb (38.1ms)
+  Rendered layouts/_to_top_button.html.erb (7.5ms)
+  Rendered content/_introduction.html.erb (25.7ms)
+  Rendered content/_features.html.erb (4.7ms)
+  Rendered content/_key_aspects.html.erb (5.3ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (13.7ms)
+  Rendered content/_procs_and_lambdas.html.erb (5.0ms)
+  Rendered content/_map_collect_and_select.html.erb (5.2ms)
+  Rendered content/_classes.html.erb (5.8ms)
+  Rendered content/_inheritance.html.erb (5.6ms)
+  Rendered layouts/_job_chart.html.erb (5.3ms)
+  Rendered layouts/_features_chart.html.erb (6.1ms)
+  Rendered content/_comparative.html.erb (21.7ms)
+Completed 200 OK in 21054ms (Views: 21050.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/content.self-f910658c1401e2554c930b19c53f75a0bd2a22b577df7d8f042d7116277c54e0.css?body=1" for 127.0.0.1 at 2017-04-17 12:16:01 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:18:03 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (11.6ms)
+  Rendered navbar/_navbar.html.erb (30.8ms)
+  Rendered layouts/_to_top_button.html.erb (8.0ms)
+  Rendered content/_introduction.html.erb (10.5ms)
+  Rendered content/_features.html.erb (4.4ms)
+  Rendered content/_key_aspects.html.erb (4.6ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (13.6ms)
+  Rendered content/_procs_and_lambdas.html.erb (6.3ms)
+  Rendered content/_map_collect_and_select.html.erb (5.3ms)
+  Rendered content/_classes.html.erb (4.2ms)
+  Rendered content/_inheritance.html.erb (4.3ms)
+  Rendered layouts/_job_chart.html.erb (4.8ms)
+  Rendered layouts/_features_chart.html.erb (5.3ms)
+  Rendered content/_comparative.html.erb (20.1ms)
+Completed 200 OK in 528ms (Views: 525.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:20:04 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (13.7ms)
+Completed 500 Internal Server Error in 17472ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "...gb(219, 118, 0)": expected "{", was ";"):
+     5:   <meta name="viewport" content="width=device-width">
+     6:   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     7:   <title>Presentacion</title>
+     8:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+     9:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    10:   <%= csrf_meta_tags %>
+    11: </head>
+  app/assets/stylesheets/codeBlocks.scss:14
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___2730178340719570795_22498200'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_source.erb (51.3ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.html.erb (19.9ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.3ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (125.1ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.7ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (88.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (2.2ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.9ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (158.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:20:40 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (25.0ms)
+  Rendered navbar/_navbar.html.erb (28.5ms)
+  Rendered layouts/_to_top_button.html.erb (6.9ms)
+  Rendered content/_introduction.html.erb (11.0ms)
+  Rendered content/_features.html.erb (5.1ms)
+  Rendered content/_key_aspects.html.erb (3.4ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (20.5ms)
+  Rendered content/_procs_and_lambdas.html.erb (6.5ms)
+  Rendered content/_map_collect_and_select.html.erb (4.7ms)
+  Rendered content/_classes.html.erb (4.8ms)
+  Rendered content/_inheritance.html.erb (5.1ms)
+  Rendered layouts/_job_chart.html.erb (4.7ms)
+  Rendered layouts/_features_chart.html.erb (5.3ms)
+  Rendered content/_comparative.html.erb (22.9ms)
+Completed 200 OK in 22539ms (Views: 22537.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/codeBlocks.self-c6fc0a96b09f2595a2777ce190d75c5c214c1b4a6a63cf09d92f463da75d6d55.css?body=1" for 127.0.0.1 at 2017-04-17 12:21:03 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:21:23 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (14.2ms)
+  Rendered navbar/_navbar.html.erb (24.1ms)
+  Rendered layouts/_to_top_button.html.erb (6.1ms)
+  Rendered content/_introduction.html.erb (17.4ms)
+  Rendered content/_features.html.erb (5.3ms)
+  Rendered content/_key_aspects.html.erb (5.2ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (12.4ms)
+  Rendered content/_procs_and_lambdas.html.erb (4.6ms)
+  Rendered content/_map_collect_and_select.html.erb (4.3ms)
+  Rendered content/_classes.html.erb (4.1ms)
+  Rendered content/_inheritance.html.erb (4.9ms)
+  Rendered layouts/_job_chart.html.erb (4.6ms)
+  Rendered layouts/_features_chart.html.erb (5.5ms)
+  Rendered content/_comparative.html.erb (21.3ms)
+Completed 200 OK in 441ms (Views: 435.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:22:05 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (15.7ms)
+  Rendered navbar/_navbar.html.erb (39.7ms)
+  Rendered layouts/_to_top_button.html.erb (6.5ms)
+  Rendered content/_introduction.html.erb (10.4ms)
+  Rendered content/_features.html.erb (5.1ms)
+  Rendered content/_key_aspects.html.erb (5.4ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (10.7ms)
+  Rendered content/_procs_and_lambdas.html.erb (6.8ms)
+  Rendered content/_map_collect_and_select.html.erb (5.0ms)
+  Rendered content/_classes.html.erb (5.0ms)
+  Rendered content/_inheritance.html.erb (4.3ms)
+  Rendered layouts/_job_chart.html.erb (4.4ms)
+  Rendered layouts/_features_chart.html.erb (5.5ms)
+  Rendered content/_comparative.html.erb (19.7ms)
+Completed 200 OK in 585ms (Views: 582.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:23:02 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (16.8ms)
+  Rendered navbar/_navbar.html.erb (34.9ms)
+  Rendered layouts/_to_top_button.html.erb (7.1ms)
+  Rendered content/_introduction.html.erb (23.5ms)
+  Rendered content/_features.html.erb (5.4ms)
+  Rendered content/_key_aspects.html.erb (4.1ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (11.2ms)
+  Rendered content/_procs_and_lambdas.html.erb (6.2ms)
+  Rendered content/_map_collect_and_select.html.erb (6.3ms)
+  Rendered content/_classes.html.erb (4.4ms)
+  Rendered content/_inheritance.html.erb (4.3ms)
+  Rendered layouts/_job_chart.html.erb (5.1ms)
+  Rendered layouts/_features_chart.html.erb (5.2ms)
+  Rendered content/_comparative.html.erb (21.1ms)
+Completed 200 OK in 25623ms (Views: 25619.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/content.self-ca655f3440ece73f4d2929dc03fe6319197a8a2a023fc79a95a03dca755f9b4d.css?body=1" for 127.0.0.1 at 2017-04-17 12:23:27 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:23:36 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (14.5ms)
+  Rendered navbar/_navbar.html.erb (26.8ms)
+  Rendered layouts/_to_top_button.html.erb (8.2ms)
+  Rendered content/_introduction.html.erb (11.1ms)
+  Rendered content/_features.html.erb (3.2ms)
+  Rendered content/_key_aspects.html.erb (3.2ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (7.7ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.6ms)
+  Rendered content/_map_collect_and_select.html.erb (3.9ms)
+  Rendered content/_classes.html.erb (4.1ms)
+  Rendered content/_inheritance.html.erb (3.2ms)
+  Rendered layouts/_job_chart.html.erb (3.5ms)
+  Rendered layouts/_features_chart.html.erb (4.6ms)
+  Rendered content/_comparative.html.erb (16.0ms)
+Completed 200 OK in 439ms (Views: 437.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:24:32 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (12.7ms)
+  Rendered navbar/_navbar.html.erb (57.2ms)
+  Rendered layouts/_to_top_button.html.erb (5.4ms)
+  Rendered content/_introduction.html.erb (8.2ms)
+  Rendered content/_features.html.erb (3.5ms)
+  Rendered content/_key_aspects.html.erb (6.7ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (14.6ms)
+  Rendered content/_procs_and_lambdas.html.erb (5.2ms)
+  Rendered content/_map_collect_and_select.html.erb (11.0ms)
+  Rendered content/_classes.html.erb (6.4ms)
+  Rendered content/_inheritance.html.erb (3.5ms)
+  Rendered layouts/_job_chart.html.erb (4.0ms)
+  Rendered layouts/_features_chart.html.erb (5.1ms)
+  Rendered content/_comparative.html.erb (18.3ms)
+Completed 200 OK in 590ms (Views: 588.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:26:36 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (15.1ms)
+  Rendered navbar/_navbar.html.erb (33.4ms)
+  Rendered layouts/_to_top_button.html.erb (21.9ms)
+  Rendered content/_introduction.html.erb (33.8ms)
+  Rendered content/_features.html.erb (3.4ms)
+  Rendered content/_key_aspects.html.erb (19.6ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (12.2ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.7ms)
+  Rendered content/_map_collect_and_select.html.erb (13.4ms)
+  Rendered content/_classes.html.erb (3.3ms)
+  Rendered content/_inheritance.html.erb (3.3ms)
+  Rendered layouts/_job_chart.html.erb (11.8ms)
+  Rendered layouts/_features_chart.html.erb (5.1ms)
+  Rendered content/_comparative.html.erb (27.4ms)
+Completed 200 OK in 641ms (Views: 638.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:31:13 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (10.1ms)
+  Rendered navbar/_navbar.html.erb (23.4ms)
+  Rendered layouts/_to_top_button.html.erb (5.3ms)
+  Rendered content/_introduction.html.erb (9.2ms)
+  Rendered content/_features.html.erb (3.6ms)
+  Rendered content/_key_aspects.html.erb (3.5ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (7.9ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.4ms)
+  Rendered content/_map_collect_and_select.html.erb (9.7ms)
+  Rendered content/_classes.html.erb (3.5ms)
+  Rendered content/_inheritance.html.erb (3.6ms)
+  Rendered layouts/_job_chart.html.erb (4.0ms)
+  Rendered layouts/_features_chart.html.erb (5.1ms)
+  Rendered content/_comparative.html.erb (18.6ms)
+Completed 200 OK in 459ms (Views: 457.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:35:28 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (11.0ms)
+  Rendered navbar/_navbar.html.erb (36.8ms)
+  Rendered layouts/_to_top_button.html.erb (6.2ms)
+  Rendered content/_introduction.html.erb (8.6ms)
+  Rendered content/_features.html.erb (4.5ms)
+  Rendered content/_key_aspects.html.erb (3.4ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (9.5ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.4ms)
+  Rendered content/_map_collect_and_select.html.erb (9.8ms)
+  Rendered content/_classes.html.erb (3.6ms)
+  Rendered content/_inheritance.html.erb (3.8ms)
+  Rendered layouts/_job_chart.html.erb (3.7ms)
+  Rendered layouts/_features_chart.html.erb (4.9ms)
+  Rendered content/_comparative.html.erb (16.8ms)
+Completed 200 OK in 455ms (Views: 452.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:36:55 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (11.0ms)
+  Rendered navbar/_navbar.html.erb (23.5ms)
+  Rendered layouts/_to_top_button.html.erb (5.6ms)
+  Rendered content/_introduction.html.erb (8.1ms)
+  Rendered content/_features.html.erb (3.7ms)
+  Rendered content/_key_aspects.html.erb (3.2ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (7.1ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.3ms)
+  Rendered content/_map_collect_and_select.html.erb (9.0ms)
+  Rendered content/_classes.html.erb (3.6ms)
+  Rendered content/_inheritance.html.erb (3.7ms)
+  Rendered layouts/_job_chart.html.erb (3.8ms)
+  Rendered layouts/_features_chart.html.erb (4.4ms)
+  Rendered content/_comparative.html.erb (16.5ms)
+Completed 200 OK in 418ms (Views: 409.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:37:21 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (15.7ms)
+  Rendered navbar/_navbar.html.erb (24.1ms)
+  Rendered layouts/_to_top_button.html.erb (9.7ms)
+  Rendered content/_introduction.html.erb (10.9ms)
+  Rendered content/_features.html.erb (3.3ms)
+  Rendered content/_key_aspects.html.erb (3.4ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (8.8ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.3ms)
+  Rendered content/_map_collect_and_select.html.erb (8.8ms)
+  Rendered content/_classes.html.erb (3.2ms)
+  Rendered content/_inheritance.html.erb (3.4ms)
+  Rendered layouts/_job_chart.html.erb (4.7ms)
+  Rendered layouts/_features_chart.html.erb (4.7ms)
+  Rendered content/_comparative.html.erb (18.0ms)
+Completed 200 OK in 470ms (Views: 468.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:37:47 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (18.4ms)
+  Rendered navbar/_navbar.html.erb (19.7ms)
+  Rendered layouts/_to_top_button.html.erb (5.2ms)
+  Rendered content/_introduction.html.erb (9.9ms)
+  Rendered content/_features.html.erb (3.9ms)
+  Rendered content/_key_aspects.html.erb (2.9ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (7.0ms)
+  Rendered content/_procs_and_lambdas.html.erb (2.8ms)
+  Rendered content/_map_collect_and_select.html.erb (5.8ms)
+  Rendered content/_classes.html.erb (3.3ms)
+  Rendered content/_inheritance.html.erb (3.9ms)
+  Rendered layouts/_job_chart.html.erb (3.3ms)
+  Rendered layouts/_features_chart.html.erb (4.0ms)
+  Rendered content/_comparative.html.erb (14.4ms)
+Completed 200 OK in 388ms (Views: 386.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:39:06 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (11.8ms)
+  Rendered navbar/_navbar.html.erb (22.3ms)
+  Rendered layouts/_to_top_button.html.erb (5.1ms)
+  Rendered content/_introduction.html.erb (7.8ms)
+  Rendered content/_features.html.erb (3.3ms)
+  Rendered content/_key_aspects.html.erb (3.3ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (8.4ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.2ms)
+  Rendered content/_map_collect_and_select.html.erb (6.4ms)
+  Rendered content/_classes.html.erb (8.3ms)
+  Rendered content/_inheritance.html.erb (3.3ms)
+  Rendered layouts/_job_chart.html.erb (3.7ms)
+  Rendered layouts/_features_chart.html.erb (8.6ms)
+  Rendered content/_comparative.html.erb (21.0ms)
+Completed 200 OK in 419ms (Views: 412.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:39:13 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (18.1ms)
+  Rendered navbar/_navbar.html.erb (24.8ms)
+  Rendered layouts/_to_top_button.html.erb (10.9ms)
+  Rendered content/_introduction.html.erb (8.8ms)
+  Rendered content/_features.html.erb (3.8ms)
+  Rendered content/_key_aspects.html.erb (3.2ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (13.5ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.6ms)
+  Rendered content/_map_collect_and_select.html.erb (6.2ms)
+  Rendered content/_classes.html.erb (6.1ms)
+  Rendered content/_inheritance.html.erb (3.4ms)
+  Rendered layouts/_job_chart.html.erb (3.6ms)
+  Rendered layouts/_features_chart.html.erb (4.4ms)
+  Rendered content/_comparative.html.erb (16.1ms)
+Completed 200 OK in 418ms (Views: 412.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:40:36 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (12.1ms)
+  Rendered navbar/_navbar.html.erb (24.0ms)
+  Rendered layouts/_to_top_button.html.erb (7.0ms)
+  Rendered content/_introduction.html.erb (8.3ms)
+  Rendered content/_features.html.erb (3.0ms)
+  Rendered content/_key_aspects.html.erb (3.0ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (15.0ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.3ms)
+  Rendered content/_map_collect_and_select.html.erb (6.5ms)
+  Rendered content/_classes.html.erb (6.3ms)
+  Rendered content/_inheritance.html.erb (3.2ms)
+  Rendered layouts/_job_chart.html.erb (3.6ms)
+  Rendered layouts/_features_chart.html.erb (4.3ms)
+  Rendered content/_comparative.html.erb (17.9ms)
+Completed 200 OK in 441ms (Views: 438.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:41:03 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (13.8ms)
+  Rendered navbar/_navbar.html.erb (19.6ms)
+  Rendered layouts/_to_top_button.html.erb (5.0ms)
+  Rendered content/_introduction.html.erb (7.6ms)
+  Rendered content/_features.html.erb (3.4ms)
+  Rendered content/_key_aspects.html.erb (3.1ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (7.0ms)
+  Rendered content/_procs_and_lambdas.html.erb (2.9ms)
+  Rendered content/_map_collect_and_select.html.erb (5.5ms)
+  Rendered content/_classes.html.erb (6.7ms)
+  Rendered content/_inheritance.html.erb (3.5ms)
+  Rendered layouts/_job_chart.html.erb (3.3ms)
+  Rendered layouts/_features_chart.html.erb (4.1ms)
+  Rendered content/_comparative.html.erb (14.4ms)
+Completed 200 OK in 367ms (Views: 364.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:41:40 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (9.5ms)
+  Rendered navbar/_navbar.html.erb (22.0ms)
+  Rendered layouts/_to_top_button.html.erb (5.1ms)
+  Rendered content/_introduction.html.erb (44.3ms)
+  Rendered content/_features.html.erb (3.6ms)
+  Rendered content/_key_aspects.html.erb (4.2ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (9.4ms)
+  Rendered content/_procs_and_lambdas.html.erb (5.6ms)
+  Rendered content/_map_collect_and_select.html.erb (7.3ms)
+  Rendered content/_classes.html.erb (7.0ms)
+  Rendered content/_inheritance.html.erb (3.1ms)
+  Rendered layouts/_job_chart.html.erb (3.6ms)
+  Rendered layouts/_features_chart.html.erb (4.6ms)
+  Rendered content/_comparative.html.erb (16.6ms)
+Completed 200 OK in 20580ms (Views: 20578.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/content.self-624e12642660c28bd1880e06529c09f03701875fd09411779ee14537b9e327ea.css?body=1" for 127.0.0.1 at 2017-04-17 12:42:00 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:43:15 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (12.4ms)
+  Rendered navbar/_navbar.html.erb (23.5ms)
+  Rendered layouts/_to_top_button.html.erb (5.2ms)
+  Rendered content/_introduction.html.erb (9.1ms)
+  Rendered content/_features.html.erb (3.3ms)
+  Rendered content/_key_aspects.html.erb (3.7ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (63.5ms)
+  Rendered content/_procs_and_lambdas.html.erb (4.1ms)
+  Rendered content/_map_collect_and_select.html.erb (7.5ms)
+  Rendered content/_classes.html.erb (8.1ms)
+  Rendered content/_inheritance.html.erb (5.0ms)
+  Rendered layouts/_job_chart.html.erb (3.6ms)
+  Rendered layouts/_features_chart.html.erb (4.4ms)
+  Rendered content/_comparative.html.erb (20.7ms)
+Completed 200 OK in 20603ms (Views: 20598.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/codeBlocks.self-e814f1881d294dc17ceac81213b1e3fbff0e8011f0ff4ea6c271684e72b8cf5f.css?body=1" for 127.0.0.1 at 2017-04-17 12:43:36 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:44:01 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (10.1ms)
+  Rendered navbar/_navbar.html.erb (21.8ms)
+  Rendered layouts/_to_top_button.html.erb (5.2ms)
+  Rendered content/_introduction.html.erb (8.5ms)
+  Rendered content/_features.html.erb (3.4ms)
+  Rendered content/_key_aspects.html.erb (3.2ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (8.1ms)
+  Rendered content/_procs_and_lambdas.html.erb (2.9ms)
+  Rendered content/_map_collect_and_select.html.erb (7.3ms)
+  Rendered content/_classes.html.erb (8.4ms)
+  Rendered content/_inheritance.html.erb (3.7ms)
+  Rendered layouts/_job_chart.html.erb (3.8ms)
+  Rendered layouts/_features_chart.html.erb (4.8ms)
+  Rendered content/_comparative.html.erb (17.2ms)
+Completed 200 OK in 426ms (Views: 423.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:45:45 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (18.2ms)
+  Rendered navbar/_navbar.html.erb (25.8ms)
+  Rendered layouts/_to_top_button.html.erb (4.9ms)
+  Rendered content/_introduction.html.erb (14.9ms)
+  Rendered content/_features.html.erb (4.5ms)
+  Rendered content/_key_aspects.html.erb (4.2ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (59.7ms)
+  Rendered content/_procs_and_lambdas.html.erb (5.5ms)
+  Rendered content/_map_collect_and_select.html.erb (7.7ms)
+  Rendered content/_classes.html.erb (12.0ms)
+  Rendered content/_inheritance.html.erb (4.0ms)
+  Rendered layouts/_job_chart.html.erb (4.2ms)
+  Rendered layouts/_features_chart.html.erb (5.1ms)
+  Rendered content/_comparative.html.erb (22.2ms)
+Completed 200 OK in 20834ms (Views: 20829.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/codeBlocks.self-14a8f73d1850d1a10c92e3700433b0affa9e263b3a0757cf61a9d4e9dbb1243e.css?body=1" for 127.0.0.1 at 2017-04-17 12:46:06 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:46:44 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (22.5ms)
+  Rendered navbar/_navbar.html.erb (32.4ms)
+  Rendered layouts/_to_top_button.html.erb (8.4ms)
+  Rendered content/_introduction.html.erb (12.3ms)
+  Rendered content/_features.html.erb (5.0ms)
+  Rendered content/_key_aspects.html.erb (4.9ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (23.3ms)
+  Rendered content/_procs_and_lambdas.html.erb (4.0ms)
+  Rendered content/_map_collect_and_select.html.erb (7.3ms)
+  Rendered content/_classes.html.erb (6.4ms)
+  Rendered content/_inheritance.html.erb (3.9ms)
+  Rendered layouts/_job_chart.html.erb (3.6ms)
+  Rendered layouts/_features_chart.html.erb (5.5ms)
+  Rendered content/_comparative.html.erb (17.2ms)
+Completed 200 OK in 22038ms (Views: 22023.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/codeBlocks.self-1a4dbf2f7691628d4e4c8ee9a2d24e4eb7f0e547a1e994036494da10ad65ca7f.css?body=1" for 127.0.0.1 at 2017-04-17 12:47:06 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:47:19 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (13.9ms)
+  Rendered navbar/_navbar.html.erb (22.2ms)
+  Rendered layouts/_to_top_button.html.erb (5.3ms)
+  Rendered content/_introduction.html.erb (9.6ms)
+  Rendered content/_features.html.erb (3.7ms)
+  Rendered content/_key_aspects.html.erb (3.2ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (7.4ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.0ms)
+  Rendered content/_map_collect_and_select.html.erb (8.2ms)
+  Rendered content/_classes.html.erb (6.4ms)
+  Rendered content/_inheritance.html.erb (2.9ms)
+  Rendered layouts/_job_chart.html.erb (3.3ms)
+  Rendered layouts/_features_chart.html.erb (5.4ms)
+  Rendered content/_comparative.html.erb (16.3ms)
+Completed 200 OK in 406ms (Views: 404.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:50:13 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (12.9ms)
+  Rendered navbar/_navbar.html.erb (41.6ms)
+  Rendered layouts/_to_top_button.html.erb (6.3ms)
+  Rendered content/_introduction.html.erb (8.9ms)
+  Rendered content/_features.html.erb (3.6ms)
+  Rendered content/_key_aspects.html.erb (3.7ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (9.0ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.7ms)
+  Rendered content/_map_collect_and_select.html.erb (6.4ms)
+  Rendered content/_classes.html.erb (8.0ms)
+  Rendered content/_inheritance.html.erb (7.8ms)
+  Rendered layouts/_job_chart.html.erb (3.8ms)
+  Rendered layouts/_features_chart.html.erb (4.7ms)
+  Rendered content/_comparative.html.erb (17.2ms)
+Completed 200 OK in 465ms (Views: 463.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:51:48 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (13.9ms)
+  Rendered navbar/_navbar.html.erb (27.1ms)
+  Rendered layouts/_to_top_button.html.erb (5.8ms)
+  Rendered content/_introduction.html.erb (8.9ms)
+  Rendered content/_features.html.erb (3.6ms)
+  Rendered content/_key_aspects.html.erb (3.9ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (8.6ms)
+  Rendered content/_procs_and_lambdas.html.erb (4.3ms)
+  Rendered content/_map_collect_and_select.html.erb (7.5ms)
+  Rendered content/_classes.html.erb (6.5ms)
+  Rendered content/_inheritance.html.erb (20.4ms)
+  Rendered layouts/_job_chart.html.erb (4.7ms)
+  Rendered layouts/_features_chart.html.erb (5.5ms)
+  Rendered content/_comparative.html.erb (21.3ms)
+Completed 200 OK in 476ms (Views: 469.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:53:08 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (13.3ms)
+  Rendered navbar/_navbar.html.erb (50.9ms)
+  Rendered layouts/_to_top_button.html.erb (5.5ms)
+  Rendered content/_introduction.html.erb (14.3ms)
+  Rendered content/_features.html.erb (4.4ms)
+  Rendered content/_key_aspects.html.erb (3.8ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (8.8ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.7ms)
+  Rendered content/_map_collect_and_select.html.erb (7.7ms)
+  Rendered content/_classes.html.erb (7.9ms)
+  Rendered content/_inheritance.html.erb (9.0ms)
+  Rendered layouts/_job_chart.html.erb (4.0ms)
+  Rendered layouts/_features_chart.html.erb (4.8ms)
+  Rendered content/_comparative.html.erb (19.0ms)
+Completed 200 OK in 498ms (Views: 495.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 12:59:21 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (10.6ms)
+  Rendered navbar/_navbar.html.erb (21.7ms)
+  Rendered layouts/_to_top_button.html.erb (5.3ms)
+  Rendered content/_introduction.html.erb (11.9ms)
+  Rendered content/_features.html.erb (4.3ms)
+  Rendered content/_key_aspects.html.erb (3.4ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (7.8ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.7ms)
+  Rendered content/_map_collect_and_select.html.erb (7.8ms)
+  Rendered content/_classes.html.erb (5.9ms)
+  Rendered content/_inheritance.html.erb (7.5ms)
+  Rendered layouts/_job_chart.html.erb (3.8ms)
+  Rendered layouts/_features_chart.html.erb (5.3ms)
+  Rendered content/_comparative.html.erb (17.1ms)
+Completed 200 OK in 406ms (Views: 399.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 13:00:58 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (10.8ms)
+  Rendered navbar/_navbar.html.erb (23.6ms)
+  Rendered layouts/_to_top_button.html.erb (5.7ms)
+  Rendered content/_introduction.html.erb (9.9ms)
+  Rendered content/_features.html.erb (3.9ms)
+  Rendered content/_key_aspects.html.erb (3.8ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (8.3ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.7ms)
+  Rendered content/_map_collect_and_select.html.erb (7.5ms)
+  Rendered content/_classes.html.erb (7.0ms)
+  Rendered content/_inheritance.html.erb (6.3ms)
+  Rendered layouts/_job_chart.html.erb (4.2ms)
+  Rendered layouts/_features_chart.html.erb (5.3ms)
+  Rendered content/_comparative.html.erb (21.8ms)
+Completed 200 OK in 459ms (Views: 456.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 13:01:38 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (15.3ms)
+  Rendered navbar/_navbar.html.erb (22.6ms)
+  Rendered layouts/_to_top_button.html.erb (5.6ms)
+  Rendered content/_introduction.html.erb (8.3ms)
+  Rendered content/_features.html.erb (3.5ms)
+  Rendered content/_key_aspects.html.erb (3.3ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (8.2ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.4ms)
+  Rendered content/_map_collect_and_select.html.erb (7.1ms)
+  Rendered content/_classes.html.erb (6.6ms)
+  Rendered content/_inheritance.html.erb (6.4ms)
+  Rendered layouts/_job_chart.html.erb (3.9ms)
+  Rendered layouts/_features_chart.html.erb (4.8ms)
+  Rendered content/_comparative.html.erb (24.1ms)
+Completed 200 OK in 464ms (Views: 457.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 13:02:44 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (43.3ms)
+  Rendered navbar/_navbar.html.erb (26.1ms)
+  Rendered layouts/_to_top_button.html.erb (6.1ms)
+  Rendered content/_introduction.html.erb (73.4ms)
+  Rendered content/_features.html.erb (5.1ms)
+  Rendered content/_key_aspects.html.erb (4.9ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (9.0ms)
+  Rendered content/_procs_and_lambdas.html.erb (4.3ms)
+  Rendered content/_map_collect_and_select.html.erb (8.7ms)
+  Rendered content/_classes.html.erb (8.2ms)
+  Rendered content/_inheritance.html.erb (8.7ms)
+  Rendered layouts/_job_chart.html.erb (4.5ms)
+  Rendered layouts/_features_chart.html.erb (5.4ms)
+  Rendered content/_comparative.html.erb (21.7ms)
+Completed 200 OK in 21402ms (Views: 21400.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/content.self-7b7a42555ff497f1c214e38890c9b06cfeb0dd1faa21bbba2449463d8c1fee59.css?body=1" for 127.0.0.1 at 2017-04-17 13:03:06 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 13:04:38 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (18.8ms)
+  Rendered navbar/_navbar.html.erb (25.3ms)
+  Rendered layouts/_to_top_button.html.erb (7.3ms)
+  Rendered content/_introduction.html.erb (22.2ms)
+  Rendered content/_features.html.erb (5.0ms)
+  Rendered content/_key_aspects.html.erb (3.5ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (8.8ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.8ms)
+  Rendered content/_map_collect_and_select.html.erb (7.1ms)
+  Rendered content/_classes.html.erb (5.7ms)
+  Rendered content/_inheritance.html.erb (6.7ms)
+  Rendered layouts/_features_chart.html.erb (4.9ms)
+  Rendered layouts/_job_chart.html.erb (3.4ms)
+  Rendered content/_comparative.html.erb (19.9ms)
+Completed 200 OK in 19893ms (Views: 19891.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/content.self-b9fe8c2167fd9d95c258d63115a97b2feb64e0b6f727f1eb86885744dd130c7c.css?body=1" for 127.0.0.1 at 2017-04-17 13:04:58 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 13:05:17 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (38.5ms)
+  Rendered navbar/_navbar.html.erb (22.5ms)
+  Rendered layouts/_to_top_button.html.erb (5.1ms)
+  Rendered content/_introduction.html.erb (21.5ms)
+  Rendered content/_features.html.erb (3.3ms)
+  Rendered content/_key_aspects.html.erb (3.4ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (8.5ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.5ms)
+  Rendered content/_map_collect_and_select.html.erb (7.0ms)
+  Rendered content/_classes.html.erb (5.4ms)
+  Rendered content/_inheritance.html.erb (6.5ms)
+  Rendered layouts/_features_chart.html.erb (4.7ms)
+  Rendered layouts/_job_chart.html.erb (3.7ms)
+  Rendered content/_comparative.html.erb (16.4ms)
+Completed 200 OK in 21921ms (Views: 21919.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/content.self-e03d84f7fa2fcfe0a105ca0a95227c4a02befc1035e714753640a3ffdd64e4fa.css?body=1" for 127.0.0.1 at 2017-04-17 13:05:39 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 13:06:16 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (10.3ms)
+  Rendered navbar/_navbar.html.erb (25.9ms)
+  Rendered layouts/_to_top_button.html.erb (5.4ms)
+  Rendered content/_introduction.html.erb (21.1ms)
+  Rendered content/_features.html.erb (3.8ms)
+  Rendered content/_key_aspects.html.erb (8.7ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (9.1ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.8ms)
+  Rendered content/_map_collect_and_select.html.erb (7.7ms)
+  Rendered content/_classes.html.erb (10.8ms)
+  Rendered content/_inheritance.html.erb (7.5ms)
+  Rendered layouts/_features_chart.html.erb (4.8ms)
+  Rendered layouts/_job_chart.html.erb (4.5ms)
+  Rendered content/_comparative.html.erb (18.0ms)
+Completed 200 OK in 21662ms (Views: 21658.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/content.self-495f4962f61fbfc3ca313be571dff8f1794d54aa17e1ab34e94ad621f0f03abf.css?body=1" for 127.0.0.1 at 2017-04-17 13:06:38 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 13:07:31 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (13.0ms)
+  Rendered navbar/_navbar.html.erb (37.4ms)
+  Rendered layouts/_to_top_button.html.erb (5.5ms)
+  Rendered content/_introduction.html.erb (20.7ms)
+  Rendered content/_features.html.erb (3.4ms)
+  Rendered content/_key_aspects.html.erb (3.3ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (8.0ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.1ms)
+  Rendered content/_map_collect_and_select.html.erb (6.1ms)
+  Rendered content/_classes.html.erb (6.3ms)
+  Rendered content/_inheritance.html.erb (6.2ms)
+  Rendered layouts/_features_chart.html.erb (4.9ms)
+  Rendered layouts/_job_chart.html.erb (3.7ms)
+  Rendered content/_comparative.html.erb (18.5ms)
+Completed 200 OK in 20207ms (Views: 20205.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/content.self-2289356ccee52068938fdbfd1cc5e4876ff0cb4a7180b733dde7b0905542e850.css?body=1" for 127.0.0.1 at 2017-04-17 13:07:51 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 13:07:56 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (11.7ms)
+  Rendered navbar/_navbar.html.erb (25.0ms)
+  Rendered layouts/_to_top_button.html.erb (5.6ms)
+  Rendered content/_introduction.html.erb (8.9ms)
+  Rendered content/_features.html.erb (3.5ms)
+  Rendered content/_key_aspects.html.erb (3.3ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (9.9ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.8ms)
+  Rendered content/_map_collect_and_select.html.erb (7.0ms)
+  Rendered content/_classes.html.erb (5.8ms)
+  Rendered content/_inheritance.html.erb (6.3ms)
+  Rendered layouts/_features_chart.html.erb (5.0ms)
+  Rendered layouts/_job_chart.html.erb (3.6ms)
+  Rendered content/_comparative.html.erb (17.3ms)
+Completed 200 OK in 417ms (Views: 415.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 13:08:16 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (21.4ms)
+  Rendered navbar/_navbar.html.erb (87.6ms)
+  Rendered layouts/_to_top_button.html.erb (15.8ms)
+  Rendered content/_introduction.html.erb (50.8ms)
+  Rendered content/_features.html.erb (16.8ms)
+  Rendered content/_key_aspects.html.erb (3.9ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (10.1ms)
+  Rendered content/_procs_and_lambdas.html.erb (22.4ms)
+  Rendered content/_map_collect_and_select.html.erb (7.7ms)
+  Rendered content/_classes.html.erb (26.3ms)
+  Rendered content/_inheritance.html.erb (11.3ms)
+  Rendered layouts/_features_chart.html.erb (9.1ms)
+  Rendered layouts/_job_chart.html.erb (3.9ms)
+  Rendered content/_comparative.html.erb (28.9ms)
+Completed 200 OK in 23583ms (Views: 23577.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/content.self-d8fb9fb1769ad09ae6acb3cebae84e714210507077b6b68e9ddfcc8891db032e.css?body=1" for 127.0.0.1 at 2017-04-17 13:08:40 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 13:09:00 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (10.3ms)
+  Rendered navbar/_navbar.html.erb (24.5ms)
+  Rendered layouts/_to_top_button.html.erb (5.8ms)
+  Rendered content/_introduction.html.erb (22.3ms)
+  Rendered content/_features.html.erb (3.8ms)
+  Rendered content/_key_aspects.html.erb (3.4ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (8.3ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.3ms)
+  Rendered content/_map_collect_and_select.html.erb (7.2ms)
+  Rendered content/_classes.html.erb (6.2ms)
+  Rendered content/_inheritance.html.erb (7.3ms)
+  Rendered layouts/_features_chart.html.erb (5.0ms)
+  Rendered layouts/_job_chart.html.erb (3.6ms)
+  Rendered content/_comparative.html.erb (16.6ms)
+Completed 200 OK in 19883ms (Views: 19881.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/content.self-7a180c2b3bae18fb659cdb2e503671124578b462bd4cc4ab70f41e72a48634f1.css?body=1" for 127.0.0.1 at 2017-04-17 13:09:20 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-17 13:10:18 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (17.6ms)
+  Rendered navbar/_navbar.html.erb (24.1ms)
+  Rendered layouts/_to_top_button.html.erb (5.5ms)
+  Rendered content/_introduction.html.erb (19.5ms)
+  Rendered content/_features.html.erb (3.8ms)
+  Rendered content/_key_aspects.html.erb (3.7ms)
+  Rendered content/_blocks_functions_and_methods.html.erb (8.5ms)
+  Rendered content/_procs_and_lambdas.html.erb (3.3ms)
+  Rendered content/_map_collect_and_select.html.erb (7.1ms)
+  Rendered content/_classes.html.erb (6.7ms)
+  Rendered content/_inheritance.html.erb (6.0ms)
+  Rendered layouts/_features_chart.html.erb (4.7ms)
+  Rendered layouts/_job_chart.html.erb (3.7ms)
+  Rendered content/_comparative.html.erb (19.4ms)
+Completed 200 OK in 21541ms (Views: 21538.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/content.self-63b3e5048a34b5cc15fa0b68d044aab42512469a082d8eb45ad6b39f80d51f62.css?body=1" for 127.0.0.1 at 2017-04-17 13:10:39 +0200
