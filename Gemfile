@@ -39,8 +39,6 @@ source 'https://rails-assets.org' do
 end
 # Normalize css
 gem 'normalize-rails'
-# Font awesome
-gem "font-awesome-rails"
 # Charts with  Chart kick
 gem 'chartjs-ror'
 
