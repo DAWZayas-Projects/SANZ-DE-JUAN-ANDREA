@@ -1,0 +1,49 @@
+<%
+stylesheet_link_tag 'content'
+stylesheet_link_tag 'codeBlocks'
+%>
+
+<div class="main container" id="graficos">
+  <h1 class="littleTitle">Gráficos</h1>
+  <div class="subject">
+    <div class="big-text">
+      <p>
+        Los gráficos están hechos con la librería <i>chartjs-ror</i> que se basa en chartjs.
+      </p>
+      <p>
+        Para realizar un gráfico, primero hay que elegir el tipo. A partir de ahí establecemos la
+        configuración del gráfico y los datos a mostrar. ¡Y ya tenemos un gráfico!
+      </p>
+      <pre class="codeBlock">
+        <code data-lang="ruby">
+          <span class="base">data</span> = {
+            <span class="show">datasets:</span> [
+              {
+                <span class="special">label:</span> "Ruby",
+                <span class="new">backgroundColor:</span> "#a01508",
+                <span class="class">data:</span> [25]
+              },
+              {
+                <span class="special">label:</span> "Php",
+                <span class="new">backgroundColor:</span> "#6a7eb7",
+                <span class="class">data:</span> [296]
+              },
+              {
+                <span class="special">label:</span> "Java",
+                <span class="new">backgroundColor:</span> "#e01e21",
+                <span class="class">data:</span> [751]
+              },
+            ]
+          }
+          <span class="show">options</span> = {
+            :width => 1000,
+            :height => 1000
+          }
+
+
+          <span class="doubleVariable">bar_chart</span> data, options
+        </code>
+      </pre>
+    </div>
+  </div>
+</div>

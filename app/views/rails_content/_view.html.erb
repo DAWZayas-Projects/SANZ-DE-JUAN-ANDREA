@@ -6,7 +6,39 @@ stylesheet_link_tag 'content'
   <h1 class="littleTitle">Vista</h1>
   <div class="subject">
     <div class="big-text">
-
+      <p>
+        Representa la interfaz de la aplicación. Compuesta por código Ruby incrustado en código HTML.
+        La extensión de los ficheros es <i>.html.erb</i>
+      </p>
+      <pre class="codeBlock">
+        <code data-lang="ruby">
+          <span class="class">&lt;%</span> <span class="variable">my_name</span>="Andrea"<span class="class">%&gt;</span>
+          <span class="new">&lt;h1&gt;</span>
+            ¡Hola!, mi nombre es <span class="class">&lt;%=</span> <span class="show">puts</span> my_name <span class="class">%&gt;</span>
+          <span class="new">&lt;/h1&gt;</span>
+        </code>
+      </pre>
+      <p>
+        En Rails existen los parciales, que son ficheros html.erb que se pueden renderizar en otros. Son usados
+        para no repetir código. De esta forma si un elemento va a aparecer en todas las páginas, crearemos un parcial
+        que se renderizará en la vista <i>application</i>.
+      </p>
+      <p>
+        Para diferenciar un parcial de una página, al nombrarlo hay que añadir _ al principio. Ejemplo:
+      </p>
+      <pre class="codeBlock">
+        <code data-lang="ruby">
+          _nav_bar.html.erb
+        </code>
+      </pre>
+      <p>
+        Y para renderizar la vista, usaremos:
+      </p>
+      <pre class="codeBlock">
+        <code data-lang="ruby">
+          <span class="class">&lt;%=</span> <span class="special">render</span> 'directorio/nav_bar' <span class="class">%&gt;</span>
+        </code>
+      </pre>
     </div>
   </div>
 </div>
