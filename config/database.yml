@@ -18,5 +18,3 @@ test:
 production:
   <<: *default
   database: presentacion_production
-  socket: /var/run/mysqld/mysqld.sock
-  
