@@ -8,7 +8,6 @@ default: &default
   username: root
   password: 123
   host: localhost
-  socket: /var/run/mysqld/mysqld.sock
   socket: <%= socket_locations.detect { |f| File.exists?(f) } %>
 
 development:
