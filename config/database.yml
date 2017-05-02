@@ -1,3 +1,6 @@
+
+<% socket_locations = %w[/opt/local/var/run/mysql5/mysqld.sock /var/lib/mysql/mysql.sock /tmp/mysql.sock] %>
+
 default: &default
   adapter: mysql2
   encoding: utf8
@@ -6,6 +9,7 @@ default: &default
   password: 123
   host: localhost
   socket: /var/run/mysqld/mysqld.sock
+  socket: <%= socket_locations.detect { |f| File.exists?(f) } %>
 
 development:
   <<: *default
@@ -18,5 +22,3 @@ test:
 production:
   <<: *default
   database: presentacion_production
-  username: ENV['CLEARDB_DATABASE_USERNAME']
-  password: ENV['CLEARDB_DATABASE_PASSWORD']
