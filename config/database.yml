@@ -1,6 +1,3 @@
-
-<% socket_locations = %w[/opt/local/var/run/mysql5/mysqld.sock /var/lib/mysql/mysql.sock /tmp/mysql.sock] %>
-
 default: &default
   adapter: mysql2
   encoding: utf8
@@ -8,7 +5,7 @@ default: &default
   username: root
   password: 123
   host: localhost
-  socket: <%= socket_locations.detect { |f| File.exists?(f) } %>
+  socket: /var/run/mysqld/mysqld.sock
 
 development:
   <<: *default
