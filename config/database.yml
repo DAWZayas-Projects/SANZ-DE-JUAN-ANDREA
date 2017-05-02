@@ -15,10 +15,8 @@ test:
   <<: *default
   database: presentacion_test
 
-DATABASE_URL="mysql2://root:123@localhost/presentacion_production"
-
 production:
   <<: *default
-  database: ENV['CLEARDB_DATABASE_URL']
+  database: presentacion_production
   username: ENV['CLEARDB_DATABASE_USERNAME']
   password: ENV['CLEARDB_DATABASE_PASSWORD']
