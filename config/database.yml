@@ -17,7 +17,6 @@ test:
 
 production:
   <<: *default
-  database: mysql://b22ffddb7d7285:f018bf7f@eu-cdbr-west-01.cleardb.com/heroku_19fb9080436b66f?reconnect=true
-  adapter: mysql2
-  username: root
-  password: 123
+  database: ENV['CLEARDB_DATABASE_URL']
+  username: ENV['CLEARDB_DATABASE_USERNAME']
+  password: ENV['CLEARDB_DATABASE_PASSWORDs']
