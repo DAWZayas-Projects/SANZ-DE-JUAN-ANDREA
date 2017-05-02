@@ -22792,3 +22792,114 @@ Processing by HomeController#index as HTML
   Rendered development/_gems.html.erb (11.8ms)
   Rendered development/_graphics.html.erb (54.5ms)
 Completed 200 OK in 935ms (Views: 929.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-30 13:43:06 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (35.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2221.5ms)
+  Rendered navbar/_navbar.html.erb (590.9ms)
+  Rendered layouts/_to_top_button.html.erb (9.0ms)
+  Rendered ruby_content/_introduction.html.erb (12.2ms)
+  Rendered ruby_content/_features.html.erb (6.7ms)
+  Rendered ruby_content/_key_aspects.html.erb (5.6ms)
+  Rendered ruby_content/_blocks_functions_and_methods.html.erb (11.5ms)
+  Rendered ruby_content/_procs_and_lambdas.html.erb (5.5ms)
+  Rendered ruby_content/_map_collect_and_select.html.erb (11.2ms)
+  Rendered ruby_content/_classes.html.erb (7.8ms)
+  Rendered ruby_content/_inheritance.html.erb (9.0ms)
+  Rendered layouts/_features_chart.html.erb (8.4ms)
+  Rendered layouts/_job_chart.html.erb (6.3ms)
+  Rendered ruby_content/_comparative.html.erb (27.4ms)
+  Rendered rails_content/_what_is.html.erb (9.1ms)
+  Rendered rails_content/_mvc.html.erb (6.0ms)
+  Rendered rails_content/_model.html.erb (6.0ms)
+  Rendered rails_content/_view.html.erb (5.8ms)
+  Rendered rails_content/_controller.html.erb (6.0ms)
+  Rendered development/_gems.html.erb (6.1ms)
+  Rendered development/_graphics.html.erb (9.7ms)
+Completed 200 OK in 3594ms (Views: 3545.2ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.9ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (1.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'presentacion_development'
+  AND fk.table_name = 'items'
+[0m
+  [1m[35m (0.7ms)[0m  SHOW CREATE TABLE `items`
+  [1m[36m (1.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'presentacion_development'
+  AND fk.table_name = 'items_navs'
+[0m
+  [1m[35m (0.6ms)[0m  SHOW CREATE TABLE `items_navs`
+  [1m[36m (1.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'presentacion_development'
+  AND fk.table_name = 'navs'
+[0m
+  [1m[35m (0.7ms)[0m  SHOW CREATE TABLE `navs`
+  [1m[36m (1.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'presentacion_development'
+  AND fk.table_name = 'users'
+[0m
+  [1m[35m (0.7ms)[0m  SHOW CREATE TABLE `users`
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-02 15:52:23 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (15.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (50326.2ms)
+  Rendered navbar/_navbar.html.erb (539.6ms)
+  Rendered layouts/_to_top_button.html.erb (19.7ms)
+  Rendered ruby_content/_introduction.html.erb (21.1ms)
+  Rendered ruby_content/_features.html.erb (5.4ms)
+  Rendered ruby_content/_key_aspects.html.erb (5.7ms)
+  Rendered ruby_content/_blocks_functions_and_methods.html.erb (25.7ms)
+  Rendered ruby_content/_procs_and_lambdas.html.erb (5.8ms)
+  Rendered ruby_content/_map_collect_and_select.html.erb (10.0ms)
+  Rendered ruby_content/_classes.html.erb (8.3ms)
+  Rendered ruby_content/_inheritance.html.erb (12.1ms)
+  Rendered layouts/_features_chart.html.erb (10.0ms)
+  Rendered layouts/_job_chart.html.erb (5.7ms)
+  Rendered ruby_content/_comparative.html.erb (32.0ms)
+  Rendered rails_content/_what_is.html.erb (8.4ms)
+  Rendered rails_content/_mvc.html.erb (5.2ms)
+  Rendered rails_content/_model.html.erb (5.4ms)
+  Rendered rails_content/_view.html.erb (5.1ms)
+  Rendered rails_content/_controller.html.erb (4.9ms)
+  Rendered development/_gems.html.erb (5.4ms)
+  Rendered development/_graphics.html.erb (8.5ms)
+Completed 200 OK in 52332ms (Views: 52278.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/buttons.self-81cb31e61a007f8e38221c6dbb456123e8b59e9d64c7c5e1901711291d617560.css?body=1" for 127.0.0.1 at 2017-05-02 15:53:17 +0200
+
+
+Started GET "/assets/content.self-4308e6fe4c41ac96b309c9242e6d81d197814796c1008ebe67f9cd6d60c16daa.css?body=1" for 127.0.0.1 at 2017-05-02 15:53:17 +0200
+
+
+Started GET "/assets/codeBlocks.self-9ee96d136cc28be8e1371842a82016f0d981d289804bc3284aa2f54627b1eb3f.css?body=1" for 127.0.0.1 at 2017-05-02 15:53:17 +0200
+
+
+Started GET "/assets/navbar.self-a500bb82afd607cb4ec70fc28b52296bec3d3afd36c3cd6630f70dc06d0a8b10.css?body=1" for 127.0.0.1 at 2017-05-02 15:53:17 +0200
+
+
+Started GET "/assets/application.self-797d9d32082d894529173b11c12a0e9ba5e744cb69d1ff5f13c65a0cc63e7651.css?body=1" for 127.0.0.1 at 2017-05-02 15:53:17 +0200
