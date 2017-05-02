@@ -18,3 +18,6 @@ test:
 production:
   <<: *default
   database: mysql://b22ffddb7d7285:f018bf7f@eu-cdbr-west-01.cleardb.com/heroku_19fb9080436b66f?reconnect=true
+  adapter: mysql2
+  username: root
+  password: 123
