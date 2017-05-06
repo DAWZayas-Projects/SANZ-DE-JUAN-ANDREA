@@ -3,10 +3,54 @@ stylesheet_link_tag 'content'
 %>
 
 <div class="main container" id="mvc:estructura">
-  <h1 class="littleTitle">MVC:Estructura</h1>
+  <h1 class="title">MVC:Estructura</h1>
   <div class="subject">
-    <div class="big-text">
-
+    <div>
+      <ul class="list-group uList">
+        <li class="list-group-item">
+          &nbsp;<b>APP:</b>
+          Vistas, controladores, modelos, helpers y assets.
+        </li>
+        <li class="list-group-item">
+          &nbsp;<b>CONFIG:</b>
+          Archivos de configuración: DB, rutas, ...
+        </li>
+        <li class="list-group-item">
+          &nbsp;<b>DB:</b>
+          Información sobre la DB: migraciones, seeds,...
+        </li>
+        <li class="list-group-item">
+          &nbsp;<b>LOG:</b>
+          Registros de la aplicación: errores, ...
+        </li>
+        <li class="list-group-item">
+          &nbsp;<b>PUBLIC:</b>
+          Archivos estáticos y los assets compiladores.
+        </li>
+        <li class="list-group-item">
+          &nbsp;<b>TMP:</b>
+          Archivos temporales: caché, archivos de sesión, ...
+        </li>
+        <li class="list-group-item">
+          &nbsp;<b>TEST:</b>
+          Archivos con pruebas unitarias.
+        </li>
+        <li class="list-group-item">
+          &nbsp;<b>VENDOR:</b>
+          Archivos de librerías externas.
+        </li>
+        <li class="list-group-item">
+          &nbsp;<b>GEMFILE/GEMFILE.LOCK:</b>
+          Contienen las dependencias necesarias para la app.
+        </li>
+      </ul>
+      <div class="specialDiv">
+        <h3>Scaffold</h3>
+        <p>
+          Es un comando que genera una estructura completa. Generando: un modelo, las migraciones necesarias, el controlador para manipularlo,
+          las vistas para mostrar los datos, y los archivos de pruebas.
+        </p>
+      </div>
     </div>
   </div>
 </div>

@@ -3,12 +3,30 @@
 <div class="main container" id="aspectosclave">
   <h1 class="title">ASPECTOS CLAVE</h1>
   <div class="subject">
-    <div class="text">
+    <ul class="list-group uList">
+      <li class="list-group-item">
+        &nbsp;<b>Tipado dinámico:</b>
+        No hay que especificar el tipo de la variable, el lenguaje lo deduce en función del valor
+        que tome. Por lo tanto una misma variable puede almacenar diiferentes tipos en diferentes momentos.
+      </li>
+      <li class="list-group-item">
+        &nbsp;<b>Duck typing:</b>
+        Se da más importancia al comportamiento de un objeto que a la clase o tipo de este. Esto significa
+        que si un objeto actúa como un tipo, trátalo como este. <i>"If it looks like a duck and quacks like a duck, it's a duck"</i>
+      </li>
+      <li class="list-group-item">
+        &nbsp;<b>Módulos:</b>
+        Los módulos permiten añadir funcionalidad de forma limpia y ordenada. Para ello existe include y prepend. Se diferencian
+        en que la segunda tiene más fuerza frente a la clase que la primera.
+      </li>
+      <li class="list-group-item">
+        &nbsp;<b>Blocks and Lambdas:</b>
+        Bloques de código. Abstraer trozos de código a una determinada función. De esta forma se minimiza el error y se
+        reduce la duplicidad. Usado generalmente para leer ficheros.
+      </li>
       <p>
-        
-
-
+        Fuente: <%= link_to "Yehudakatz", "http://yehudakatz.com/2009/08/24/my-10-favorite-things-about-the-ruby-language/"%>
       </p>
-    </div>
+    </ul>
   </div>
 </div>

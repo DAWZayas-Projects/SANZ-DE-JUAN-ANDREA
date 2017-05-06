@@ -1,32 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Passion+One');
 
-.title {
-  font-family: 'Passion One', cursive;
-  font-size: 6em;
-  text-align: center;
+.main {
+  margin: 3% 0 7% 0;
 }
 
-.littleTitle {
+.title {
   font-family: 'Passion One', cursive;
   font-size: 4em;
   text-align: center;
 }
 
 .subject {
-  width: 100%;
-  display: inline-flex;
+  align-items: center;
+  display: flex;
   flex-wrap: wrap;
-  height: 100vh;
   justify-content: space-around;
-  align-content: center;
 }
 
 .text {
-  width: 60%;
+  text-align: justify;
 }
 
-.writing {
-  text-align: justify;
+.writting {
+  width: 60%;
 }
 
 .image {
@@ -37,6 +33,7 @@
 }
 
 .uList {
+  text-align: justify;
   li {
     border: none;
     list-style: none;
@@ -45,6 +42,13 @@
     color: #a01508;
     content: "\f219";
     font-family: 'FontAwesome';
+  }
+}
+
+.sublist {
+  padding-left: 5%;
+  li {
+    padding-top: 2%;
   }
 }
 
@@ -73,4 +77,8 @@
 
 .codeBlock {
   border-left: rgb(15, 159, 112) 3px solid;
+}
+
+.specialDiv {
+  margin: 3% 0 0 0;
 }

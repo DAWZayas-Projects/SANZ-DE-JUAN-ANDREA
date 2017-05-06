@@ -34,8 +34,6 @@ gem "font-awesome-rails"
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
-# Normalize css
-gem 'normalize-rails'
 # Charts with  Chart kick
 gem 'chartjs-ror'
 # Use mysql as the database for Active Record

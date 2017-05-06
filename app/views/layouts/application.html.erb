@@ -4,18 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Presentacion</title>
+  <title>Presentación</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <div class="web_content">
     <div class="navbar_div">
       <%= render 'navbar/navbar' %>
     </div>
-    <%= render 'layouts/to_top_button' %>
     <div class="body_home">
+      <!-- TO TOP BUTTON -->
+      <%= render 'layouts/to_top_button' %>
       <!-- RUBY CONTENT -->
       <%= render 'ruby_content/introduction' %>
       <%= render 'ruby_content/features' %>
@@ -37,6 +37,5 @@
       <%= render 'development/graphics' %>
     </div>
     <%= yield %>
-  </div>
 </body>
 </html>
