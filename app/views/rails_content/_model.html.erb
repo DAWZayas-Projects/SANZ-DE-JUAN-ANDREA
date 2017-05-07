@@ -6,43 +6,44 @@ stylesheet_link_tag 'codeBlocks'
 <div class="main container" id="modelo">
   <h1 class="title">Modelo</h1>
   <div class="subject">
-    <ul class="list-group uList">
-      <li class="list-group-item">
-        &nbsp;Son las clases que representan las tablas de la base de datos.
-      </li>
-      <li class="list-group-item">
-        &nbsp;Por defecto en Rails la base de datos usada es PostgreSQL. Pero se puede usar otra, instalando la gema pertinente
+    <div class="big-text">
+      <p>
+        Son las clases que representan las tablas de la base de datos.
+        Por defecto en Rails la base de datos usada es PostgreSQL. Pero se puede usar otra, instalando la gema pertinente
         y especificando la base de datos a usar en la creación del proyecto.
         <pre class="codeBlock">
           <code data-lang="ruby">
             rails <span class="show">new</span> app_name <span class="base">-d</span> DB_name
           </code>
         </pre>
-      </li>
-      <li class="list-group-item">
-        &nbsp;Para generar un modelo, así como la creación de la tabla en la base de datos y las migraciones necesarias, se usa el comando 'rails g model nombre_modelo'
+      </p>
+      <p>
+        Para generar un modelo, así como la creación de la tabla en la base de datos y las migraciones necesarias, se usa el comando 'rails g model nombre_modelo'
         o con el comando.
         <pre class="codeBlock">
           <code data-lang="ruby">
             rails <span class="special">generate</span> <span class="doubleVariable">model</span> nombre_modelo
           </code>
         </pre>
-        o
+        o bien:
         <pre class="codeBlock">
           <code data-lang="ruby">
             rails <span class="special">g</span> <span class="doubleVariable">model</span> nombre_modelo
           </code>
         </pre>
-      </li>
-      <li class="list-group-item">
-        &nbsp;En el caso de necesitar modificar alguna tabla, es necesario crear una migración donde se especificarán los cambios, bien con sintaxis de la base de datos
+      </p>
+      <p>En el caso de necesitar modificar alguna tabla, es necesario crear una migración donde se especificarán los cambios, bien con sintaxis de la base de datos
         Ejemplo(Usando mySQL):
         <pre class="codeBlock">
           <code data-lang="ruby">
             <span class="variable">exec</span>("ALTER TABLE contacts ADD email VARCHAR(60);")
           </code>
         </pre>
+      </p>
+      <p>
         o bien usando sintaxis de ruby. Ejemplo:
+      </p>
+      <p>
         <pre class="codeBlock">
           <code data-lang="ruby">
             change_table :products do |t|
@@ -51,10 +52,10 @@ stylesheet_link_tag 'codeBlocks'
             end
           </code>
         </pre>
-      </li>
-      <li class="list-group-item">
-        &nbsp;Modelos de la aplicación. Un modelo es una clase que permite manipular los datos de la base de datos.
-      </li>
-    </ul>
+      </p>
+      <p>
+        Modelos de la aplicación. Un modelo es una clase que permite manipular los datos de la base de datos.
+      </p>
+    </div>
   </div>
 </div>
