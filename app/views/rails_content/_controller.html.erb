@@ -5,13 +5,22 @@ stylesheet_link_tag 'content'
 <div class="main container" id="controlador">
   <h1 class="title">Controlador</h1>
   <div class="subject">
-    <ul class="list-group uList">
-      <li class="list-group-item">
-        Se genera con el comando 'rails g controller nombre_controlador' o con el comando 'rails generate controller nombre_controlador'
-      </li>
-      <li class="list-group-item">
-        Sirven como puente entre el modelo y la vista.
-      </li>
-    </ul>
+    <div class="big-text">
+      <p>
+        Sirve como puente entre el modelo y las vistas. Recibe las peticiones del usuario y devuelve el contenido en función de estas.
+        Para crearlo se usa el comando:
+        <pre class="codeBlock">
+          <code data-lang="ruby">
+            rails <span class="special">generate</span> <span class="doubleVariable">controller</span> nombre_controlador
+          </code>
+        </pre>
+        o bien:
+        <pre class="codeBlock">
+          <code data-lang="ruby">
+            rails <span class="special">g</span> <span class="doubleVariable">controller</span> nombre_controlador
+          </code>
+        </pre>
+      </p>
+    </div>
   </div>
 </div>

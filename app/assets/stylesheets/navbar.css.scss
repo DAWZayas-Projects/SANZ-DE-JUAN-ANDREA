@@ -23,6 +23,11 @@
 @media (min-width: 768px) {
   .navbar {
     height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .collapse {
+    margin: 25% 0 5% 0;
   }
 }
 

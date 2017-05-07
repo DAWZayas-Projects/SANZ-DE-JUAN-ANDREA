@@ -36,7 +36,9 @@ stylesheet_link_tag 'codeBlocks'
         Ejemplo(Usando mySQL):
         <pre class="codeBlock">
           <code data-lang="ruby">
-            <span class="variable">exec</span>("ALTER TABLE contacts ADD email VARCHAR(60);")
+            <span class="base">def</span> change
+              <span class="variable">exec</span>("ALTER TABLE contacts ADD email VARCHAR(60);")
+            <span class="base">end</span>
           </code>
         </pre>
       </p>
@@ -46,15 +48,11 @@ stylesheet_link_tag 'codeBlocks'
       <p>
         <pre class="codeBlock">
           <code data-lang="ruby">
-            change_table :products do |t|
-              dir.up   { t.change :price, :string }
-              dir.down { t.change :price, :integer }
-            end
+            <span class="base">def</span> change
+              add_column :contacts, :email, :string
+            <span class="base">end</span>
           </code>
         </pre>
-      </p>
-      <p>
-        Modelos de la aplicación. Un modelo es una clase que permite manipular los datos de la base de datos.
       </p>
     </div>
   </div>

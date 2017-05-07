@@ -28854,3 +28854,1009 @@ Processing by HomeController#index as HTML
   Rendered development/_gems.html.erb (4.2ms)
   Rendered development/_graphics.html.erb (11.5ms)
 Completed 200 OK in 616ms (Views: 613.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 21:11:23 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (20.8ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3166.2ms)
+  Rendered navbar/_navbar.html.erb (857.4ms)
+  Rendered layouts/_to_top_button.html.erb (41.9ms)
+  Rendered ruby_content/_introduction.html.erb (37.4ms)
+  Rendered ruby_content/_features.html.erb (5.2ms)
+  Rendered ruby_content/_key_aspects.html.erb (6.1ms)
+  Rendered ruby_content/_blocks_functions_and_methods.html.erb (56.5ms)
+  Rendered ruby_content/_procs_and_lambdas.html.erb (14.2ms)
+  Rendered ruby_content/_map_collect_and_select.html.erb (25.5ms)
+  Rendered ruby_content/_classes.html.erb (11.0ms)
+  Rendered ruby_content/_inheritance.html.erb (11.1ms)
+  Rendered layouts/_features_chart.html.erb (18.8ms)
+  Rendered layouts/_job_chart.html.erb (10.0ms)
+  Rendered ruby_content/_comparative.html.erb (50.6ms)
+  Rendered rails_content/_what_is.html.erb (17.9ms)
+  Rendered rails_content/_mvc.html.erb (6.1ms)
+  Rendered rails_content/_model.html.erb (20.5ms)
+  Rendered rails_content/_view.html.erb (5.6ms)
+  Rendered rails_content/_controller.html.erb (8.5ms)
+  Rendered development/_gems.html.erb (18.0ms)
+  Rendered development/_graphics.html.erb (8.5ms)
+Completed 200 OK in 6180ms (Views: 6095.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authentication.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-05-07 21:11:32 +0200
+
+
+Started GET "/assets/buttons.self-1d3f18bc4e336d124795fbf589a1fbdcec11449dcaf2f208a0bb02015fd84f11.css?body=1" for 127.0.0.1 at 2017-05-07 21:11:32 +0200
+
+
+Started GET "/assets/codeBlocks.self-9ee96d136cc28be8e1371842a82016f0d981d289804bc3284aa2f54627b1eb3f.css?body=1" for 127.0.0.1 at 2017-05-07 21:11:32 +0200
+
+
+Started GET "/assets/content.self-be914f1931b0fcd49e2febaa41f3301ff03ef5e210de8932557a7483405ba54a.css?body=1" for 127.0.0.1 at 2017-05-07 21:11:32 +0200
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-05-07 21:11:32 +0200
+
+
+Started GET "/assets/navbar.self-a500bb82afd607cb4ec70fc28b52296bec3d3afd36c3cd6630f70dc06d0a8b10.css?body=1" for 127.0.0.1 at 2017-05-07 21:11:32 +0200
+
+
+Started GET "/assets/application.self-432cd1fd1bb9a5c43d0410bb1c53cee91a22fc165317c1d480f1c3d492bc3213.css?body=1" for 127.0.0.1 at 2017-05-07 21:11:32 +0200
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-05-07 21:11:33 +0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-05-07 21:11:33 +0200
+
+
+Started GET "/assets/authentication.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-05-07 21:11:33 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-05-07 21:11:33 +0200
+
+
+Started GET "/assets/content.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-05-07 21:11:33 +0200
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-05-07 21:11:33 +0200
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-05-07 21:11:34 +0200
+
+
+Started GET "/assets/items_nav.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-05-07 21:11:34 +0200
+
+
+Started GET "/assets/nav.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-05-07 21:11:34 +0200
+
+
+Started GET "/assets/navbar.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-05-07 21:11:34 +0200
+
+
+Started GET "/assets/tether/tether.self-0e1103bd72084f20bc17863434595ea99e999bcf530d80110698608f35ff5620.js?body=1" for 127.0.0.1 at 2017-05-07 21:11:34 +0200
+
+
+Started GET "/assets/tether.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2017-05-07 21:11:35 +0200
+
+
+Started GET "/assets/bootstrap/util.self-5ae5b599fc2afe0f317696c5dfc0b51d6ce2ecb47d0341d1555b2fe971ada496.js?body=1" for 127.0.0.1 at 2017-05-07 21:11:35 +0200
+
+
+Started GET "/assets/bootstrap/alert.self-5a586b490b4c9332249b231956b361b852b128a0d82f7f08549f205bba1bfeb0.js?body=1" for 127.0.0.1 at 2017-05-07 21:11:35 +0200
+
+
+Started GET "/assets/bootstrap/button.self-30412f39aaa761313878531076ce8187fe6c017e42111bf2c283fce4a7c850f8.js?body=1" for 127.0.0.1 at 2017-05-07 21:11:35 +0200
+
+
+Started GET "/assets/bootstrap/collapse.self-94c7455a70c5bb5ad5b3eae0c70388160c238afdea0b48d5345587fd176fb52d.js?body=1" for 127.0.0.1 at 2017-05-07 21:11:35 +0200
+
+
+Started GET "/assets/bootstrap/carousel.self-f18afa468f85125228747ec83e00e56a26bbc71295e90a3848af25b258445615.js?body=1" for 127.0.0.1 at 2017-05-07 21:11:35 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.self-954f8384ac380992dd91b2b176b570b0792365a334efb758774c718d9628a329.js?body=1" for 127.0.0.1 at 2017-05-07 21:11:35 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.self-66781adda319363e67c65edfc73459411bd3948c0f32efddbc9928b810d5abf4.js?body=1" for 127.0.0.1 at 2017-05-07 21:11:35 +0200
+
+
+Started GET "/assets/bootstrap/modal.self-a406636221efb5add01fbaa60c24ac0ae6bc0c57008d8e2503d68f49fbe75ad0.js?body=1" for 127.0.0.1 at 2017-05-07 21:11:35 +0200
+
+
+Started GET "/assets/bootstrap/tab.self-e3abc2817f699a2be95f78a4aff190ef7669d5590adbacd0c08867eb34ed16c6.js?body=1" for 127.0.0.1 at 2017-05-07 21:11:36 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.self-dd8a9f3fa1f9fc58df30c7ed9a17dfc7303b812d72640899beee03609124b426.js?body=1" for 127.0.0.1 at 2017-05-07 21:11:36 +0200
+
+
+Started GET "/assets/bootstrap/popover.self-7d459fac34d4d96fd9d6da8efcd40dee55b66579a24ddcebf0a355c82dcad7e0.js?body=1" for 127.0.0.1 at 2017-05-07 21:11:36 +0200
+
+
+Started GET "/assets/bootstrap.self-9acfc28c4d35348d353eb47afc72c287bc271ea4f7e8c9b05f2f9554ddc3f202.js?body=1" for 127.0.0.1 at 2017-05-07 21:11:36 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.self-636159b35205da4142a43bc02d2849d77d3ac07a0946211585cde15a9c6ff21f.js?body=1" for 127.0.0.1 at 2017-05-07 21:11:36 +0200
+
+
+Started GET "/assets/Chart.min.self-975c5c8d256ebb4204b6a86b63917f8fdae516ddc131c0ab086fd43770a290cb.js?body=1" for 127.0.0.1 at 2017-05-07 21:11:36 +0200
+
+
+Started GET "/assets/application.self-10ad0916cf31256fe71785e8dc9cc297a96b1cdf7b74aeb61711199b9a3d003f.js?body=1" for 127.0.0.1 at 2017-05-07 21:11:37 +0200
+
+
+Started GET "/assets/ruby_logo-450668df83e48c907f38f207b1b00cd065735928e38fbf1f29783fb4c6a4f081.png" for 127.0.0.1 at 2017-05-07 21:11:37 +0200
+
+
+Started GET "/assets/rails_logo-257c06a097ba9bc372c2aee93e4034fdb991f8d1e1a827c0c5a806c0ead7348b.png" for 127.0.0.1 at 2017-05-07 21:11:38 +0200
+
+
+Started GET "/assets/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2" for 127.0.0.1 at 2017-05-07 21:11:49 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 21:14:44 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (17.2ms)
+  Rendered navbar/_navbar.html.erb (92.7ms)
+  Rendered layouts/_to_top_button.html.erb (9.3ms)
+  Rendered ruby_content/_introduction.html.erb (24.1ms)
+  Rendered ruby_content/_features.html.erb (5.4ms)
+  Rendered ruby_content/_key_aspects.html.erb (12.2ms)
+  Rendered ruby_content/_blocks_functions_and_methods.html.erb (16.6ms)
+  Rendered ruby_content/_procs_and_lambdas.html.erb (7.8ms)
+  Rendered ruby_content/_map_collect_and_select.html.erb (86.7ms)
+  Rendered ruby_content/_classes.html.erb (16.0ms)
+  Rendered ruby_content/_inheritance.html.erb (14.8ms)
+  Rendered layouts/_features_chart.html.erb (16.9ms)
+  Rendered layouts/_job_chart.html.erb (9.8ms)
+  Rendered ruby_content/_comparative.html.erb (40.7ms)
+  Rendered rails_content/_what_is.html.erb (16.6ms)
+  Rendered rails_content/_mvc.html.erb (4.1ms)
+  Rendered rails_content/_model.html.erb (23.3ms)
+  Rendered rails_content/_view.html.erb (8.1ms)
+  Rendered rails_content/_controller.html.erb (3.9ms)
+  Rendered development/_gems.html.erb (13.0ms)
+  Rendered development/_graphics.html.erb (11.7ms)
+Completed 200 OK in 1007ms (Views: 990.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 21:16:34 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (22.3ms)
+  Rendered navbar/_navbar.html.erb (95.6ms)
+  Rendered layouts/_to_top_button.html.erb (9.8ms)
+  Rendered ruby_content/_introduction.html.erb (11.7ms)
+  Rendered ruby_content/_features.html.erb (12.2ms)
+  Rendered ruby_content/_key_aspects.html.erb (9.9ms)
+  Rendered ruby_content/_blocks_functions_and_methods.html.erb (24.4ms)
+  Rendered ruby_content/_procs_and_lambdas.html.erb (3.4ms)
+  Rendered ruby_content/_map_collect_and_select.html.erb (28.3ms)
+  Rendered ruby_content/_classes.html.erb (19.3ms)
+  Rendered ruby_content/_inheritance.html.erb (23.3ms)
+  Rendered layouts/_features_chart.html.erb (7.5ms)
+  Rendered layouts/_job_chart.html.erb (5.6ms)
+  Rendered ruby_content/_comparative.html.erb (46.2ms)
+  Rendered rails_content/_what_is.html.erb (14.8ms)
+  Rendered rails_content/_mvc.html.erb (8.0ms)
+  Rendered rails_content/_model.html.erb (7.3ms)
+  Rendered rails_content/_view.html.erb (5.5ms)
+  Rendered rails_content/_controller.html.erb (3.7ms)
+  Rendered development/_gems.html.erb (5.2ms)
+  Rendered development/_graphics.html.erb (7.7ms)
+Completed 200 OK in 44286ms (Views: 44283.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/navbar.self-36ac245200fb5a248d21123835543fd60d49f55ea665b48510ddb5d2955cfab1.css?body=1" for 127.0.0.1 at 2017-05-07 21:17:20 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 21:17:55 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (24.2ms)
+  Rendered navbar/_navbar.html.erb (92.8ms)
+  Rendered layouts/_to_top_button.html.erb (5.7ms)
+  Rendered ruby_content/_introduction.html.erb (14.6ms)
+  Rendered ruby_content/_features.html.erb (7.7ms)
+  Rendered ruby_content/_key_aspects.html.erb (7.3ms)
+  Rendered ruby_content/_blocks_functions_and_methods.html.erb (12.2ms)
+  Rendered ruby_content/_procs_and_lambdas.html.erb (8.3ms)
+  Rendered ruby_content/_map_collect_and_select.html.erb (10.7ms)
+  Rendered ruby_content/_classes.html.erb (7.0ms)
+  Rendered ruby_content/_inheritance.html.erb (10.4ms)
+  Rendered layouts/_features_chart.html.erb (8.4ms)
+  Rendered layouts/_job_chart.html.erb (3.7ms)
+  Rendered ruby_content/_comparative.html.erb (33.8ms)
+  Rendered rails_content/_what_is.html.erb (8.3ms)
+  Rendered rails_content/_mvc.html.erb (8.2ms)
+  Rendered rails_content/_model.html.erb (12.0ms)
+  Rendered rails_content/_view.html.erb (4.1ms)
+  Rendered rails_content/_controller.html.erb (3.9ms)
+  Rendered development/_gems.html.erb (10.2ms)
+  Rendered development/_graphics.html.erb (10.4ms)
+Completed 200 OK in 33208ms (Views: 33205.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/navbar.self-c62d835a6c4a218d6585b1433ac530ad68edc14f8b5f3ea267596384238e1cd9.css?body=1" for 127.0.0.1 at 2017-05-07 21:18:29 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 21:29:09 +0200
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)):
+  mysql2 (0.4.5) lib/mysql2/client.rb:89:in `connect'
+  mysql2 (0.4.5) lib/mysql2/client.rb:89:in `initialize'
+  activerecord (4.2.6) lib/active_record/connection_adapters/mysql2_adapter.rb:264:in `new'
+  activerecord (4.2.6) lib/active_record/connection_adapters/mysql2_adapter.rb:264:in `connect'
+  activerecord (4.2.6) lib/active_record/connection_adapters/mysql2_adapter.rb:97:in `reconnect!'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract_adapter.rb:328:in `verify!'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:456:in `block in checkout_and_verify'
+  /usr/lib/ruby/vendor_ruby/active_support/callbacks.rb:88:in `__run_callbacks__'
+  /usr/lib/ruby/vendor_ruby/active_support/callbacks.rb:778:in `_run_checkout_callbacks'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:455:in `checkout_and_verify'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  /usr/lib/ruby/2.3.0/monitor.rb:214:in `mon_synchronize'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /usr/lib/ruby/2.3.0/monitor.rb:214:in `mon_synchronize'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  activerecord (4.2.6) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.6) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.6) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.6) lib/active_record/migration.rb:370:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  /usr/lib/ruby/vendor_ruby/active_support/callbacks.rb:88:in `__run_callbacks__'
+  /usr/lib/ruby/vendor_ruby/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  /usr/lib/ruby/vendor_ruby/active_support/callbacks.rb:81:in `run_callbacks'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/callbacks.rb:27:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/reloader.rb:73:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:38:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `block in call'
+  /usr/lib/ruby/vendor_ruby/active_support/tagged_logging.rb:68:in `block in tagged'
+  /usr/lib/ruby/vendor_ruby/active_support/tagged_logging.rb:26:in `tagged'
+  /usr/lib/ruby/vendor_ruby/active_support/tagged_logging.rb:68:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:518:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_source.erb (34.4ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.html.erb (26.4ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.8ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (173.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.2ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (214.9ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (344.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 21:29:52 +0200
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)):
+  mysql2 (0.4.5) lib/mysql2/client.rb:89:in `connect'
+  mysql2 (0.4.5) lib/mysql2/client.rb:89:in `initialize'
+  activerecord (4.2.6) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `new'
+  activerecord (4.2.6) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /usr/lib/ruby/2.3.0/monitor.rb:214:in `mon_synchronize'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /usr/lib/ruby/2.3.0/monitor.rb:214:in `mon_synchronize'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  activerecord (4.2.6) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.6) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.6) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.6) lib/active_record/migration.rb:370:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  /usr/lib/ruby/vendor_ruby/active_support/callbacks.rb:88:in `__run_callbacks__'
+  /usr/lib/ruby/vendor_ruby/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  /usr/lib/ruby/vendor_ruby/active_support/callbacks.rb:81:in `run_callbacks'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/callbacks.rb:27:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/reloader.rb:73:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:38:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `block in call'
+  /usr/lib/ruby/vendor_ruby/active_support/tagged_logging.rb:68:in `block in tagged'
+  /usr/lib/ruby/vendor_ruby/active_support/tagged_logging.rb:26:in `tagged'
+  /usr/lib/ruby/vendor_ruby/active_support/tagged_logging.rb:68:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:518:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_source.erb (28.9ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.html.erb (14.0ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.7ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (124.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.7ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (6.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (226.7ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.8ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (329.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 21:29:54 +0200
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)):
+  mysql2 (0.4.5) lib/mysql2/client.rb:89:in `connect'
+  mysql2 (0.4.5) lib/mysql2/client.rb:89:in `initialize'
+  activerecord (4.2.6) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `new'
+  activerecord (4.2.6) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /usr/lib/ruby/2.3.0/monitor.rb:214:in `mon_synchronize'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /usr/lib/ruby/2.3.0/monitor.rb:214:in `mon_synchronize'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  activerecord (4.2.6) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.6) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.6) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.6) lib/active_record/migration.rb:370:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  /usr/lib/ruby/vendor_ruby/active_support/callbacks.rb:88:in `__run_callbacks__'
+  /usr/lib/ruby/vendor_ruby/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  /usr/lib/ruby/vendor_ruby/active_support/callbacks.rb:81:in `run_callbacks'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/callbacks.rb:27:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/reloader.rb:73:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:38:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `block in call'
+  /usr/lib/ruby/vendor_ruby/active_support/tagged_logging.rb:68:in `block in tagged'
+  /usr/lib/ruby/vendor_ruby/active_support/tagged_logging.rb:26:in `tagged'
+  /usr/lib/ruby/vendor_ruby/active_support/tagged_logging.rb:68:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:518:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_source.erb (19.4ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.1ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.8ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (83.9ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (2.0ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (78.9ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.2ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (160.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 21:34:06 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (20.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (44421.4ms)
+  Rendered navbar/_navbar.html.erb (912.1ms)
+  Rendered layouts/_to_top_button.html.erb (16.8ms)
+  Rendered ruby_content/_introduction.html.erb (16.0ms)
+  Rendered ruby_content/_features.html.erb (10.0ms)
+  Rendered ruby_content/_key_aspects.html.erb (7.2ms)
+  Rendered ruby_content/_blocks_functions_and_methods.html.erb (22.8ms)
+  Rendered ruby_content/_procs_and_lambdas.html.erb (9.5ms)
+  Rendered ruby_content/_map_collect_and_select.html.erb (21.2ms)
+  Rendered ruby_content/_classes.html.erb (11.8ms)
+  Rendered ruby_content/_inheritance.html.erb (14.2ms)
+  Rendered layouts/_features_chart.html.erb (17.1ms)
+  Rendered layouts/_job_chart.html.erb (14.6ms)
+  Rendered ruby_content/_comparative.html.erb (61.2ms)
+  Rendered rails_content/_what_is.html.erb (9.2ms)
+  Rendered rails_content/_mvc.html.erb (14.6ms)
+  Rendered rails_content/_model.html.erb (10.9ms)
+  Rendered rails_content/_view.html.erb (9.5ms)
+  Rendered rails_content/_controller.html.erb (6.0ms)
+  Rendered development/_gems.html.erb (8.9ms)
+  Rendered development/_graphics.html.erb (28.7ms)
+Completed 200 OK in 47178ms (Views: 47110.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authentication.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-05-07 21:34:56 +0200
+
+
+Started GET "/assets/content.self-be914f1931b0fcd49e2febaa41f3301ff03ef5e210de8932557a7483405ba54a.css?body=1" for 127.0.0.1 at 2017-05-07 21:34:56 +0200
+
+
+Started GET "/assets/codeBlocks.self-9ee96d136cc28be8e1371842a82016f0d981d289804bc3284aa2f54627b1eb3f.css?body=1" for 127.0.0.1 at 2017-05-07 21:34:56 +0200
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-05-07 21:34:56 +0200
+
+
+Started GET "/assets/buttons.self-1d3f18bc4e336d124795fbf589a1fbdcec11449dcaf2f208a0bb02015fd84f11.css?body=1" for 127.0.0.1 at 2017-05-07 21:34:56 +0200
+
+
+Started GET "/assets/navbar.self-24f2ad9db2e914ed206d14b832542bb911feef4710e41ce89fd7382c42d1dd81.css?body=1" for 127.0.0.1 at 2017-05-07 21:34:57 +0200
+
+
+Started GET "/assets/application.self-432cd1fd1bb9a5c43d0410bb1c53cee91a22fc165317c1d480f1c3d492bc3213.css?body=1" for 127.0.0.1 at 2017-05-07 21:34:57 +0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-05-07 21:34:57 +0200
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-05-07 21:34:57 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-05-07 21:34:57 +0200
+
+
+Started GET "/assets/authentication.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-05-07 21:34:57 +0200
+
+
+Started GET "/assets/content.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-05-07 21:34:57 +0200
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-05-07 21:34:57 +0200
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-05-07 21:34:57 +0200
+
+
+Started GET "/assets/items_nav.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-05-07 21:34:57 +0200
+
+
+Started GET "/assets/nav.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-05-07 21:34:57 +0200
+
+
+Started GET "/assets/navbar.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-05-07 21:34:57 +0200
+
+
+Started GET "/assets/tether/tether.self-0e1103bd72084f20bc17863434595ea99e999bcf530d80110698608f35ff5620.js?body=1" for 127.0.0.1 at 2017-05-07 21:34:57 +0200
+
+
+Started GET "/assets/tether.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2017-05-07 21:34:58 +0200
+
+
+Started GET "/assets/bootstrap/util.self-5ae5b599fc2afe0f317696c5dfc0b51d6ce2ecb47d0341d1555b2fe971ada496.js?body=1" for 127.0.0.1 at 2017-05-07 21:34:58 +0200
+
+
+Started GET "/assets/bootstrap/alert.self-5a586b490b4c9332249b231956b361b852b128a0d82f7f08549f205bba1bfeb0.js?body=1" for 127.0.0.1 at 2017-05-07 21:34:58 +0200
+
+
+Started GET "/assets/bootstrap/button.self-30412f39aaa761313878531076ce8187fe6c017e42111bf2c283fce4a7c850f8.js?body=1" for 127.0.0.1 at 2017-05-07 21:34:58 +0200
+
+
+Started GET "/assets/bootstrap/carousel.self-f18afa468f85125228747ec83e00e56a26bbc71295e90a3848af25b258445615.js?body=1" for 127.0.0.1 at 2017-05-07 21:34:58 +0200
+
+
+Started GET "/assets/bootstrap/collapse.self-94c7455a70c5bb5ad5b3eae0c70388160c238afdea0b48d5345587fd176fb52d.js?body=1" for 127.0.0.1 at 2017-05-07 21:34:58 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.self-954f8384ac380992dd91b2b176b570b0792365a334efb758774c718d9628a329.js?body=1" for 127.0.0.1 at 2017-05-07 21:34:58 +0200
+
+
+Started GET "/assets/bootstrap/modal.self-a406636221efb5add01fbaa60c24ac0ae6bc0c57008d8e2503d68f49fbe75ad0.js?body=1" for 127.0.0.1 at 2017-05-07 21:34:58 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.self-66781adda319363e67c65edfc73459411bd3948c0f32efddbc9928b810d5abf4.js?body=1" for 127.0.0.1 at 2017-05-07 21:34:58 +0200
+
+
+Started GET "/assets/bootstrap/tab.self-e3abc2817f699a2be95f78a4aff190ef7669d5590adbacd0c08867eb34ed16c6.js?body=1" for 127.0.0.1 at 2017-05-07 21:34:58 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.self-dd8a9f3fa1f9fc58df30c7ed9a17dfc7303b812d72640899beee03609124b426.js?body=1" for 127.0.0.1 at 2017-05-07 21:34:58 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.self-636159b35205da4142a43bc02d2849d77d3ac07a0946211585cde15a9c6ff21f.js?body=1" for 127.0.0.1 at 2017-05-07 21:34:58 +0200
+
+
+Started GET "/assets/bootstrap/popover.self-7d459fac34d4d96fd9d6da8efcd40dee55b66579a24ddcebf0a355c82dcad7e0.js?body=1" for 127.0.0.1 at 2017-05-07 21:34:58 +0200
+
+
+Started GET "/assets/bootstrap.self-9acfc28c4d35348d353eb47afc72c287bc271ea4f7e8c9b05f2f9554ddc3f202.js?body=1" for 127.0.0.1 at 2017-05-07 21:34:58 +0200
+
+
+Started GET "/assets/Chart.min.self-975c5c8d256ebb4204b6a86b63917f8fdae516ddc131c0ab086fd43770a290cb.js?body=1" for 127.0.0.1 at 2017-05-07 21:34:58 +0200
+
+
+Started GET "/assets/application.self-10ad0916cf31256fe71785e8dc9cc297a96b1cdf7b74aeb61711199b9a3d003f.js?body=1" for 127.0.0.1 at 2017-05-07 21:34:58 +0200
+
+
+Started GET "/assets/ruby_logo-450668df83e48c907f38f207b1b00cd065735928e38fbf1f29783fb4c6a4f081.png" for 127.0.0.1 at 2017-05-07 21:34:59 +0200
+
+
+Started GET "/assets/rails_logo-257c06a097ba9bc372c2aee93e4034fdb991f8d1e1a827c0c5a806c0ead7348b.png" for 127.0.0.1 at 2017-05-07 21:34:59 +0200
+
+
+Started GET "/assets/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2" for 127.0.0.1 at 2017-05-07 21:35:06 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 21:35:42 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (20.3ms)
+  Rendered navbar/_navbar.html.erb (120.0ms)
+  Rendered layouts/_to_top_button.html.erb (6.4ms)
+  Rendered ruby_content/_introduction.html.erb (14.1ms)
+  Rendered ruby_content/_features.html.erb (4.0ms)
+  Rendered ruby_content/_key_aspects.html.erb (12.8ms)
+  Rendered ruby_content/_blocks_functions_and_methods.html.erb (32.7ms)
+  Rendered ruby_content/_procs_and_lambdas.html.erb (20.8ms)
+  Rendered ruby_content/_map_collect_and_select.html.erb (33.8ms)
+  Rendered ruby_content/_classes.html.erb (27.1ms)
+  Rendered ruby_content/_inheritance.html.erb (22.8ms)
+  Rendered layouts/_features_chart.html.erb (11.4ms)
+  Rendered layouts/_job_chart.html.erb (4.0ms)
+  Rendered ruby_content/_comparative.html.erb (37.1ms)
+  Rendered rails_content/_what_is.html.erb (7.1ms)
+  Rendered rails_content/_mvc.html.erb (6.0ms)
+  Rendered rails_content/_model.html.erb (27.5ms)
+  Rendered rails_content/_view.html.erb (5.7ms)
+  Rendered rails_content/_controller.html.erb (3.9ms)
+  Rendered development/_gems.html.erb (3.6ms)
+  Rendered development/_graphics.html.erb (12.4ms)
+Completed 200 OK in 31876ms (Views: 31873.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/navbar.self-14dbf48cfffae39e081f77a57d018b9ddfd62ab325de9eb38ee6c349cbafb19e.css?body=1" for 127.0.0.1 at 2017-05-07 21:36:14 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 21:39:20 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (19.8ms)
+  Rendered navbar/_navbar.html.erb (109.6ms)
+  Rendered layouts/_to_top_button.html.erb (7.1ms)
+  Rendered ruby_content/_introduction.html.erb (11.8ms)
+  Rendered ruby_content/_features.html.erb (6.5ms)
+  Rendered ruby_content/_key_aspects.html.erb (4.5ms)
+  Rendered ruby_content/_blocks_functions_and_methods.html.erb (9.1ms)
+  Rendered ruby_content/_procs_and_lambdas.html.erb (3.7ms)
+  Rendered ruby_content/_map_collect_and_select.html.erb (7.6ms)
+  Rendered ruby_content/_classes.html.erb (7.5ms)
+  Rendered ruby_content/_inheritance.html.erb (7.8ms)
+  Rendered layouts/_features_chart.html.erb (12.4ms)
+  Rendered layouts/_job_chart.html.erb (4.1ms)
+  Rendered ruby_content/_comparative.html.erb (25.6ms)
+  Rendered rails_content/_what_is.html.erb (7.4ms)
+  Rendered rails_content/_mvc.html.erb (4.1ms)
+  Rendered rails_content/_model.html.erb (8.5ms)
+  Rendered rails_content/_view.html.erb (4.1ms)
+  Rendered rails_content/_controller.html.erb (4.2ms)
+  Rendered development/_gems.html.erb (6.0ms)
+  Rendered development/_graphics.html.erb (7.1ms)
+Completed 200 OK in 26840ms (Views: 26838.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/navbar.self-59d9a46ef90d0453cfab9b597cdb9c56b9dba70a4263f1b87524265af49af582.css?body=1" for 127.0.0.1 at 2017-05-07 21:39:48 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 21:43:19 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (29.4ms)
+  Rendered navbar/_navbar.html.erb (140.0ms)
+  Rendered layouts/_to_top_button.html.erb (8.1ms)
+  Rendered ruby_content/_introduction.html.erb (21.8ms)
+  Rendered ruby_content/_features.html.erb (5.4ms)
+  Rendered ruby_content/_key_aspects.html.erb (6.6ms)
+  Rendered ruby_content/_blocks_functions_and_methods.html.erb (17.7ms)
+  Rendered ruby_content/_procs_and_lambdas.html.erb (16.1ms)
+  Rendered ruby_content/_map_collect_and_select.html.erb (13.8ms)
+  Rendered ruby_content/_classes.html.erb (18.4ms)
+  Rendered ruby_content/_inheritance.html.erb (22.1ms)
+  Rendered layouts/_features_chart.html.erb (8.8ms)
+  Rendered layouts/_job_chart.html.erb (15.6ms)
+  Rendered ruby_content/_comparative.html.erb (37.6ms)
+  Rendered rails_content/_what_is.html.erb (12.5ms)
+  Rendered rails_content/_mvc.html.erb (3.8ms)
+  Rendered rails_content/_model.html.erb (11.0ms)
+  Rendered rails_content/_view.html.erb (4.0ms)
+  Rendered rails_content/_controller.html.erb (9.7ms)
+  Rendered development/_gems.html.erb (4.3ms)
+  Rendered development/_graphics.html.erb (7.2ms)
+Completed 200 OK in 27241ms (Views: 27238.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/navbar.self-80af3bf648128353202fbbcde83ff396d2eda34b12bd29c0dcc46b10c6c9db32.css?body=1" for 127.0.0.1 at 2017-05-07 21:43:47 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 21:44:49 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (29.9ms)
+  Rendered navbar/_navbar.html.erb (67.8ms)
+  Rendered layouts/_to_top_button.html.erb (14.5ms)
+  Rendered ruby_content/_introduction.html.erb (15.5ms)
+  Rendered ruby_content/_features.html.erb (3.6ms)
+  Rendered ruby_content/_key_aspects.html.erb (13.4ms)
+  Rendered ruby_content/_blocks_functions_and_methods.html.erb (18.6ms)
+  Rendered ruby_content/_procs_and_lambdas.html.erb (7.9ms)
+  Rendered ruby_content/_map_collect_and_select.html.erb (14.7ms)
+  Rendered ruby_content/_classes.html.erb (14.2ms)
+  Rendered ruby_content/_inheritance.html.erb (11.8ms)
+  Rendered layouts/_features_chart.html.erb (6.3ms)
+  Rendered layouts/_job_chart.html.erb (3.8ms)
+  Rendered ruby_content/_comparative.html.erb (23.9ms)
+  Rendered rails_content/_what_is.html.erb (7.6ms)
+  Rendered rails_content/_mvc.html.erb (3.7ms)
+  Rendered rails_content/_model.html.erb (7.8ms)
+  Rendered rails_content/_view.html.erb (3.5ms)
+  Rendered rails_content/_controller.html.erb (3.5ms)
+  Rendered development/_gems.html.erb (3.6ms)
+  Rendered development/_graphics.html.erb (12.5ms)
+Completed 200 OK in 30240ms (Views: 30230.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/navbar.self-4bc8e016e97d1699e182241682146c699ce4a5481f951a23e659e6975c1f0414.css?body=1" for 127.0.0.1 at 2017-05-07 21:45:19 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 21:51:33 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (10.3ms)
+  Rendered navbar/_navbar.html.erb (40.5ms)
+  Rendered layouts/_to_top_button.html.erb (5.7ms)
+  Rendered ruby_content/_introduction.html.erb (9.7ms)
+  Rendered ruby_content/_features.html.erb (12.0ms)
+  Rendered ruby_content/_key_aspects.html.erb (4.5ms)
+  Rendered ruby_content/_blocks_functions_and_methods.html.erb (9.7ms)
+  Rendered ruby_content/_procs_and_lambdas.html.erb (6.3ms)
+  Rendered ruby_content/_map_collect_and_select.html.erb (8.6ms)
+  Rendered ruby_content/_classes.html.erb (8.9ms)
+  Rendered ruby_content/_inheritance.html.erb (7.3ms)
+  Rendered layouts/_features_chart.html.erb (7.6ms)
+  Rendered layouts/_job_chart.html.erb (4.3ms)
+  Rendered ruby_content/_comparative.html.erb (26.9ms)
+  Rendered rails_content/_what_is.html.erb (17.6ms)
+  Rendered rails_content/_mvc.html.erb (4.4ms)
+  Rendered rails_content/_model.html.erb (8.3ms)
+  Rendered rails_content/_view.html.erb (4.5ms)
+  Rendered rails_content/_controller.html.erb (9.0ms)
+  Rendered development/_gems.html.erb (5.2ms)
+  Rendered development/_graphics.html.erb (10.3ms)
+Completed 200 OK in 617ms (Views: 614.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 21:52:04 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/lib/ruby/vendor_ruby/rails/templates/rails/welcome/index.html.erb (3.5ms)
+Completed 200 OK in 42ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 21:52:18 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (12.1ms)
+  Rendered navbar/_navbar.html.erb (46.9ms)
+  Rendered layouts/_to_top_button.html.erb (6.0ms)
+  Rendered ruby_content/_introduction.html.erb (8.3ms)
+  Rendered ruby_content/_features.html.erb (8.5ms)
+  Rendered ruby_content/_key_aspects.html.erb (3.4ms)
+  Rendered ruby_content/_blocks_functions_and_methods.html.erb (8.6ms)
+  Rendered ruby_content/_procs_and_lambdas.html.erb (3.6ms)
+  Rendered ruby_content/_map_collect_and_select.html.erb (13.5ms)
+  Rendered ruby_content/_classes.html.erb (6.7ms)
+  Rendered ruby_content/_inheritance.html.erb (6.8ms)
+  Rendered layouts/_features_chart.html.erb (10.4ms)
+  Rendered layouts/_job_chart.html.erb (3.8ms)
+  Rendered ruby_content/_comparative.html.erb (23.8ms)
+  Rendered rails_content/_what_is.html.erb (6.7ms)
+  Rendered rails_content/_mvc.html.erb (3.6ms)
+  Rendered rails_content/_model.html.erb (13.2ms)
+  Rendered rails_content/_view.html.erb (3.8ms)
+  Rendered rails_content/_controller.html.erb (5.0ms)
+  Rendered development/_gems.html.erb (3.4ms)
+  Rendered development/_graphics.html.erb (11.4ms)
+Completed 200 OK in 558ms (Views: 555.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/er" for 127.0.0.1 at 2017-05-07 21:52:23 +0200
+
+ActionController::RoutingError (No route matches [GET] "/er"):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:38:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `block in call'
+  /usr/lib/ruby/vendor_ruby/active_support/tagged_logging.rb:68:in `block in tagged'
+  /usr/lib/ruby/vendor_ruby/active_support/tagged_logging.rb:26:in `tagged'
+  /usr/lib/ruby/vendor_ruby/active_support/tagged_logging.rb:68:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:518:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.5ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_table.html.erb (85.1ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (14.3ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (260.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (2.0ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.7ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (152.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (2.0ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (296.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 21:52:44 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (10.6ms)
+  Rendered navbar/_navbar.html.erb (50.4ms)
+  Rendered layouts/_to_top_button.html.erb (6.3ms)
+  Rendered ruby_content/_introduction.html.erb (14.5ms)
+  Rendered ruby_content/_features.html.erb (4.1ms)
+  Rendered ruby_content/_key_aspects.html.erb (3.7ms)
+  Rendered ruby_content/_blocks_functions_and_methods.html.erb (8.2ms)
+  Rendered ruby_content/_procs_and_lambdas.html.erb (3.3ms)
+  Rendered ruby_content/_map_collect_and_select.html.erb (12.4ms)
+  Rendered ruby_content/_classes.html.erb (7.2ms)
+  Rendered ruby_content/_inheritance.html.erb (6.3ms)
+  Rendered layouts/_features_chart.html.erb (6.7ms)
+  Rendered layouts/_job_chart.html.erb (3.7ms)
+  Rendered ruby_content/_comparative.html.erb (25.6ms)
+  Rendered rails_content/_what_is.html.erb (6.4ms)
+  Rendered rails_content/_mvc.html.erb (3.3ms)
+  Rendered rails_content/_model.html.erb (6.9ms)
+  Rendered rails_content/_view.html.erb (3.5ms)
+  Rendered rails_content/_controller.html.erb (3.3ms)
+  Rendered development/_gems.html.erb (3.5ms)
+  Rendered development/_graphics.html.erb (11.9ms)
+Completed 200 OK in 537ms (Views: 534.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 21:56:53 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (14.7ms)
+  Rendered navbar/_navbar.html.erb (35.7ms)
+  Rendered layouts/_to_top_button.html.erb (5.9ms)
+  Rendered ruby_content/_introduction.html.erb (7.3ms)
+  Rendered ruby_content/_features.html.erb (3.2ms)
+  Rendered ruby_content/_key_aspects.html.erb (3.8ms)
+  Rendered ruby_content/_blocks_functions_and_methods.html.erb (8.7ms)
+  Rendered ruby_content/_procs_and_lambdas.html.erb (3.3ms)
+  Rendered ruby_content/_map_collect_and_select.html.erb (6.3ms)
+  Rendered ruby_content/_classes.html.erb (6.5ms)
+  Rendered ruby_content/_inheritance.html.erb (12.0ms)
+  Rendered layouts/_features_chart.html.erb (5.9ms)
+  Rendered layouts/_job_chart.html.erb (3.5ms)
+  Rendered ruby_content/_comparative.html.erb (18.4ms)
+  Rendered rails_content/_what_is.html.erb (11.1ms)
+  Rendered rails_content/_mvc.html.erb (3.3ms)
+  Rendered rails_content/_model.html.erb (6.6ms)
+  Rendered rails_content/_view.html.erb (3.3ms)
+  Rendered rails_content/_controller.html.erb (3.8ms)
+  Rendered development/_gems.html.erb (8.9ms)
+  Rendered development/_graphics.html.erb (6.3ms)
+Completed 200 OK in 590ms (Views: 588.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 21:58:45 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (40.0ms)
+  Rendered navbar/_navbar.html.erb (75.3ms)
+  Rendered layouts/_to_top_button.html.erb (15.0ms)
+  Rendered ruby_content/_introduction.html.erb (14.3ms)
+  Rendered ruby_content/_features.html.erb (10.2ms)
+  Rendered ruby_content/_key_aspects.html.erb (6.6ms)
+  Rendered ruby_content/_blocks_functions_and_methods.html.erb (23.1ms)
+  Rendered ruby_content/_procs_and_lambdas.html.erb (3.6ms)
+  Rendered ruby_content/_map_collect_and_select.html.erb (23.0ms)
+  Rendered ruby_content/_classes.html.erb (16.7ms)
+  Rendered ruby_content/_inheritance.html.erb (8.1ms)
+  Rendered layouts/_features_chart.html.erb (5.4ms)
+  Rendered layouts/_job_chart.html.erb (3.7ms)
+  Rendered ruby_content/_comparative.html.erb (23.7ms)
+  Rendered rails_content/_what_is.html.erb (8.9ms)
+  Rendered rails_content/_mvc.html.erb (3.5ms)
+  Rendered rails_content/_model.html.erb (7.1ms)
+  Rendered rails_content/_view.html.erb (3.9ms)
+  Rendered rails_content/_controller.html.erb (3.4ms)
+  Rendered development/_gems.html.erb (5.9ms)
+  Rendered development/_graphics.html.erb (7.7ms)
+Completed 200 OK in 802ms (Views: 800.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 22:00:40 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (17.7ms)
+  Rendered navbar/_navbar.html.erb (48.6ms)
+  Rendered layouts/_to_top_button.html.erb (5.8ms)
+  Rendered ruby_content/_introduction.html.erb (16.0ms)
+  Rendered ruby_content/_features.html.erb (3.8ms)
+  Rendered ruby_content/_key_aspects.html.erb (13.6ms)
+  Rendered ruby_content/_blocks_functions_and_methods.html.erb (14.3ms)
+  Rendered ruby_content/_procs_and_lambdas.html.erb (3.8ms)
+  Rendered ruby_content/_map_collect_and_select.html.erb (7.6ms)
+  Rendered ruby_content/_classes.html.erb (11.8ms)
+  Rendered ruby_content/_inheritance.html.erb (16.7ms)
+  Rendered layouts/_features_chart.html.erb (11.5ms)
+  Rendered layouts/_job_chart.html.erb (8.7ms)
+  Rendered ruby_content/_comparative.html.erb (34.1ms)
+  Rendered rails_content/_what_is.html.erb (6.5ms)
+  Rendered rails_content/_mvc.html.erb (10.3ms)
+  Rendered rails_content/_model.html.erb (11.4ms)
+  Rendered rails_content/_view.html.erb (3.6ms)
+  Rendered rails_content/_controller.html.erb (3.6ms)
+  Rendered development/_gems.html.erb (4.1ms)
+  Rendered development/_auth.html.erb (12.1ms)
+  Rendered development/_graphics.html.erb (10.9ms)
+Completed 200 OK in 733ms (Views: 731.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 22:01:09 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (13.0ms)
+  Rendered navbar/_navbar.html.erb (31.2ms)
+  Rendered layouts/_to_top_button.html.erb (6.2ms)
+  Rendered ruby_content/_introduction.html.erb (8.4ms)
+  Rendered ruby_content/_features.html.erb (3.4ms)
+  Rendered ruby_content/_key_aspects.html.erb (3.8ms)
+  Rendered ruby_content/_blocks_functions_and_methods.html.erb (8.5ms)
+  Rendered ruby_content/_procs_and_lambdas.html.erb (3.4ms)
+  Rendered ruby_content/_map_collect_and_select.html.erb (7.3ms)
+  Rendered ruby_content/_classes.html.erb (12.4ms)
+  Rendered ruby_content/_inheritance.html.erb (6.5ms)
+  Rendered layouts/_features_chart.html.erb (12.4ms)
+  Rendered layouts/_job_chart.html.erb (3.4ms)
+  Rendered ruby_content/_comparative.html.erb (26.4ms)
+  Rendered rails_content/_what_is.html.erb (6.2ms)
+  Rendered rails_content/_mvc.html.erb (3.3ms)
+  Rendered rails_content/_model.html.erb (15.3ms)
+  Rendered rails_content/_view.html.erb (4.0ms)
+  Rendered rails_content/_controller.html.erb (3.7ms)
+  Rendered development/_gems.html.erb (3.9ms)
+  Rendered development/_auth.html.erb (6.7ms)
+  Rendered development/_graphics.html.erb (6.7ms)
+Completed 200 OK in 557ms (Views: 553.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 22:06:16 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (13.2ms)
+  Rendered navbar/_navbar.html.erb (24.2ms)
+  Rendered layouts/_to_top_button.html.erb (5.4ms)
+  Rendered ruby_content/_introduction.html.erb (9.6ms)
+  Rendered ruby_content/_features.html.erb (3.3ms)
+  Rendered ruby_content/_key_aspects.html.erb (3.6ms)
+  Rendered ruby_content/_blocks_functions_and_methods.html.erb (7.7ms)
+  Rendered ruby_content/_procs_and_lambdas.html.erb (3.4ms)
+  Rendered ruby_content/_map_collect_and_select.html.erb (6.8ms)
+  Rendered ruby_content/_classes.html.erb (11.8ms)
+  Rendered ruby_content/_inheritance.html.erb (12.5ms)
+  Rendered layouts/_features_chart.html.erb (6.0ms)
+  Rendered layouts/_job_chart.html.erb (4.4ms)
+  Rendered ruby_content/_comparative.html.erb (24.4ms)
+  Rendered rails_content/_what_is.html.erb (6.8ms)
+  Rendered rails_content/_mvc.html.erb (3.5ms)
+  Rendered rails_content/_model.html.erb (7.8ms)
+  Rendered rails_content/_view.html.erb (3.6ms)
+  Rendered rails_content/_controller.html.erb (3.6ms)
+  Rendered development/_gems.html.erb (4.0ms)
+  Rendered development/_auth.html.erb (7.0ms)
+  Rendered development/_graphics.html.erb (6.8ms)
+Completed 500 Internal Server Error in 605ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Missing partial deployment/_heroku with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/andrea/Escritorio/SANZ-DE-JUAN-ANDREA/app/views"
+):
+    37:       <%= render 'development/auth' %>
+    38:       <%= render 'development/graphics' %>
+    39:       <!-- DEPLOYMENT -->
+    40:       <%= render 'deployment/heroku' %>
+    41:     </div>
+    42:     <%= yield %>
+    43: </body>
+  app/views/layouts/application.html.erb:40:in `_app_views_layouts_application_html_erb__196818241934390965_70167292296760'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_source.erb (56.2ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.html.erb (18.6ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.1ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (184.0ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (3.1ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (2.1ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (184.1ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (2.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (311.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 22:06:53 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (11.6ms)
+  Rendered navbar/_navbar.html.erb (57.9ms)
+  Rendered layouts/_to_top_button.html.erb (7.3ms)
+  Rendered ruby_content/_introduction.html.erb (11.2ms)
+  Rendered ruby_content/_features.html.erb (4.8ms)
+  Rendered ruby_content/_key_aspects.html.erb (4.2ms)
+  Rendered ruby_content/_blocks_functions_and_methods.html.erb (19.5ms)
+  Rendered ruby_content/_procs_and_lambdas.html.erb (5.0ms)
+  Rendered ruby_content/_map_collect_and_select.html.erb (14.2ms)
+  Rendered ruby_content/_classes.html.erb (9.3ms)
+  Rendered ruby_content/_inheritance.html.erb (8.2ms)
+  Rendered layouts/_features_chart.html.erb (8.0ms)
+  Rendered layouts/_job_chart.html.erb (5.7ms)
+  Rendered ruby_content/_comparative.html.erb (31.5ms)
+  Rendered rails_content/_what_is.html.erb (8.8ms)
+  Rendered rails_content/_mvc.html.erb (4.8ms)
+  Rendered rails_content/_model.html.erb (9.7ms)
+  Rendered rails_content/_view.html.erb (4.2ms)
+  Rendered rails_content/_controller.html.erb (11.1ms)
+  Rendered development/_gems.html.erb (3.7ms)
+  Rendered development/_auth.html.erb (8.8ms)
+  Rendered development/_graphics.html.erb (16.2ms)
+  Rendered deployment/_heroku.html.erb (10.7ms)
+Completed 200 OK in 680ms (Views: 678.3ms | ActiveRecord: 0.0ms)
