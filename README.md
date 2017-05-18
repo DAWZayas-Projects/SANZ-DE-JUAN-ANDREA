@@ -12,7 +12,7 @@ Links
 -------------
 
 > - [Presentación](https://shielded-tundra-94631.herokuapp.com/)
-> - [Aplicación ejemplo](https://shielded-tundra-94631.herokuapp.com/)
+> - [Aplicación ejemplo](https://arcane-mountain-11574.herokuapp.com/)
 
 ----------
 
@@ -28,7 +28,7 @@ Descargar el proyecto
 
 #### **Uso**
 
->- Descarga el proyecto y cámbiate a su directorio.
+>- Descarga o clona el proyecto y cámbiate a su directorio.
 >- Ejecuta el comando *bundle install* para instalar las gemas del proyecto (Librerías)
 >- Ejecuta el comando *rake db:migrate* para realizar las acciones de la base de datos.
 >- Ejecuta el comando *rails s* o el comando *rails server* para arrancar el servidor.
