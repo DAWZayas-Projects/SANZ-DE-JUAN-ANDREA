@@ -12,7 +12,7 @@ Links
 -------------
 
 > - [Presentación](https://shielded-tundra-94631.herokuapp.com/)
-> - [Aplicación ejemplo](https://arcane-mountain-11574.herokuapp.com/)
+> - [Aplicación ejemplo](http://petsteam.herokuapp.com/)
 
 ----------
 
