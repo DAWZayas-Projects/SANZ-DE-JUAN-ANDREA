@@ -7,6 +7,16 @@ stylesheet_link_tag 'codeBlocks'
   <h1 class="title">Autenticación</h1>
   <div class="subject">
     <div class="big-text">
+      La autenticación se realiza mediante sesiones, cuando el usuario inicia sesión, se inicia una
+      sesión, donde se almacena el identificador (en este caso id) del usuario.
+      Para realizar una autenticación se crean dos controladores, uno para la sesión y otro para los usuarios.
+      El controlador de la sesión contará con dos métodos:
+      <ul>
+        <li>Para crear la sesión.</li>
+        <li>Para destruir la sesión.</li>
+      </ul>
+      La contraseña se cifra usando la gema <i>Bcrypt</i>, es importante que en la tabla donde se almacenen los usuarios
+      exista un campo con el nombre <i>"password_digest"</i>, que será el que almacene la contraseña.
 
     </div>
   </div>
