@@ -7,7 +7,63 @@ stylesheet_link_tag 'codeBlocks'
   <h1 class="title">Despliegue</h1>
   <div class="subject">
     <div class="big-text">
-
+      <p>
+        Ambos despliegues están realizados con Heroku en su modaliddad gratuita. Heroku permite el despliegue de
+        aplicaciones desarrrolladas en varios lenguajes, entre ellos: PHP, Python, Go, ...
+        Para desplegar una aplicación con Heroku es necesario tanto tener una cuenta de Heroku, como una de Git.
+        Lo primero es descargar Heroku CLI (Command Line Interface), la herramienta para poder poder usarlo.
+        La creación de la aplicación se puede realizar de dos formas:
+      </p>
+      <p>
+        Usando la <span class="doubleVariable">interfaz gráfica</span> que proporciona Heroku, o usando la consola.
+        Heroku permite usar un nombre elegido para la aplicación o uno por defecto, seleccionar la zona desde donde se
+        lanza la aplicación (EEUU o Europa) y la modalidad.
+        Usando la <span class="doubleVariable">consola</span> Donde estos pasos se realizarán usando comandos.
+      </p>
+      <p>
+        En ambas modalidades es necesario inicializar Heroku en el directorio donde se encuentra el proyecto, e iniciar sesión
+        con Git.
+        Heroku asigna un repositorio en Git donde almacenar el proyecto y desde el cuál despliega. Para poder desplegar el proyecto,
+        haríamos los mismo pasos que para subirlo al repositorio.
+      </p>
+      <pre class="codeBlock">
+        <code>
+          <span class="doubleVariable">git</span> add *
+          <span class="doubleVariable">git</span> commit -m "Your comment"
+          <span class="doubleVariable">git</span> push <span class="show">heroku</span> master
+        </code>
+      </pre>
+      <p>
+        En Ruby por defecto la base de datos que proporciona Heroku es <span class="variable">PostgreSQL</span>,
+        si usas mySQL en tu proyecto de forma lcoal puedes "transformarla" mediante un comando para pasarla a PostgreSQL.
+        Pero si quieres usar mySQL en Heroku debes activar un addOn (en este case ClearDB, que es gratuito pero requiere ingresar un
+        método de pago)
+      </p>
+      <h6 class="text-center">PROBLEMAS QUE PUEDEN SURGIR</h6>
+      <p>
+        Es importante que cuando subas al aplicación importes la base de datos usando el comando:
+      </p>
+      <pre class="codeBlock">
+        <code>
+          <span class="doubleVariable">heroku</span> rake db:migrate
+        </code>
+      </pre>
+      <p>
+        Si las variables de conexión de la base de datos no están bien definidas, surgirán problemas. En el caso de uso de mySQL
+        es necesario modificar las variables y adaptarlas a la gema mySQL2, ya que por defecto están para primera versión.
+        Ante cualquier fallo, heroku permite ver un registro de log. Para ello se ejecuta el comando:
+      </p>
+      <pre class="codeBlock">
+        <code>
+          <span class="doubleVariable">heroku</span> logs
+        </code>
+      </pre>
     </div>
   </div>
 </div>
+
+
+<%
+stylesheet_link_tag 'content'
+stylesheet_link_tag 'codeBlocks'
+%>
