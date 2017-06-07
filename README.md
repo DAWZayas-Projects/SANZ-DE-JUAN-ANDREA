@@ -11,7 +11,7 @@ Usada como presentación para proyecto de FCT. Además, esta se complementa con 
 Links
 -------------
 
-> - [Presentación](https://shielded-tundra-94631.herokuapp.com/)
+> - [Presentación](https://presentation-ruby.herokuapp.com/)
 > - [Aplicación ejemplo](http://petsteam.herokuapp.com/)
 
 ----------
