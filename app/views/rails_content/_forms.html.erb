@@ -1,0 +1,59 @@
+<%
+stylesheet_link_tag 'content'
+stylesheet_link_tag 'codeBlocks'
+%>
+
+<div class="main container" id="formularios">
+  <h1 class="title">Validación de formularios</h1>
+  <div class="subject">
+    <div class="big-text">
+      <p>
+        En Rails la validación se hace mediante <span class="base"><i>helpers</i></span>, son módulos de rails
+        que ayudan a extraer lógica de la vista. Estos se pueden ampliar, añadiendo tú los que creas convenientes.
+        Cada vez que generamos una vista se crea un helper para esta, en el directorio <i>helper</i>
+      </p>
+      <p>
+        Para validar formulario usamos los métodos de validación de formularios. Para ello es necesario usar las
+        etiquetas de rails en la vista. Ejem:
+      </p>
+      <pre class="codeBlock">
+        <code data-lang="ruby">
+          <span class="class">&lt;%=</span><span class="new">form_for</span> :person, <span class="other">:url</span> => url_for(:controller => 'person', :action => 'create') do <span class="variable">|f|</span><span class="class">%&gt;</span>
+            &lt;div class="form"&gt;
+              &lt;div class="form-group row"&gt;
+                <span class="class">&lt;%</span><span class="doubleVariable">f.label</span> :name, "Nombre*: ", class: "col-2 col-form-label"<span class="class">%&gt;</span>
+                &lt;div class="col-10"&gt;
+                  <span class="class">&lt;%</span><span class="doubleVariable">f.text_field</span> :name, class: "form-control", type: 'text'<span class="class">%&gt;</span>
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          <span class="class">&lt;%end%&gt;</span>
+        </code>
+      </pre>
+      <p>
+        Las validaciones se realizan en el modelo. Se puede comprobar que se hayan recibido los datos, que tengan la forma correcta,... Ejem:
+        Cuando no se pasa la validación, rails guarda el error en una variable, que luego se comprueba en el formulario.
+      </p>
+      <pre class="codeBlock">
+        <code data-lang="ruby">
+          <span class="class">validates</span> :name, <span class="doubleVariable">presence:</span> true, <span class="other">length:</span> {min: 3}
+        </code>
+      </pre>
+      <p>
+        Para mostrar errores cometidos en al rellenar el formulario, comprobamos en la vista si hay errores y los visualizamos. Ejem:
+      </p>
+      <pre class="codeBlock">
+        <code data-lang="ruby">
+          &lt;% if <span class="class">@person.errors.any?</span> %&gt;
+            &lt;% <span class="doubleVariable">pluralize</span>(@person.errors.count, "error") %&gt;
+              &lt;% <span class="variable">@person.errors.full_messages.each</span> do |msg| %&gt;
+              &lt;div class="alert alert-danger" role="alert"&gt;
+                <strong>¡Oh no!</strong> &lt;%= msg %&gt;
+              &lt;/div&gt;
+              &lt;% end %&gt;
+            &lt;% end %&gt;
+        </code>
+      </pre>
+    </div>
+  </div>
+</div>
