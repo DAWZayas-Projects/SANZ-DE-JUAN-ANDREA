@@ -7,8 +7,7 @@ stylesheet_link_tag 'content'
   <div class="subject">
     <div class="big-text">
       <p>
-        Representa la interfaz de la aplicación. Compuesta por código Ruby incrustado en código HTML.
-        La extensión de los ficheros es <i>.html.erb</i>
+        Es la parte visible de la aplicación, se compone de código HTML con código Ruby incrustado. La extensión de los ficheros es <i>.html.erb</i>, y el código Ruby se implementa usando las etiquetas <b>&lt;% %&gt;</b> o <b>&lt;%= %&gt;</b>
       </p>
       <pre class="codeBlock">
         <code data-lang="ruby">
@@ -19,12 +18,10 @@ stylesheet_link_tag 'content'
         </code>
       </pre>
       <p>
-        En Rails existen los parciales, que son ficheros html.erb que se pueden renderizar en otros. Son usados
-        para no repetir código. De esta forma si un elemento va a aparecer en todas las páginas, crearemos un parcial
-        que se renderizará en la vista <i>application</i>.
+        En Rails encontramos los parciales, que son vistas que se pueden renderizar, importar en otras vistas. De esta forma podemos evitarnos duplicar código. Es importante que sean nombrados con el prefijo <b>_</b>
       </p>
       <p>
-        Para diferenciar un parcial de una página, al nombrarlo hay que añadir _ al principio. Ejemplo:
+        Para llamarlos desde una vista los renderizaremos, mediante la palabra clave render.
       </p>
       <pre class="codeBlock">
         <code data-lang="ruby">
