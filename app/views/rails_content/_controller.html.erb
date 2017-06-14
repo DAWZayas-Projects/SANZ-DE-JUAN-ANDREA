@@ -7,7 +7,7 @@ stylesheet_link_tag 'content'
   <div class="subject">
     <div class="big-text">
       <p>
-        Sirve como puente entre el modelo y las vistas. Recibe las peticiones del usuario y devuelve el contenido en función de estas.
+        Es el elemento que sirve como puente entre el modelo y la vista. Recibe las peticiones que realiza el usuario, trabaja con ellas y devuelve el contenido requerido.
         Para crearlo se usa el comando:
         <pre class="codeBlock">
           <code data-lang="ruby">
@@ -20,6 +20,9 @@ stylesheet_link_tag 'content'
             rails <span class="special">g</span> <span class="doubleVariable">controller</span> nombre_controlador
           </code>
         </pre>
+      </p>
+      <p>
+        Los controladores son accesibles desde sus vistas, por lo tanto no se puede acceder a un controlador desde una vista que no le corresponde, pero sí se puede acceder a algunos métodos, indicándolo correctamente
       </p>
     </div>
   </div>
