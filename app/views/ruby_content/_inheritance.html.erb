@@ -7,7 +7,12 @@ stylesheet_link_tag 'codeBlocks'
   <h1 class="title">HERENCIA</h1>
   <div class="subject">
     <div class="big-text">
-      <p>La herencia en Ruby se realiza con <b><</b>. Una clase no puede heredar de varias.</p>
+      <p>
+        Para realizar la herencia en Ruby se emplea el carácter <b>&lt;</b>. Al heredar, la clase hija puede acceder a todos los elementos de la clase padre, empleando la palabra reservada <i>super</i>. 
+      </p>
+      <p>
+        Un aspecto importante es que una clase hija sólo podrá tener una clase padre, pero una clase padre podrá tener muchas clases hija. Esto ocurre porque una clase <u>sólo</u> puede heredar de otra.
+      </p>
       <pre class="codeBlock">
         <code data-lang="ruby">
           <span class="class">class </span>Bird
