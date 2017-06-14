@@ -8,9 +8,12 @@ stylesheet_link_tag 'codeBlocks'
   <div class="subject">
     <div class="big-text">
       <p>
-        La autenticación se realiza mediante sesiones, cuando el usuario se identifica, se inicia una
-        sesión, donde se almacena el identificador (en este caso id) del usuario.
-        Para realizar una autenticación se crean dos partes:
+       La autenticación en Rails se puede realizar mediante dos formas: usando sesiones o usando tokens. La más utilizada es la de sesiones.
+       Autenticación usando sesiones:
+      </p>
+      <p>
+        Cuando el usuario se identifica se inicia una sesión, donde se almacena un identificador, que puede ser lo que el desarrollador decida, lo más común es usar un identificador del usuario, como puede ser un id, su login,…
+        Para realizar esta autenticación se necesitan dos partes:
       </p>
       <pre class="codeBlock">
         La parte de la <span class="show">sesión</span>:
