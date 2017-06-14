@@ -5,10 +5,19 @@
   <div class="subject">
     <div class="big-text">
       <p>
-        Los procedimientos y los lambdas se comportan como funciones anónimas. Son muy parecidos, salvo por dos diferencias:
-        una es que el lambda comprueba que el número de argumentos pasado sea correcto (decir nil y excepción); y la otra que
-        cuando un lambda devuelve un objeto, este pasa primero por el método, frente al procedimiento, que lo devuelve directamente.
+        Similares a los bloques, el uso de un proc o un lambda frente a un bloque es que estos se declaran y se almacenan en una variable y un bloque no. De esta forma, si queremos reutilizarlo en varios métodos o funciones no repetiremos código.
       </p>
+      <p>
+        Los procedimientos y los lambdas son iguales salvo dos características: 
+      </p>
+      <ul class="list-group uList">
+        <li class="list-group-item">
+          &nbsp;Los <b>lambdas</b> comprueban que el número de argumentos pasado sea correcto, lanzando una excepción si es incorrecto.
+        </li>
+        <li class="list-group-item">
+          &nbsp;Los <b>lambdas</b> no salen de la ejecución al encontrar un return, si no que devuelven el valor al método y siguen ejecutándose.
+        </li>
+      </ul>
       <p>
         Procedimiento:
       </p>
