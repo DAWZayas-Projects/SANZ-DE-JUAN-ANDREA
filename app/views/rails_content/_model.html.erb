@@ -8,9 +8,9 @@ stylesheet_link_tag 'codeBlocks'
   <div class="subject">
     <div class="big-text">
       <p>
-        Son las clases que representan las tablas de la base de datos.
-        Por defecto en Rails la base de datos usada es PostgreSQL. Pero se puede usar otra, instalando la gema pertinente
-        y especificando la base de datos a usar en la creación del proyecto.
+        Son las clases que representan las tablas de las bases de datos. Respecto a esta, Rails usa por defecto PostgreSQL, una base de datos relacional; pero se puede usar otra, instalando la gema conveniente, y especificando en el proyecto la base de datos a usar. 
+      </p>
+      <p>
         <pre class="codeBlock">
           <code data-lang="ruby">
             rails <span class="show">new</span> app_name <span class="base">-d</span> DB_name
@@ -18,7 +18,7 @@ stylesheet_link_tag 'codeBlocks'
         </pre>
       </p>
       <p>
-        Para generar un modelo, así como la creación de la tabla en la base de datos y las migraciones necesarias, se usa el comando 'rails g model nombre_modelo'
+        Para generar un modelo, así como la creación de la tabla en la base de datos y las migraciones necesarias, se usa el comando 'rails g model nombre_modelo', en la consola. Lo que generará tanto las clases de ese modelo como las tablas en la base de datos.
         o con el comando.
         <pre class="codeBlock">
           <code data-lang="ruby">
@@ -31,6 +31,9 @@ stylesheet_link_tag 'codeBlocks'
             rails <span class="special">g</span> <span class="doubleVariable">model</span> nombre_modelo
           </code>
         </pre>
+      </p>
+      <p>
+        Al crear el modelo podemos especificar los campos que tendrá o bien realizar una migración. Las migraciones son ficheros donde se especifican las modificaciones a realizar en la base de datos. Estas se pueden definir utilizando sintaxis de Ruby o utilizando sintaxis de la base de datos utilizada, empleando el comando <b>exec</b>.
       </p>
       <p>En el caso de necesitar modificar alguna tabla, es necesario crear una migración donde se especificarán los cambios, bien con sintaxis de la base de datos
         Ejemplo(Usando mySQL):
