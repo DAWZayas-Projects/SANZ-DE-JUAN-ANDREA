@@ -8,17 +8,23 @@ stylesheet_link_tag 'codeBlocks'
   <div class="subject">
     <div class="big-text">
       <p>
-        Ambos despliegues están realizados con Heroku en su modaliddad gratuita. Heroku permite el despliegue de
-        aplicaciones desarrrolladas en varios lenguajes, entre ellos: PHP, Python, Go, ...
-        Para desplegar una aplicación con Heroku es necesario tanto tener una cuenta de Heroku, como una de Git.
-        Lo primero es descargar Heroku CLI (Command Line Interface), la herramienta para poder poder usarlo.
-        La creación de la aplicación se puede realizar de dos formas:
+        A la hora de desplegar la aplicación se ofrecen dos alternativas, usar un servicio basado en la nube o usar un servidor privado virtual (VPS).
+      </p>
+      <p>
+        En la primera opción podemos elegir el tipo de servicio que mejor se adapte a nuestras necesidades: SaaS (Software as a Service), PaaS (Platform as a Service) o IaaS (Infraestructure as a Service) En esta opción encontramos herramientas como Heroku, Digital Ocean, EngineYard, AppFog,… 
       </p>
       <p>
         Usando la <span class="doubleVariable">interfaz gráfica</span> que proporciona Heroku, o usando la consola.
         Heroku permite usar un nombre elegido para la aplicación o uno por defecto, seleccionar la zona desde donde se
         lanza la aplicación (EEUU o Europa) y la modalidad.
         Usando la <span class="doubleVariable">consola</span> Donde estos pasos se realizarán usando comandos.
+      </p>
+      <p>
+        Para este proyecto yo he escogido Heroku, un servicio PaaS. En este tipo de servicios, el cliente ofrece una plataforma donde desplegar la aplicación.
+        En este tipo de servicio el proveedor se encarga de todo lo referente a los servidores, conectividad, seguridad, almacenamiento y bases de datos.
+      </p>
+      <p>
+        Desplegar una aplicación con Heroku es muy sencillo, simplemente almacenas tu aplicación en un repositorio remoto de Heroku, pero para ello hay que seguir ciertos pasos.
       </p>
       <p>
         En ambas modalidades es necesario inicializar Heroku en el directorio donde se encuentra el proyecto, e iniciar sesión
