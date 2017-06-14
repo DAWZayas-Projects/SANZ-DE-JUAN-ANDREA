@@ -40,36 +40,11 @@ stylesheet_link_tag 'codeBlocks'
         </code>
       </pre>
       <p>
-        En Ruby por defecto la base de datos que proporciona Heroku es <span class="variable">PostgreSQL</span>,
-        si usas mySQL en tu proyecto de forma lcoal puedes "transformarla" mediante un comando para pasarla a PostgreSQL.
-        Pero si quieres usar mySQL en Heroku debes activar un addOn (en este case ClearDB, que es gratuito pero requiere ingresar un
-        método de pago)
+        Por defecto, al crear una aplicación de Ruby en Heroku, la base de datos que utiliza es PostgreSQL; si estamos utilizando otra, tenemos dos opciones: migrar nuestra base de datos a esta o añadir un add-on de la base de datos que queramos. Los add-ons de Heroku son herramientas y servicios para ampliar la funcionalidad de la aplicación. 
       </p>
-      <h6 class="text-center">PROBLEMAS QUE PUEDEN SURGIR</h6>
       <p>
-        Es importante que cuando subas al aplicación importes la base de datos usando el comando:
+        Tras seleccionar la nueva base de datos, sólo queda configurar las conexiones a esta y realizar la migración. Es importante que estos pasos se hagan correctamente si queremos que la aplicación funcione.
       </p>
-      <pre class="codeBlock">
-        <code>
-          <span class="doubleVariable">heroku</span> rake db:migrate
-        </code>
-      </pre>
-      <p>
-        Si las variables de conexión de la base de datos no están bien definidas, surgirán problemas. En el caso de uso de mySQL
-        es necesario modificar las variables y adaptarlas a la gema mySQL2, ya que por defecto están para primera versión.
-        Ante cualquier fallo, heroku permite ver un registro de log. Para ello se ejecuta el comando:
-      </p>
-      <pre class="codeBlock">
-        <code>
-          <span class="doubleVariable">heroku</span> logs
-        </code>
-      </pre>
     </div>
   </div>
 </div>
-
-
-<%
-stylesheet_link_tag 'content'
-stylesheet_link_tag 'codeBlocks'
-%>
