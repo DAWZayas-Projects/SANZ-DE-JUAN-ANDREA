@@ -8,9 +8,7 @@ stylesheet_link_tag 'codeBlocks'
   <div class="subject">
     <div class="big-text">
       <p>
-        En Rails la validación se hace mediante <span class="base"><i>helpers</i></span>, son módulos de rails
-        que ayudan a extraer lógica de la vista. Estos se pueden ampliar, añadiendo tú los que creas convenientes.
-        Cada vez que generamos una vista se crea un helper para esta, en el directorio <i>helper</i>
+        En Rails, a diferencia de otros lenguajes la validación de formularios no se hace en la vista, si no que se hace en el <b>modelo</b>. Se emplean <i>helpers</i>, que son módulos de Rails ampliables que ayudan a extraer lógica de las vistas. 
       </p>
       <p>
         Para validar formulario usamos los métodos de validación de formularios. Para ello es necesario usar las
@@ -31,8 +29,8 @@ stylesheet_link_tag 'codeBlocks'
         </code>
       </pre>
       <p>
-        Las validaciones se realizan en el modelo. Se puede comprobar que se hayan recibido los datos, que tengan la forma correcta,... Ejem:
-        Cuando no se pasa la validación, rails guarda el error en una variable, que luego se comprueba en el formulario.
+        Para validar un formulario se emplean los métodos de validación de formularios dados por Rails. De esta forma, podemos comprobar que se hayan recibido los datos, que tengan la longitud adecuada, que dos campos coincidan,…
+        Para poder utilizar las validaciones de Rails es necesario usar sus etiquetas en el formulario de la vista.
       </p>
       <pre class="codeBlock">
         <code data-lang="ruby">
