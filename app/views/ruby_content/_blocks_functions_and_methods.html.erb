@@ -8,10 +8,13 @@ stylesheet_link_tag 'codeBlocks'
   <div class="subject">
     <div class="big-text">
       <p>
-        Los métodos son similares a las funciones, se usan para agrupar instrucciones. Deben
-        comenzar con letra minúscula, para no ser confundidos con constantes.
-        <i> Sintaxis:</i>
+        En Ruby encontramos varias formas de agrupar instrucciones, los métodos y las funciones, similares entre sí; y por otra parte los bloques.
       </p>
+      <p>
+        La diferencia que existe entre un método y una función es que un método está asociado a un objeto, y por tanto, se invoca desde este. El método trabajará con la clase de ese objeto.
+        En cambio, las funciones son independientes, no están asociadas a ninguna clase, y trabajan con los parámetros que reciben.
+      </p>
+      <p>Método:</p>
       <pre class="codeBlock">
         <code data-lang="ruby">
           <span class="base">def </span>greeting(name)
@@ -20,7 +23,7 @@ stylesheet_link_tag 'codeBlocks'
         </code>
       </pre>
       <p>
-        Las funciones son iguales a los métodos, pero estas devuelven un objeto.<i> Sintaxis:</i>
+        Función:
       </p>
       <pre class="codeBlock">
         <code data-lang="ruby">
@@ -30,8 +33,7 @@ stylesheet_link_tag 'codeBlocks'
         </code>
       </pre>
       <p>
-        Y los bloques es código que se declara entre corchetes y que se asocian a un método. Para ello,
-        se usará la palabra reservaba <b>yield</b>.<i> Sintaxis:</i>
+        Por otra parte encontramos los bloques, que son fragmentos de código definidos entre corchetes ({}) y que se pasan como parámetro a una función.
       </p>
       <pre class="codeBlock">
         <code data-lang="ruby">
@@ -43,6 +45,9 @@ stylesheet_link_tag 'codeBlocks'
           presentation("Julia") <span class="special">{</span>"Hoy vamos de excursión."<span class="special">}</span>
         </code>
       </pre>
+      <p>
+        <b>El uso de yield:</b> yield es una palabra reservada por Ruby y empleada para ejecutar un bloque, por tanto, en el punto donde utilicemos yield, ejecutaremos el bloque.
+      </p>
     </div>
   </div>
 </div>
