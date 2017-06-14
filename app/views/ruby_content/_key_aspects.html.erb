@@ -4,26 +4,25 @@
   <h1 class="title">ASPECTOS CLAVE</h1>
   <div class="subject">
     <div class="big-text">
+      <p>
+        Ruby tiene muchas características que lo hacen atractivas, pero hay cuatro que destacan y hacen que nos planteemos usar Ruby en nuestras aplicaciones.
+      </p>
       <ul class="list-group uList">
         <li class="list-group-item">
           &nbsp;<b>Tipado dinámico:</b>
-          No hay que especificar el tipo de la variable, el lenguaje lo deduce en función del valor
-          que tome. Por lo tanto una misma variable puede almacenar diiferentes tipos en diferentes momentos.
+          Al igual que otros lenguajes de programación como PHP, JavaScript, Ruby tiene un tipado dinámico. Esto significa que las variables pueden almacenar durante el proceso diferentes tipos de datos. Esto nos podría llevar al problema de que el compilador no interprete correctamente el valor.
         </li>
         <li class="list-group-item">
           &nbsp;<b>Duck typing:</b>
-          Se da más importancia al comportamiento de un objeto que a la clase o tipo de este. Esto significa
-          que si un objeto actúa como un tipo, trátalo como este. <i>"If it looks like a duck and quacks like a duck, it's a duck"</i>
+          "If it looks like a duck and quacks like a duck, it's a duck".  Referido a la tendencia en Ruby de fijarse menos en la clase de un objeto y más en sus capacidades, los métodos y operaciones que se puedan realizar con este.
         </li>
         <li class="list-group-item">
           &nbsp;<b>Módulos:</b>
-          Los módulos permiten añadir funcionalidad de forma limpia y ordenada. Para ello existe include y prepend. Se diferencian
-          en que la segunda tiene más fuerza frente a la clase que la primera.
+          Son bloques de código donde se definen ciertos métodos o funciones. Son similares a las clases, principalmente se usan para aumentar la funcionalidad de estas de una forma limpia. La diferencia que hay entre ambos es que una clase sólo puede heredar de otra clase, pero puede tener muchos módulos. Para utilizarlos se usa include y prepend.
         </li>
         <li class="list-group-item">
           &nbsp;<b>Blocks and Lambdas:</b>
-          Bloques de código. Abstraer trozos de código a una determinada función. De esta forma se minimiza el error y se
-          reduce la duplicidad. Usado generalmente para leer ficheros.
+          Son bloques de código utilizados como parámetros en funciones, son similares a las funciones anónimas de JavaScript.
         </li>
         <p>
           Fuente: <%= link_to "Yehudakatz", "http://yehudakatz.com/2009/08/24/my-10-favorite-things-about-the-ruby-language/"%>
